@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/authors/</link>
+      <atom:link href="https://www.creative-destruction.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Mon, 16 Mar 2020 11:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://www.creative-destruction.org/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://www.creative-destruction.org/authors/mirko/</link>
+      <pubDate>Mon, 16 Mar 2020 11:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/mirko/</guid>
+      <description>&lt;p&gt;Free and Open Source Software contributor.
+Founder and partner, Endocode.
+Director, Linux System Definition, Open Invention Network.
+KDE contributor since 1997 (including several years on the KDE e.V. board).
+Visiting lecturer and researcher at the Technical University of Berlin.
+Qt-certified specialist and trainer.
+Openforum Academy fellow.
+Berlin, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Knut Blind</title>
+      <link>https://www.creative-destruction.org/authors/knut-blind/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/knut-blind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Davis Eisape</title>
+      <link>https://www.creative-destruction.org/authors/davis-eisape/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/davis-eisape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diana Cocoru</title>
+      <link>https://www.creative-destruction.org/authors/diana-cocoru/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/diana-cocoru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Till Adam</title>
+      <link>https://www.creative-destruction.org/authors/till-adam/</link>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/till-adam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.creative-destruction.org/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/authors/admin/</guid>
+      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/tags/devops/</link>
+      <atom:link href="https://www.creative-destruction.org/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <description>devops</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Fri, 11 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>devops</title>
+      <link>https://www.creative-destruction.org/tags/devops/</link>
+    </image>
+    
+    <item>
+      <title>shelldoc</title>
+      <link>https://www.creative-destruction.org/project/shelldoc/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/project/shelldoc/</guid>
+      <description>&lt;p&gt;Markdown is widely used for documentation and README.md files that
+explain how to use or build some software. Such documentation often
+contains shell commands that explain how to build a software or how to
+run it. To make sure the documentation is accurate and up-to-date, it
+should be automatically tested. shelldoc tests Unix shell commands in
+Markdown files and reports the results.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/project/shelldoc-screenshot.png&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/project/shelldoc-screenshot.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/endocode/shelldoc&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;shelldoc&lt;/code&gt; project&lt;/a&gt; is
+hosted on Github. Contributions are welcome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

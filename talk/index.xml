@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/talk/</link>
+      <atom:link href="https://www.creative-destruction.org/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.creative-destruction.org/talk/</link>
+    </image>
+    
+    <item>
+      <title>Continuous Compliance - The Introduction, with OpenChain and Quartermaster</title>
+      <link>https://www.creative-destruction.org/talk/2018-foss-backstage/</link>
+      <pubDate>Thu, 14 Jun 2018 10:30:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2018-foss-backstage/</guid>
+      <description>
+
+&lt;p&gt;Malcolm Bain, Andrew Katz and I presented a workshop at FOSS Backstage
+2018 (also the first FOSS Backstage event) in Berlin in June 2018. We
+presented an introduction to OpenChain and a few use cases, and a
+introduction and demonstration of Quartermaster.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Great workshop automating open source compliance and governance. You can&amp;#39;t contact compliance, says &lt;a href=&#34;https://twitter.com/mirkoboehm?ref_src=twsrc%5Etfw&#34;&gt;@mirkoboehm&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/fosscompliance?ref_src=twsrc%5Etfw&#34;&gt;@fosscompliance&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/spdx?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#spdx&lt;/a&gt; provide an approach to create a technical chain of trust for compliance information. &lt;a href=&#34;https://twitter.com/hashtag/FOSSBack?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#FOSSBack&lt;/a&gt; Malcolm Bain (ID Law Partners)  &lt;a href=&#34;https://twitter.com/andrewjskatz?ref_src=twsrc%5Etfw&#34;&gt;@andrewjskatz&lt;/a&gt; &lt;a href=&#34;https://t.co/wjhx1fjNuU&#34;&gt;pic.twitter.com/wjhx1fjNuU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Schlomo Schapiro (@schlomoschapiro) &lt;a href=&#34;https://twitter.com/schlomoschapiro/status/1007211362127437825?ref_src=twsrc%5Etfw&#34;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;h2 id=&#34;workshop-continuous-compliance-the-introduction-with-openchain-and-quartermaster&#34;&gt;Workshop: Continuous Compliance - The Introduction, with OpenChain and Quartermaster&lt;/h2&gt;
+
+&lt;p&gt;As software development becomes ever more dependent on multiple open
+source components, it becomes increasingly important to ensure that
+the licences applicable to those components are respected. The
+workshop moderators have extensive experience in FOSS compliance
+issues, from both a legal and a technical perspective, within the
+framework of the Linux Foundation’s OpenChain as well as the
+Quartermaster Compliance Tooling project.&lt;/p&gt;
+
+&lt;p&gt;Obtaining OpenChain compliance is a daunting task, for industrial or
+even ICT-based companies who have been working with open source for
+some time, have entrenched development, sales and distribution
+practices, and no real idea or control over FOSS usage. It requires
+not just a superficial documentary process (getting the license
+information, finding the source code) but a “sea” change in quality
+assurance processes in the company. OpenChain focuses on roles,
+processes (and artefacts). The combination with Quartermaster helps in
+achieving compliance by automating &amp;ldquo;best practises&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The workshop will focus on the objectives of the OpenChain conformance
+work at a client, the planning and processes involved, and challenges
+met so far based on real life experience. We want to share materials
+we are using, work on creating better model documentation for this
+type of activity, and discuss and eventually publish “best” practices,
+and are looking forward to hearing, and building, on the experiences
+of the workshop attendees.&lt;/p&gt;
+
+&lt;p&gt;This workshop will not just be a presentation of materials, cases and
+examples by the moderators, but requires active input from attendees
+to suggest new methods of achieving compliance, creating improved
+documentation and processes that can be shared with the community. We
+hope to benchmark typical scenarios and challenges and find responses
+for them.&lt;/p&gt;
+
+&lt;p&gt;This section of the workshop will lead into the the subsequent session
+during which automation and technological facilitation of the
+compliance process will be demonstrated and explored based on the
+Quartermaster toolchain. The session will demonstrate how to
+instrument software builds to gather essential compliance data, run
+standard and custom analysis to identify licenses, authors, copyright
+holders or compliance with company policies, and then generate
+up-to-date, accurate and complete reports for distribution with the
+product as well as to give feedback to software developers about
+detected compliance issues or quality metrics.&lt;/p&gt;
+
+&lt;p&gt;Who: The workshop moderators include OpenChain Partners who are also
+partners at their law firms advising clients on open source legal
+issues, as well as FOSS compliance tool makers. It is aimed at any
+individual involved in implementing or advising on open source
+compliance (and not just in the “supply chain”).&lt;/p&gt;
+
+&lt;p&gt;Why attend: Through this workshop, you will not only gain a fuller
+understanding of the OpenChain specification itself, but also see what
+materials for OC conformance are available, and, in conjunction with
+the subsequent session, get a view on some tools that are being used
+(or built!), work on your own or shared materials.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Source und Smart Services - Chancen durch Standards und Normen</title>
+      <link>https://www.creative-destruction.org/talk/2018-cebit/</link>
+      <pubDate>Wed, 13 Jun 2018 14:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2018-cebit/</guid>
+      <description>&lt;p&gt;The German Federal Ministry of Economics and Technology holds a
+workshop series on &amp;ldquo;Open Source and Smart Services&amp;rdquo;. I was invited to
+present the findings of our paper &amp;ldquo;Standard Setting Organisations and
+Open Source Communities - Partners or Competitors?&amp;ldquo;.&lt;/p&gt;
+
+&lt;p&gt;This is the German summary of the event:`&lt;/p&gt;
+
+&lt;p&gt;Der zweite Teil des Workshops thematisiert die heutige und zukünftige
+Zusammenarbeit zwischen der Open Source Community und
+Normungsorganisationen. Es tragen vor: Dr. Axel Mangelsdorf (Institut
+für Innovation und Technik) zu „Open Source Software Development
+vs. Normung und Standardisierung – Einleitung“, Andreas Lamm
+(Deutsches Institut für Normung) zu „Open Source Software in der
+Normung“ sowie Mirko Böhm (Technische Universität Berlin) zu „Open
+Source Software vs. Normung und Standardisierung aus
+wissenschaftlicher Perspektive“. Anschließend findet eine
+Podiumsdiskussion unter Mitwirkung des Publikums statt.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/talks/SSOFOSS.png&#34; data-caption=&#34;Phasen der Standardisierung&#34;&gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/talks/SSOFOSS.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Phasen der Standardisierung
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Compliance Tooling using Build Time Analysis</title>
+      <link>https://www.creative-destruction.org/talk/2018-bcs-london/</link>
+      <pubDate>Thu, 22 Mar 2018 14:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2018-bcs-london/</guid>
+      <description>&lt;p&gt;Quartermaster was presented at the BCS Open Source Specialist Group
+hosted event on &lt;a href=&#34;http://ossg.bcs.org/blog/2018/02/15/yanking-the-chain-open-source-software-compliance-in-the-supply-chain-london-22-3-2018/&#34; target=&#34;_blank&#34;&gt;Yanking the Chain: Open Source Software Compliance in
+the Supply
+Chain&lt;/a&gt;`
+on March 22 in London.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/talks/Introduction-to-QMSTR.001.png&#34; data-caption=&#34;Introduction to Quartermaster&#34;&gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/talks/Introduction-to-QMSTR.001.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Introduction to Quartermaster
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;The presentation was focused on how static and build time need to be
+combined to acquire an accurate picture of the code and dependencies
+that end up in a software package. It explained the concept and
+architecture of Quartermaster as well as the governance model.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Need for Build-time Analysis in Open Source Compliance Tooling: Lessons Learned from the Quartermaster Prototype</title>
+      <link>https://www.creative-destruction.org/talk/2018-osls/</link>
+      <pubDate>Thu, 08 Mar 2018 14:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2018-osls/</guid>
+      <description>&lt;p&gt;The talk at the Linux Foundation Open Source Leadership Summit marked
+the first time we could present Quartermaster to a wider management
+level audience. It raised quite some interest:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Super cool opensource project to automate license compliance as part of your build tool chain: Quartermaster  &lt;a href=&#34;https://t.co/TvWZpwEsGv&#34;&gt;https://t.co/TvWZpwEsGv&lt;/a&gt;  via &lt;a href=&#34;https://twitter.com/mirkoboehm?ref_src=twsrc%5Etfw&#34;&gt;@mirkoboehm&lt;/a&gt; &lt;a href=&#34;https://twitter.com/endocode?ref_src=twsrc%5Etfw&#34;&gt;@endocode&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/OSLS?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OSLS&lt;/a&gt; &lt;a href=&#34;https://twitter.com/linuxfoundation?ref_src=twsrc%5Etfw&#34;&gt;@linuxfoundation&lt;/a&gt; &lt;a href=&#34;https://t.co/QEpm5CHvLl&#34;&gt;pic.twitter.com/QEpm5CHvLl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tasha (@TashaDrew) &lt;a href=&#34;https://twitter.com/TashaDrew/status/971871534900920320?ref_src=twsrc%5Etfw&#34;&gt;March 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This is the abstract of the talk:&lt;/p&gt;
+
+&lt;p&gt;Quartermaster aims art building an industry standard of tooling that
+supports the Open Source license compliance workflow. It&amp;rsquo;s workflow
+engine integrates existing scanning and reporting tools, and
+integrates into CI/CD processes. It offers API endpoints against which
+toolmakers, communities and service providers can integrate their
+products into the open source and open data model of the elemental
+toolchain. Development of the Quartermaster prototype resulted in a
+number of key findings, especially that source packages alone do not
+identify and convey sufficient license information, or that the
+product build process may be the best time to check compliance. The
+presentation introduces the Quartermaster project, the novel approach
+it takes on implementing Open Source compliance tooling, and how the
+lessons learned from the prototype influenced the Quartermaster
+toolchain architecture.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/talks/20180308_131402.jpg&#34; data-caption=&#34;OSLS 2018&#34;&gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/talks/20180308_131402.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    OSLS 2018
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>AGL and the Open Invention Network Linux System Definition</title>
+      <link>https://www.creative-destruction.org/talk/2017-agl-amm-october/</link>
+      <pubDate>Thu, 19 Oct 2017 16:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2017-agl-amm-october/</guid>
+      <description>&lt;p&gt;The Open Invention Network (OIN) protects the Open Source ecosystem against litigation of software patents. This networked, royalty-free cross-licensing community can be joined by all and is defined by three pillars - the patents that are cross-licensed to participants, the community of licensees, and the field of use that is covered by the cross-licensing agreement. The presentation introduces the OIN Linux System that defines the field of use, the plans for expanding it to cover projects like Automotive Grade Linux, and the possibilities to contribute to its maintenance. The presenter is responsible for OIN&amp;rsquo;s Linux System Definition.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/AGL-OIN-Linux-System.001.jpeg&#34; data-caption=&#34;AGL and the Open Invention Network Linux System Definition&#34;&gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/AGL-OIN-Linux-System.001.jpeg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    AGL and the Open Invention Network Linux System Definition
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The concept of property in Open Source in a hybrid open/closed world</title>
+      <link>https://www.creative-destruction.org/talk/2017-copycamp/</link>
+      <pubDate>Fri, 29 Sep 2017 14:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/talk/2017-copycamp/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../../img/copycamp_2017.png&#34; &gt;
+&lt;img src=&#34;../../img/copycamp_2017.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

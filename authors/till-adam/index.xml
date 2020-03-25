@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Till Adam | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/authors/till-adam/</link>
+      <atom:link href="https://www.creative-destruction.org/authors/till-adam/index.xml" rel="self" type="application/rss+xml" />
+    <description>Till Adam</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Sun, 01 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>Till Adam</title>
+      <link>https://www.creative-destruction.org/authors/till-adam/</link>
+    </image>
+    
+    <item>
+      <title>When the bazaar sets out to build cathedrals</title>
+      <link>https://www.creative-destruction.org/publication/beautifularchitecture/</link>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/publication/beautifularchitecture/</guid>
+      <description>&lt;p&gt;The book is a collection of articles about software design with a
+focus on FOSS. It tries to answer the question: &amp;ldquo;What are the
+ingredients of robust, elegant, flexible, and maintainable software
+architecture? Beautiful Architecture answers this question through a
+collection of intriguing essays from more than a dozen of today&amp;rsquo;s
+leading software designers and architects. In each essay, contributors
+present a notable software architecture, and analyze what makes it
+innovative and ideal for its purpose.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;All royalties from the book have been donated to Doctors Without Borders.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/publication/beautifularchitecture.png&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/publication/beautifularchitecture.png&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

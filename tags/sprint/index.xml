@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sprint | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/tags/sprint/</link>
+      <atom:link href="https://www.creative-destruction.org/tags/sprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sprint</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Tue, 06 Nov 2012 18:08:50 +0200</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>Sprint</title>
+      <link>https://www.creative-destruction.org/tags/sprint/</link>
+    </image>
+    
+    <item>
+      <title>Here is to a book that did not exist a week ago - &#39;How to understand an oil contract&#39;</title>
+      <link>https://www.creative-destruction.org/post/2012-openoil-book/</link>
+      <pubDate>Tue, 06 Nov 2012 18:08:50 +0200</pubDate>
+      <guid>https://www.creative-destruction.org/post/2012-openoil-book/</guid>
+      <description>&lt;p&gt;This week, &lt;a href=&#34;http://openoil.net/&#34; target=&#34;_blank&#34;&gt;Open Oil&lt;/a&gt; project performed
+a marvelous stunt -
+the
+&lt;a href=&#34;https://openoil.net/portfolio/oil-contracts/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Oil Contracts Booksprint&amp;rdquo;&lt;/a&gt;. &lt;a href=&#34;https://www.linkedin.com/in/johnny-west-2509098&#34; target=&#34;_blank&#34;&gt;Johnny West&lt;/a&gt;,
+&lt;a href=&#34;https://zararah.net/&#34; target=&#34;_blank&#34;&gt;Zara Rahman&lt;/a&gt; and their supporters gathered oil
+contract experts from across the globe
+at &lt;a href=&#34;http://www.schloss-neuhausen.de/&#34; target=&#34;_blank&#34;&gt;Schloss Neuhausen&lt;/a&gt; to achieve
+something that has never done before - create a book that explains how
+to understand an oil contract. Not only did such a book not exist,
+they also published it under a Creative Commons license. And because
+that is not enough of a challenge, they did it all in one week.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/post/2012-oilcontracts.png&#34; data-caption=&#34;Oil Contracts - How to read and understand them&#34;&gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/post/2012-oilcontracts.png&#34; alt=&#34;Oil Contracts - How to read and understand them&#34; width=&#34;60%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Oil Contracts - How to read and understand them
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Oil contracts determine the share of the oil revenue that the country
+who owns the oil, the international oil companies and others
+receive. From the book: &amp;ldquo;It is petroleum contracts that express how
+[the] money is split and who makes what profits, just as it is the
+contracts that determine who manages operations and how issues such as
+the environment, local economic development, and community rights are
+dealt with. The share price of ExxonMobil, the question of who carries
+responsibility for Deepwater Horizon, whether Uganda will be able to
+stop importing petrol, and how much it costs to heat and light homes
+in millions of homes ­­ these are issues which depend directly on
+clauses in the contracts signed between the governments of the world
+and the oil companies. For most of the 150 years of oil production,
+these contracts have remained hidden, nested in a broader secrecy that
+surrounded all aspects of the industry. Governments claimed national
+security prerogatives, companies said commercial sensitivity precluded
+making them available.&amp;rdquo;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/post/2012-img_0188.jpg&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/post/2012-img_0188.jpg&#34; alt=&#34;Photo of the desk at the OpenOil booksprint&#34; width=&#34;60%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;People who have attended an Open Source develoment sprint may notice
+that the desk in the picture pretty much looks like at one of them. A
+book sprint applies techniques and tools developed in the Open Source
+world to authoring. Gather the relevant people, get them to a remote
+location with little distraction, and then allow them to focus on
+producing something they are passionate about. As in software, the
+results are impressive. Collaborative editing tools are used to
+coordinate between authors, editors and illustrators, similar to
+version control. It is also noteworthy that of the different expert
+that attended the sprint, all attended on a pro-bono basis or as part
+of their day job.&lt;/p&gt;
+
+&lt;p&gt;The
+&lt;a href=&#34;https://openoil.net/portfolio/oil-contracts/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;How to understand an oil contract&amp;rdquo;&lt;/a&gt; book
+is a good read even for people who are only casually interested in the
+politics of oil. How the book was produced serves as a great example
+of the Open Source way adopted by other, less technology related
+sectors. And if the book contributes to making oil contracts better
+understood and more comparable, the world has just become a better
+place.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

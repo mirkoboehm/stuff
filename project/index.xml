@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/project/</link>
+      <atom:link href="https://www.creative-destruction.org/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://www.creative-destruction.org/project/</link>
+    </image>
+    
+    <item>
+      <title>The Relationship Between Open Source Software and Standard Setting</title>
+      <link>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</guid>
+      <description>&lt;p&gt;The objective of the study is to identify possible commonalities and
+barriers for interaction between standardisation and open source
+processes.&lt;/p&gt;
+
+&lt;p&gt;The study should clarify the role of open source in the context of
+standard setting, in particular its interplay with the licensing of
+standards-essential patents under &amp;ldquo;fair, reasonable and
+non-discriminatory&amp;rdquo; (FRAND) terms and provide an overview of free and
+open source software (FOSS) and FRAND features in standardisation.&lt;/p&gt;
+
+&lt;p&gt;The study on the interaction between open source software and FRAND
+licensing in standardisation is carried out on behalf of the &lt;a href=&#34;https://ec.europa.eu/info/departments/joint-research-centre_en&#34; target=&#34;_blank&#34;&gt;European
+Commission&amp;rsquo;s Joint Research
+Centre&lt;/a&gt;
+by &lt;a href=&#34;https://www.fokus.fraunhofer.de/en&#34; target=&#34;_blank&#34;&gt;Fraunhofer Institute of Open Communication System
+FOKUS&lt;/a&gt; and Mirko Böhm representing
+the &lt;a href=&#34;https://www.openinventionnetwork.com/&#34; target=&#34;_blank&#34;&gt;Open Invention Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Communication about the study:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;European Commission: &lt;a href=&#34;https://ec.europa.eu/digital-single-market/en/news/study-role-open-source-standard-setting&#34; target=&#34;_blank&#34;&gt;Study on the role of open source in standard setting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EU Science Hub: &lt;a href=&#34;https://ec.europa.eu/jrc/en/science-update/jrc-study-interaction-between-open-source-software-and-frand-licensing-standardisation&#34; target=&#34;_blank&#34;&gt;JRC Study on the Interaction between Open Source Software and FRAND licensing in Standardisation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publication of the final report: &lt;a href=&#34;https://ec.europa.eu/jrc/en/publication/eur-scientific-and-technical-research-reports/relationship-between-open-source-software-and-standard-setting&#34; target=&#34;_blank&#34;&gt;The Relationship Between Open Source Software and Standard Setting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The project was originally named &amp;ldquo;The Interaction between Open Source
+Software and FRAND licensing in Standardisation&amp;rdquo;. The title was later
+simplified to &amp;ldquo;The Relationship Between Open Source Software and
+Standard Setting&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>shelldoc</title>
+      <link>https://www.creative-destruction.org/project/shelldoc/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/project/shelldoc/</guid>
+      <description>&lt;p&gt;Markdown is widely used for documentation and README.md files that
+explain how to use or build some software. Such documentation often
+contains shell commands that explain how to build a software or how to
+run it. To make sure the documentation is accurate and up-to-date, it
+should be automatically tested. shelldoc tests Unix shell commands in
+Markdown files and reports the results.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/project/shelldoc-screenshot.png&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/project/shelldoc-screenshot.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/endocode/shelldoc&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;shelldoc&lt;/code&gt; project&lt;/a&gt; is
+hosted on Github. Contributions are welcome.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The FLOSSary</title>
+      <link>https://www.creative-destruction.org/project/theflossary/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/project/theflossary/</guid>
+      <description>&lt;p&gt;The FLOSSary is a free glossary of terms and definitions related to
+free/libre and open source software (FLOSS). It serves as a point of
+reference for the participants in the “Open Source and Intellectual
+Property in the Digital Society” the the Technical University of
+Berlin, and may be reused in other contexts like papers or
+presentations.  The FLOSSary is collectively edited by the
+participants and tutors of the course and distributed freely under the
+conditions of the CC BY 4.0 license.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/project/TheFLOSSary.png&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/project/TheFLOSSary.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://gitlab.tu-berlin.de/mirko.boehm/TheFLOSSary&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;The FLOSSary&lt;/code&gt; project&lt;/a&gt; is
+hosted on &lt;a href=&#34;https://www.tu-berlin.de&#34; target=&#34;_blank&#34;&gt;TU Berlin&lt;/a&gt;&amp;rsquo;s
+GitLab. Contributions are welcome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

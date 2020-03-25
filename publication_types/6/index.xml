@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Creative Destruction &amp; Me</title>
+    <link>https://www.creative-destruction.org/publication_types/6/</link>
+      <atom:link href="https://www.creative-destruction.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Mirko Boehm, 2020</copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.creative-destruction.org/img/icon-192.png</url>
+      <title>6</title>
+      <link>https://www.creative-destruction.org/publication_types/6/</link>
+    </image>
+    
+    <item>
+      <title>Normungs- und Standardisierungsorganisationen und Open Source Communities – Partner oder Wettbewerber</title>
+      <link>https://www.creative-destruction.org/publication/ssofoss-de/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/publication/ssofoss-de/</guid>
+      <description>
+
+&lt;h2 id=&#34;normen-und-standards-für-die-digitale-transformation&#34;&gt;Normen und Standards für die digitale Transformation&lt;/h2&gt;
+
+&lt;p&gt;Normen und Standards sind integraler Bestandteil der digitalen
+Transformation. Unternehmen und Anwender finden jedoch eine immer
+komplexere Standardisierungs- und Normungslandschaft vor. Das Buch
+leistet einen wichtigen Beitrag, um diese Komplexität besser zu
+durchdringen.&lt;/p&gt;
+
+&lt;p&gt;Im ersten Teil &amp;ldquo;Normen und Standards anwenden&amp;rdquo; werden Recherche- und
+Analysetools vorgestellt, die Bedeutung von Normen für die Verbreitung
+neuer Technologien diskutiert und Referenzarchitekturmodelle
+detailliert erklärt. Im zweiten Teil &amp;ldquo;Normen und Standards erstellen&amp;rdquo;
+werden innovative Methoden zur Konsensfindung, die unternehmerische
+Entscheidung in Bezug auf Normung, Patentierung, Offenlegung und
+Lizenzierung, die Rolle der Open-Source-Communities in der Normung
+sowie das Thema Cybersicherheit in den Blick genommen.&lt;/p&gt;
+
+&lt;p&gt;Die Autoren aus Wissenschaft und Praxis liefern Unternehmern,
+Normungsorganisationen sowie politischen Entscheidungsträgern konkrete
+Entscheidungshilfen und Anregungen für die Anwendung und Erstellung
+von Normen und Standards.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KDE e.V. - the Backbone of the KDE Community</title>
+      <link>https://www.creative-destruction.org/publication/20-years-of-kd/</link>
+      <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/publication/20-years-of-kd/</guid>
+      <description>
+
+&lt;h2 id=&#34;thoughts-and-stories-about-one-of-the-biggest-floss-communities-in-the-world&#34;&gt;Thoughts and stories about one of the biggest FLOSS communities in the world&lt;/h2&gt;
+
+&lt;p&gt;This book presents 37 stories about the technical, social and cultural
+aspects that shaped the way the KDE community operates today. It has
+been written as part of the 20th anniversary of KDE. From community
+founders and veterans to newcomers, with insights from different
+perspectives and points of view, the book provides you with a
+thrilling trip through the history of such an amazing geek family.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ist Open Source demokratisch?</title>
+      <link>https://www.creative-destruction.org/publication/jahrbuch-netzpolitk-2012/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/publication/jahrbuch-netzpolitk-2012/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/publication/npjahresbuch_cover.jpg&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/publication/npjahresbuch_cover.jpg&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Open-Source-Communities gelten als selbstgesteuert, meritokratisch et
+cetera, aber ein besonderer demokratischer Charakter ihres
+Funktionierens steht selten im Vordergrund. Einzelne investieren oft
+großen Aufwand in ihr Lieblingsprojekt, um zu einem größeren Ganzen
+beizutragen, und Demokratie gilt ebenfalls oft als höheres Gut. Es ist
+daher verlockend, vom einen aufs andere zu schließen und
+Open-Source-Communities ebenfalls als grundsätzlich demokratisch
+anzunehmen. Aber ist das wirklich der Fall? Was bedeutet Demokratie im
+Kontext von Open Source eigentlich? Wie würde eine demokratische
+Open-Source-Community aussehen?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When the bazaar sets out to build cathedrals</title>
+      <link>https://www.creative-destruction.org/publication/beautifularchitecture/</link>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://www.creative-destruction.org/publication/beautifularchitecture/</guid>
+      <description>&lt;p&gt;The book is a collection of articles about software design with a
+focus on FOSS. It tries to answer the question: &amp;ldquo;What are the
+ingredients of robust, elegant, flexible, and maintainable software
+architecture? Beautiful Architecture answers this question through a
+collection of intriguing essays from more than a dozen of today&amp;rsquo;s
+leading software designers and architects. In each essay, contributors
+present a notable software architecture, and analyze what makes it
+innovative and ideal for its purpose.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;All royalties from the book have been donated to Doctors Without Borders.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.creative-destruction.org/img/publication/beautifularchitecture.png&#34; &gt;
+&lt;img src=&#34;https://www.creative-destruction.org/img/publication/beautifularchitecture.png&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
