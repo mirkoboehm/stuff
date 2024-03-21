@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JRC | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/jrc/</link><atom:link href="https://www.creative-destruction.org/tag/jrc/index.xml" rel="self" type="application/rss+xml"/><description>JRC</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>JRC</title><link>https://www.creative-destruction.org/tag/jrc/</link></image><item><title>FOSS, standard essential patents and FRAND in the European Union</title><link>https://www.creative-destruction.org/post/2018-jrc-workshop/</link><pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2018-jrc-workshop/</guid><description>&lt;p>As part of the research project
+on
+&lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&amp;rdquo;&lt;/a>,
+a workshop was organised by the European Commission, Joint Research
+Centre (JRC) in collaboration with Directorate General Communications
+Networks, Content and Technology (CONNECT) to present and discuss the
+intermediate results to date. The workshop took place in Brussels on
+September 18, 2018. I presented a set of observations from the research on
+the case studies performed as part of the project that are outlined
+below. Other speakers
+where
+&lt;a href="https://www.the-klu.org/faculty-research/resident-faculty/catharina-maracke/" target="_blank" rel="noopener">Catharina Maracke&lt;/a> on
+the issue of legal compliance between Open Source and FRAND
+licenses, &lt;a href="https://perens.com/" target="_blank" rel="noopener">Bruce Perens&lt;/a> on &amp;ldquo;Community Dynamics
+in Open Source&amp;rdquo;,
+and &lt;a href="https://www.gesmer.com/team/andrew-s-updegrove" target="_blank" rel="noopener">Andy Updegrove&lt;/a>
+on &amp;ldquo;Dynamics in Standardisation&amp;rdquo;.&lt;/p>
+&lt;p>You may ask what the relevance of this debate is for the wider Free
+and Open Source Software community. The obvious answer is that to
+distribute
+software
+&lt;a href="https://opensource.com/article/18/3/patent-grant-mit-license" target="_blank" rel="noopener">&amp;ldquo;without restriction&amp;rdquo;&lt;/a>,
+the user needs all the usage rights associated with the program. While
+most FOSS contributors assume that this is naturally the central
+motivation for anybody to contribute in the first place, there is a
+long history of attempts to maintain some sort of exclusive control
+over a piece of FOSS code, possibly using other rights than copyright.&lt;/p>
+&lt;p>Contributor license agreements (CLA) are a well known instrument for
+that. The original author agrees to an exclusive or non-exclusive
+license to a central entity (usually a community organisation or a
+dominating company) to use their work. This may just give a community
+organisation a right to adopt newer licenses. Or it may give
+a
+&lt;a href="https://dirkriehle.com/publications/2009-selected/the-commercial-open-source-business-model/" target="_blank" rel="noopener">single Open Source vendor&lt;/a> the
+right to use other contributor&amp;rsquo;s work commercially. Whether CLA embody
+FOSS culture or violate them by creating an asymmetric distribution of
+benefits between contributors and a company therefore depends on the
+specific terms of the
+CLA. The
+&lt;a href="http://contributoragreements.org" target="_blank" rel="noopener">contributor agreements configurator&lt;/a> helps
+projects to set up a CLA and understand what the motivation behind the
+terms are (&lt;a href="https://endocode.com" target="_blank" rel="noopener">Endocode&lt;/a> contributed the
+implementation). CLA are controversial, especially if they
+include
+&lt;a href="https://help.nextcloud.com/t/cla-caa-ca-etc-etc-let-s-get-it-right/588" target="_blank" rel="noopener">copyright assignments to a single company&lt;/a>. Projects
+and contributors are well-advised to make sure to fully understand
+what they are agreeing to. The main take-away for the argument here is
+that the norm in FOSS communities is a &lt;em>symmetric&lt;/em> distribution of
+rights between all contributors, and CLA are one instrument to modify
+this to the benefit of a single entity.&lt;/p>
+&lt;p>But that is not all. It just helps to explain how such asymmetric
+rights can be used to give a single entity more power in a community
+of contributors. There is a long history of such attempts, and they
+usually involve some other legal rights beyond the terms of the FOSS
+license applied. There is a good reason for that: FOSS licenses give
+contributors and users a time-tested and well-balanced framework for
+collaboration. &lt;a href="https://fsfe.org/freesoftware/basics/4freedoms.en.html" target="_blank" rel="noopener">&amp;ldquo;Use, study, modify, redistribute&amp;rdquo;&lt;/a> is
+a simple, easy to understand mantra that every FOSS contributor knows
+and understands. CLA augment the FOSS license terms with an additional
+contractual agreement, but for the most part stay in the realm of
+copyright just like FOSS licenses. Other instruments not so much:&lt;/p>
+&lt;ul>
+&lt;li>Trademarks are used to enforce a vendor&amp;rsquo;s expectations when others
+adopt and ship their software. This is used by communities to
+protect their names, like in
+the
+&lt;a href="https://www.mozilla.org/en-US/foundation/trademarks/policy/" target="_blank" rel="noopener">Mozilla Trademark Policy&lt;/a>,
+or to make sure specific services are included in devices, like in
+the
+&lt;a href="https://source.android.com/compatibility/overview" target="_blank" rel="noopener">Android Compatibility Program&lt;/a>.&lt;/li>
+&lt;li>Trade secrets like delayed code releases under FOSS licenses or
+proprietary &amp;ldquo;extensions&amp;rdquo; that
+are
+&lt;a href="https://about.mattermost.com/features/" target="_blank" rel="noopener">effectively required for the software to be useful&lt;/a> are
+used to maintain an edge of an &amp;ldquo;enterprise&amp;rdquo; version over the FOSS
+release.&lt;/li>
+&lt;li>The
+&lt;a href="https://www.gnu.org/philosophy/software-patents.en.html" target="_blank" rel="noopener">software patents debate&lt;/a> may
+have slowed down, but is still relevant. Patents exist, and
+applications for patents that include claims that are implemented in
+existing FOSS solutions never stopped. It has become harder to be
+granted a patent for a software-only solution. Institutions like
+the &lt;a href="https://www.openinventionnetwork.com" target="_blank" rel="noopener">Open Invention Network&lt;/a>
+create a safe space where FOSS innovators cross-license freely and
+avoid litigation. However vendors shipping FOSS in products still
+need to clear potential patent claims implemented in
+those. Conformance with patents does not usually follow from FOSS
+licenses.&lt;/li>
+&lt;/ul>
+&lt;p>Which leads to round five of the match with software freedom in one
+corner and exclusivity in the other &amp;ndash; standard-essential patents
+(SEP). Everybody loves standards, and FOSS especially: We use
+standardised programming languages, unicode tables and system call
+interfaces. Standards are the foundation for interoperability, and
+some standards like
+the &lt;a href="http://opendocumentformat.org" target="_blank" rel="noopener">Open Document Format&lt;/a> are the
+result of a long struggle to establish formats that re-open markets
+for competition. All of these standards
+are
+&lt;a href="https://opensource.com/resources/what-are-open-standards" target="_blank" rel="noopener">Open Standards&lt;/a> that
+can be implemented in FOSS without restrictions. But what if
+implementing a standard would be required to interoperate with others,
+or even mandatory under existing regulations, and this standard would
+include functionality that is covered by patent claims, possibly with
+royalty-bearing patent licenses? That is the definition of SEP, which
+are commonly required to be licensed either royalty-free or under
+&amp;ldquo;fair, reasonable and non-discriminatory&amp;rdquo; (FRAND) licenses. It is also
+a relevant and current concern because
+the
+&lt;a href="https://ec.europa.eu/docsroom/documents/26583" target="_blank" rel="noopener">European Commission considers SEP under FRAND licenses a useful instrument&lt;/a> for
+industrial policy in the European Union. Until now, the wider FOSS
+community has contributed some positions to this debate that is for
+the most part dominated by incumbent industries, recognized
+standards-development organisations (SDO) and policy makers.&lt;/p>
+&lt;p>The study currently conducted under the supervision by
+the
+&lt;a href="https://ec.europa.eu/info/departments/joint-research-centre_en" target="_blank" rel="noopener">European Commission Joint Research Centre (EC-JRC)&lt;/a> on
+&lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&amp;rdquo;&lt;/a> aims
+at providing a better understanding of the interplay between FOSS
+licenses, governance and the IPR policies of SDO. At the workshop that
+was just held in Brussels as part of this study where an initial set
+of case studies on the subject have been presented. Theses case
+studies (that I am the author of) will become part of the overall
+study report prepared
+by
+&lt;a href="https://www.inno.tu-berlin.de/menue/about_us/team/prof_dr_rer_pol/" target="_blank" rel="noopener">Knut Blind&lt;/a> and
+me. As the study progresses, a number of early observations from these
+cases will be shared in this blog and other channels. It is important
+that the wider FOSS community recognizes the relevance and importance
+of this subject and actively makes itself heard. CERN, the ECMAscript
+community, the Eclipse Foundation, the Linux Foundation and others
+have already contributed insights to the field work for the
+project. Others, especially FSFE, have been notably absent from the
+debate. The &lt;a href="https://opensource.org" target="_blank" rel="noopener">Open Source Initiative&lt;/a> is
+represented on the project&amp;rsquo;s steering committee.&lt;/p>
+&lt;p>The standards that
+will be shaped by this debate, like 5G mobile communication or IoT
+protocols, will affect us all, as will welfare gains or losses from
+policies that influence the innovativeness of FOSS. There are
+opportunities to contribute: communities can communicate what their
+needs are with regards to standards and FOSS. Contributors can
+provide input to the case studies or the stakeholder survey that will
+be performed in the next phase of the study. Feel free to reach out if
+you would like to participate.&lt;/p></description></item><item><title>The Relationship Between Open Source Software and Standard Setting</title><link>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</link><pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</guid><description>&lt;p>The objective of the study is to identify possible commonalities and
+barriers for interaction between standardisation and open source
+processes.&lt;/p>
+&lt;p>The study should clarify the role of open source in the context of
+standard setting, in particular its interplay with the licensing of
+standards-essential patents under &amp;ldquo;fair, reasonable and
+non-discriminatory&amp;rdquo; (FRAND) terms and provide an overview of free and
+open source software (FOSS) and FRAND features in standardisation.&lt;/p>
+&lt;p>The study on the interaction between open source software and FRAND
+licensing in standardisation is carried out on behalf of the &lt;a href="https://ec.europa.eu/info/departments/joint-research-centre_en" target="_blank" rel="noopener">European
+Commission&amp;rsquo;s Joint Research
+Centre&lt;/a>
+by &lt;a href="https://www.fokus.fraunhofer.de/en" target="_blank" rel="noopener">Fraunhofer Institute of Open Communication System
+FOKUS&lt;/a> and Mirko Böhm representing
+the &lt;a href="https://www.openinventionnetwork.com/" target="_blank" rel="noopener">Open Invention Network&lt;/a>.&lt;/p>
+&lt;p>Communication about the study:&lt;/p>
+&lt;ul>
+&lt;li>European Commission: &lt;a href="https://ec.europa.eu/digital-single-market/en/news/study-role-open-source-standard-setting" target="_blank" rel="noopener">Study on the role of open source in standard setting&lt;/a>&lt;/li>
+&lt;li>EU Science Hub: &lt;a href="https://ec.europa.eu/jrc/en/science-update/jrc-study-interaction-between-open-source-software-and-frand-licensing-standardisation" target="_blank" rel="noopener">JRC Study on the Interaction between Open Source Software and FRAND licensing in Standardisation&lt;/a>&lt;/li>
+&lt;li>Publication of the final report: &lt;a href="https://ec.europa.eu/jrc/en/publication/eur-scientific-and-technical-research-reports/relationship-between-open-source-software-and-standard-setting" target="_blank" rel="noopener">The Relationship Between Open Source Software and Standard Setting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The project was originally named &amp;ldquo;The Interaction between Open Source
+Software and FRAND licensing in Standardisation&amp;rdquo;. The title was later
+simplified to &amp;ldquo;The Relationship Between Open Source Software and
+Standard Setting&amp;rdquo;.&lt;/p></description></item></channel></rss>
