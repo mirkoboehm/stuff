@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qt | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/qt/</link><atom:link href="https://www.creative-destruction.org/tag/qt/index.xml" rel="self" type="application/rss+xml"/><description>Qt</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2013 18:00:00 +0200</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>Qt</title><link>https://www.creative-destruction.org/tag/qt/</link></image><item><title>KDE Akademy and Qt Contributor Summit in Bilbao, Spain</title><link>https://www.creative-destruction.org/post/2013-07-10-akademy/</link><pubDate>Wed, 10 Jul 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-07-10-akademy/</guid><description>&lt;p>&lt;a href="http://akademy2013.kde.org" target="_blank" rel="noopener">Akademy&lt;/a>, the annual conference of the
+KDE community, will take place from July 13 to July 19 2013 in Bilbao,
+Spain. It will be prefixed on July 12 by the general assembly
+of &lt;a href="http://ev.kde.org" target="_blank" rel="noopener">KDE e.V.&lt;/a>, the charitable foundation that
+supports the development of KDE. As usual, it will be followed by a
+full week of frantic, collaborative hacking, birds of a
+feather sessions and
+mini-conferences. &lt;a href="http://qt-project.org" target="_blank" rel="noopener">Qt Project&lt;/a> and the KDE
+Community are very close companions, and this year for the first time
+the
+&lt;a href="http://qt-project.org/groups/qt-contributors-summit-2013/wiki" target="_blank" rel="noopener">Qt Contributor Summit&lt;/a> will
+be co-located with Akademy and take place July 14 and 15. In short, if
+you haven&amp;rsquo;t been to a Free Software community conference like that,
+this the one of the most awesome of them all, and the Qt Contributor
+Summit only adds more greatness to it. I am on the way to it, to chair
+the general assembly and to give a presentation on the concepts and
+philosophy of Threadweaver.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="I am going to Akademy 2013!" srcset="
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_e49bbfba709ef2ea54225ac67a9f8df1.webp 400w,
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_06e9b1b0e5fd2ae65c945f3f80e25f16.webp 760w,
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_e49bbfba709ef2ea54225ac67a9f8df1.webp"
+width="70%"
+height="178"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Last year at Akademy,
+my
+&lt;a href="http://www.slideshare.net/mirkoboehm/meritocracy-in-kde" target="_blank" rel="noopener">Meritocracy in KDE&lt;/a> presentation
+was all about meritocracy, Open Governance and how the KDE Community
+can evolve to be attractive to contributors of all kinds and flavors,
+especially beyond coders. KDE is headed to morph into an umbrella
+community for similarily minded end-user focused Free Software
+projects, based on a set of shared values and ideals. Being an ex
+long-time KDE e.V. board member inevitably provides a certain high
+level perspective on governance related matters, and the presentation
+focused on providing food for thought for this process. It was the
+conference where we drafted
+the &lt;a href="http://manifesto.kde.org" target="_blank" rel="noopener">KDE Manifesto&lt;/a>. After long
+consideration, it was published later in 2012 and represents an
+excellent summary of what the community and it&amp;rsquo;s contributors believe
+in. Kudos again to all who contributed to that,
+especially
+&lt;a href="http://ervin.ipsquad.net/tags/kde-manifesto-genesis/" target="_blank" rel="noopener">Kevin Ottens&lt;/a>.&lt;/p>
+&lt;p>Too much of community building, politico-economic analysis and
+meta-thinking is not good for mental health (besides, I do a lot of
+that all year around at
+the
+&lt;a href="http://www.inno.tu-berlin.de" target="_blank" rel="noopener">Technical University of Berlin&lt;/a>). So
+for this year, the goal was to go back to the basics, and take part in
+the ongoing work to modernize KDE&amp;rsquo;s frameworks by refactoring and
+updating
+&lt;a href="https://api.kde.org/frameworks/threadweaver/html/index.html" target="_blank" rel="noopener">Threadweaver&lt;/a>. Real,
+actual lower-level coding work, also known as pure bliss. Threadweaver
+is KDE&amp;rsquo;s concurrency scheduler. It&amp;rsquo;s goal is provide an abstraction of
+multithreading and concurrency suitable for developers of end-user
+applications, and make it as simple as possible in the
+process. Threadweaver has been in KDE since 4.0, but C++ idioms and
+Qt, which it builds upon, have evolved dramatically since KDE 4 was
+first released. So an update was in order. The development work on the
+new version of the Threadweaver core is mostly complete, and ready to
+be introduced at Akademy (all changes are in the kdelibs repository,
+for the
+curious). The
+&lt;a href="https://conf.kde.org/en/Akademy2013/public/events/51" target="_blank" rel="noopener">presentation&lt;/a>
+is suitable for newcomers as well, and will contain a programming
+introduction, a chapter on Threadweaver&amp;rsquo;s philosophy and concept, and
+a discussion of performance considerations.&lt;/p>
+&lt;p>I am writing this post on the direct flight from Berlin to Bilbao that
+I reached after a bit of an eventfull journey to
+the airport. Expecting that an nice extra 15 minutes buffer time to
+account for the unexpected should be plenty, the taxi driver got
+pulled over by the police for driving
+at &lt;a href="http://en.wikipedia.org/wiki/Spaceballs" target="_blank" rel="noopener">ludicrous speed&lt;/a> (31 km/h
+in a 20 km/h zone), then navigated around a traffic jam at
+a construction site, and got delayed again when a scenic tour bus
+got stuck after thinking it would be a great idea to pass through a
+single lane road that was about three centimeters wider than the
+bus itself (a road which, of course, we had to pass from the
+other direction). I got to the airport just in time for boarding
+and leisurely strolled onto the plane, since I was already
+boarded. Should have accounted for 20 minutes of unexpected
+events, bad planning on my part, I guess. However, the headphones are
+playing Telegraph Road by the Dire Straits, and I am going to
+Akademy. Looking forward to see you there, my friends. If you want to
+meet me at Akademy, send me a tweet @mirkoboehm, or email to
+&lt;a href="mailto:mirko@kde.org">mirko@kde.org&lt;/a>.&lt;/p></description></item><item><title>It's the Free Software, stupid!</title><link>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</link><pubDate>Sat, 30 Jun 2012 18:08:50 +0200</pubDate><guid>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</guid><description>&lt;p>Heated discussions are going on in the KDE community in the aftermath
+of the announcement of Nokia&amp;rsquo;s platform strategy change. Rationality
+often goes out of the window when people feel such a change goes
+against their personal values or beliefs. In the past days, I worked
+on an analysis of the impact of the changes on KDAB, Qt and the Free
+Software communities we work with, especially KDE. KDAB is rooted
+deeply in the KDE community, and many of our developers work with Qt
+and KDE for years now. We are sharing the same worries and hopes, so
+the results may be interesting for others as well. This post is about
+Qt, KDE, Free Software, politics, devices, markets, strategies - it
+does not get much better than that. Read on.&lt;/p>
+&lt;h2 id="be-thankful-for-what-you-got">Be thankful for what you got&lt;/h2>
+&lt;p>We are told to judge by actions, not by words, so let us have a look
+at the development of Qt since Nokia bought Trolltech, and how the KDE
+community benefitted from it. It is important to stress this up front
+because it is easy to forget that since then, Nokia has been a very
+important benefactor. KDE is based on Qt and always relied heavily
+it&amp;rsquo;s technical advances. Trolltech convinced many developers to use Qt
+because of it&amp;rsquo;s superior quality and ease of use and the friendly and
+inspiring developer community. But it was a small company, and could
+not have afforded to forgo the license revenue made from selling
+commercial Qt licenses. This revenue was the central pillar of
+Trolltech&amp;rsquo;s business model. Trolltech was also in the uneasy situation
+that it influenced the software industry way more than it&amp;rsquo;s small size
+warranted, and attracted the attention of much larger
+competitors. With the takeover, the revenue Trolltech generated was to
+a large extend irrelevant to Nokia. The development framework is a
+strategic asset, and selling Qt licenses is not in line with Nokia&amp;rsquo;s
+core competencies. It also made perfect business sense to invest even
+more resources that could never have been afforded from the license
+revenue, to be able to rely on Qt as the future UI platform. This
+investment resulted in huge performance improvements, new technologies
+like QML, a continuous stable development process with many releases,
+Qt Creator, and many other goodies.&lt;/p>
+&lt;p>But the biggest gift Nokia ever presented us with was to relicense Qt
+under the LGPL. It finally overcame the acceptance issue with Qt in
+the wider Free Software space, and helped grow the Qt user base
+massively. While other important safeguards like the Free Qt
+Foundation were already in place, using Qt under the LGPL license is
+so much less of a hurdle to take then to enforce the rights granted
+through the Free Qt Foundation. Those rights can also only be executed
+once, and only as an action of last resort. Without Qt under LGPL,
+MeeGo would not have been accepted by the software industry. This, the
+public hosting of the Qt git repo and the massive development manpower
+Nokia invested in Qt benefit KDE immensely.&lt;/p>
+&lt;p>The best part is that none of these presents can be un-given or taken
+away. Qt is there to stay under the current Free Software licenses,
+and the quality it gained in the recent years will also remain at
+KDE&amp;rsquo;s service. There are new developments in KDE like QML and QtQuick
+that KDE still has to fully make use of. Today&amp;rsquo;s Qt is a superb
+platform to base the development of KDE on in the coming
+years. Thanks, Nokia.&lt;/p>
+&lt;h2 id="qt">Qt&lt;/h2>
+&lt;p>It is an open question how these past achievements translate into the
+future when it comes to Qt&amp;rsquo;s own development. From talking to business
+partners and contacts at Nokia, it is pretty clear that no new
+direction has been set for the Qt unit at Nokia. The announcement that
+there will be no layoffs or budget cuts is comforting, but it needs to
+be taken with a grain of salt. It may have all kinds of reasons, for
+example personnel retention, local labor laws, maintaining an
+undamaged business unit that can be sold - or the simple lack of an
+updated strategy. So all these statements have to be mentally extended
+with an &amp;ldquo;&amp;hellip;until further notice&amp;rdquo;. By definition, strategy changes do
+not occur on a regular basis. Even if the Microsoft partnership is
+unsuccessful (in sales figures, for example), it will take 3 to 5
+years for that to be realized and the strategy to be re-evaluated. In
+that time frame, there will most certainly be changes to the Qt unit
+if it remains within Nokia.&lt;/p>
+&lt;h3 id="checking-the-facts-about-nokia-platforms-shipping-qt">Checking the facts about Nokia platforms shipping Qt&lt;/h3>
+&lt;p>Nokia plans to ship another 150 million Symbian devices with Qt
+installed. The ability to do so depends heavily on the appeal of these
+phones to users willing to pay more than the magical 100 Euro barrier
+price. A vivid app market is necessary to reach this goal, since apps
+are a major sales driver in today&amp;rsquo;s smartphones. Will companies keep
+investing in the fledgling Symbian plus Qt app space? Investors shy
+away from shrinking markets. Every corporate strategist tasked with
+developing a product-market-matrix will put anything Symbian related
+into the &amp;ldquo;de-invest&amp;rdquo; bracket. Why does the Symbian market shrink? Have
+a look at the diagram that visualizes the spectrum of Nokia phones
+(while creating the image I discovered how close the Qt and the
+Windows Phone 7 shades of green are - a coincidence? I guess we will
+never know).&lt;/p>
+&lt;figure id="figure-the-nokia-qt-dilemma">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Nokia Qt Dilemma" srcset="
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp 400w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_146dd0e61a7e03ea14367ea30581d1a7.webp 760w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp"
+width="60%"
+height="156"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Nokia Qt Dilemma
+&lt;/figcaption>&lt;/figure>
+&lt;p>The lower end S30/S40 devices are becoming more attractive because
+features are added to them that so far required a smart
+phone. Internet access becomes more and more pervasive, and apps are
+being developed for these devices now. Having a Facebook app, for
+example, will be a convincing argument for those buyers who never
+really wanted a clunky smartphone. Also, these not-so-dumb phones will
+continue to be developed and shipped under the new strategy, resulting
+in better customer acceptance.&lt;/p>
+&lt;p>Through constantly improving hardware, the smartphones are being sold
+at steadily decreasing prices. The cheapest Android phones are now at
+below 100 Euro. This puts additional pressure on the sales revenue
+generated by the current high-end Symbian phones. Customer acceptance
+plays an important role in this segment as well. Read the latest
+tweets, and half of them are in the line of &amp;ldquo;I finally got rid of my
+Nokia and got an Android phone now&amp;rdquo;. Customers will shy away from a
+line of phones that is already announced to be replaced. It is like
+beating the proverbial dead horse.&lt;/p>
+&lt;p>So the Symbian market segment will shrink, and with that the
+importance (and clout) of Qt within Nokia. Customers do not care about
+mobile OSes to a large extend. As soon as an average S40 phone will
+ship apps and have internet access, the middle bracket in the above
+diagram will fade away. Nokia is trying to define a &amp;ldquo;mid range phone&amp;rdquo;
+segment between the feature phones (S30/S40) and the smartphone (WP7)
+ranges. This segment is not established in the phone market, and it is
+questionable whether there will be a niche for it.&lt;/p>
+&lt;p>Because of that, app developers will hesitate to invest in the
+platform, and the Qt mobile ecosystem will be under a lot of
+pressure. In all the Nokia devices, Qt will not gain the widest
+coverage of all development platforms. Very likely it will be S30/S40,
+by device count, and WP7, by sales volume. Remember this is about Qt
+within Nokia. It only influences KDE indirectly, by defining Qt&amp;rsquo;s role
+in the platform strategy.&lt;/p>
+&lt;h3 id="qt-on-other-mobile-platforms">Qt on other Mobile Platforms&lt;/h3>
+&lt;p>With apps currently being developed in Java for the S30/S40 based
+phones, Nokia uses 3 different development platforms for it&amp;rsquo;s phone
+lineup, Java, Symbian with Qt, and WP7.&lt;/p>
+&lt;p>There is a hopelessly romantic rumor that Qt support might come for
+the S30/S40 platform. A reality check is needed here. The low-end
+devices are shipping with S30/S40 because it is available today, not
+because it is a great modern future-proof platform. The apps for these
+phones are being developed now, or within the next twelve months. Even
+if a full-scale Qt port is started today, it won&amp;rsquo;t be available
+short-term. No doubt the Qt community will be able to pull off that
+stunt. But finishing the port is one thing, getting it through quality
+acceptance and to the point where it is shipped in devices is
+another. App developers would only target those devices when they
+gained a sufficient market share, and by that time, an Android phone
+sells for 50 Euro. Because of that, I do not think there will be an
+official strategy to make Qt available on S30/S40. And since Qt is
+also not coming to to WP7, Qt&amp;rsquo;s cross platform claim is moot within
+Nokia.&lt;/p>
+&lt;p>If the Qt ports to Androids, Blackberries, Badas and Kindles become a
+viable reality, other vendors will sell more devices supporting Qt
+than Nokia. And that is a development going on now, while Nokia will
+need between one and two years to release the first WP7 phone. These
+forces will heavily impede Nokia&amp;rsquo;s ability to differentiate based on
+the features of Qt, and result in less motivation to base a future
+strategy on Qt as a disruptive technology. The disruption will happen
+while Nokia is developing it&amp;rsquo;s first WP7 phone.&lt;/p>
+&lt;h3 id="open-governance-of-qt">Open Governance of Qt&lt;/h3>
+&lt;p>Regarding Open Governance, it is another open question if this strategy is
+viable for Qt in the absence of a major investor (of time and money)
+that drives the development. There is a good chance that it ends up
+like XFree.org and produces little more than bike shedding for a long
+time. Free Software projects under Open Governance, like the Linux
+kernel, or X.org, or - not quite the same, but very similar - the C++
+standard, tend to innovate slowly. Because of that, I am not convinced
+that an impressive Qt 5 can be developed by the community under Open
+Governance in a reasonable time frame. Do not get this wrong: The idea
+is great, the problem is that it might not work out as we all hope
+for. Three major scenarios come to mind when thinking about the future
+of Qt&amp;rsquo;s governance:&lt;/p>
+&lt;ol>
+&lt;li>Nokia considers Qt a strategic asset, and continues to heavily
+invest in it. In this case, Open Governance has a chance to
+succeed, but might not be in Nokia&amp;rsquo;s own interest, since it will be
+losing control over it&amp;rsquo;s own important technology.&lt;/li>
+&lt;li>Qt is switched into maintenance mode, because it is not seen as
+important for the future. In this case, Open Governance will have a
+hard time to be implemented in the first place, and partners will
+hesitate to take responsibility for individual modules.&lt;/li>
+&lt;li>Nokia plans to sell the Qt unit as an asset. In this case, the
+potential buyer will want enforceable control over it&amp;rsquo;s
+investment. For that plan, Open Governance devalues Qt as a
+sellable product. The biggest challenge for the transition to Open
+Governance is to make sure the companies invested in Qt support it
+fully, and want to see it happen.&lt;/li>
+&lt;/ol>
+&lt;p>Maybe I missed a scenario that will make it work? Please post your
+feedback.&lt;/p>
+&lt;p>The biggest challenge for Qt itself will be the potential talent
+drain. Qt attracted excellent developers from all over the world
+because it was innovative and elite. Those are people that won&amp;rsquo;t be
+comfortable with being parked on the back burner, and might not feel
+at home with Nokia anymore. At the same time, they do not exactly have
+problems finding another job. It will be hard for Nokia to convince
+employees not to leave, and also to hire new talent of the same
+quality. This is a long-term threat to the quality of Qt, and it&amp;rsquo;s
+ability to innovate.&lt;/p>
+&lt;h2 id="countering-the-threat-of-free-software-in-the-mobile-market">Countering the &amp;ldquo;threat&amp;rdquo; of Free Software in the mobile market&lt;/h2>
+&lt;p>Android based devices and Nokia smartphones together make up 64% of
+the global smartphone market at the time of this writing, according to
+Wikipedia (&lt;a href="http://en.wikipedia.org/wiki/Smartphone%29" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Smartphone)&lt;/a>. If Nokia would
+have successfully transitioned to a MeeGo based smartphone line with
+Qt GUIs, the majority of the mobile devices market would use Free
+Software based development tools, on open and inviting ecosystems for
+developers, a competitive app market with low entry barriers, all in
+all promising innovation and affordable devices. Nokia was looking for
+a solution for it&amp;rsquo;s future platform problem, and it was determined to
+base it on Free Software. The stock market loved the idea. Google
+agreed, too, and made Android.&lt;/p>
+&lt;p>At the same time, market demand for Windows based phones is at an
+overall low. There is simply no need for another closed proprietary
+phone OS, considering the alternatives. The tendency of it becoming an
+accepted standard that phone software platforms should be based on
+Free Software threatens Microsofts investment in WP7, and it&amp;rsquo;s general
+position as a closed operating system vendor. WP7 was a solution
+looking for a problem.&lt;/p>
+&lt;p>There is probably a large overlap of institutional investors in Nokia
+and Microsoft, given that they are both market leaders and publicly
+traded companies. Both companies see their markets under siege, and
+are not doing very well, so it might have sounded like a good idea at
+the time to combine the hardware vendor looking for a phone OS with
+the phone OS vendor looking for hardware. The partnership is
+unbalanced though, because if it fails, Microsoft will still be the
+market leader in PC OS installations, and Nokia will have lost
+relevance in the global smart phone market. The stock market did not
+love that idea so much.&lt;/p>
+&lt;p>But it is seriously hard to believe that simply pushing WP7 to the
+market was Microsoft&amp;rsquo;s only motivation. Also, there are other vendors
+that started offering WP7 phones. So why Nokia? There must be another
+compelling reason for Microsoft to first send a top-ranking emissary
+to Nokia, and then form a partnership that by all the usual criteria
+looks like a takeover. This reason that was important enough for
+Microsoft to invest billions into Nokia was to battle Free Software in
+it&amp;rsquo;s emerging mobile market.&lt;/p>
+&lt;p>The strategic goal of ensuring that future phone OSes are based on
+proprietary and in particular not on Free Software was very likely the
+major motivator for Microsoft to pursue this unequal partnership. The
+recent ban of Free Software from the Microsoft app store indicates a
+similar motivation. Nokia&amp;rsquo;s Free Software based platform strategy is
+dead, and it will not come back. This means Microsoft achieved one
+strategic goal immediately by establishing the partnership and
+aborting Nokia&amp;rsquo;s Free Software based efforts. If this move was about
+WP7 introduction into the market, why rely on the stumbling giant
+Nokia, and not on one of the hungry Asian tigers, like HTC, who are
+already offering WP7 phones? Because those did not have a Free
+Software based strategy. Maemo or MeeGo together with Android are a
+thought unbearable to Microsoft.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>About Qt - Qt was a compelling toolkit that developers loved to work
+with before Nokia bought it. That is the real reason for it&amp;rsquo;s
+success. Developers tell their managers that they want to use Qt
+rather than something else. That quality of Qt has gotten even
+better. This is why I think Qt will continue to be strong and - after
+the shakeout happening now - to grow in both the Free Software and the
+commercial development spaces. Qt reputation with decision makers has
+been damaged, though. They regarded it not only as stable from a
+software point of view, but also as being trustworthy from a
+development process and maintenance point of view. This image has been
+severely tarnished. So for now, the Qt market will shrink because
+mobile users will leave, and it will recover and grow at a slower rate
+afterwards due to the reduced willingness of developers and decision
+makers to invest in it. The change of pace might be a good thing for
+Qt itself after the recent coding marathons it went through. The
+trolls will work hard on keeping Qt the best and one and only true
+cross-platform UI toolkit on the planet. I wish them all the best for
+the turbulent time to come. Hug a troll, everybody!&lt;/p>
+&lt;p>About KDE - KDE as a technology will not be affected much right
+now. Qt is Free Software and does not change over night. There are
+enough great new features that KDE still has to digest. Even the
+longer term outlook of the strategy for Qt only has an indirect effect
+on KDE. Not many developers joined KDE because of the prospect of Qt
+on mobile phones, so even the community will remain stable. The
+development focus of Qt becomes broader again, away from concentrating
+on features for the mobile space. Whether Nokia will continue to
+support KDE at the same scale as in the last years is mostly a PR
+decision, so it is also not related to the more technical aspects
+described above. It will depend on the friendly relationship that has
+been developed so far, and how it continues. Nonetheless, the next KDE
+version will be shipped on time. KDE is in good shape.&lt;/p>
+&lt;p>About Free Software - Nokia&amp;rsquo;s strategy change is a very sad
+development in this regard, because it is not just about Qt. Microsoft
+is trying to prevent Free Software from becoming mainstream in the
+mobile space. Beside the feeling that it is already too late for that,
+the process raises the question if such activity against the GNU
+competition should be concerning the regulators. Antitrust and other
+market law protects businesses from unfair competition, but
+unfortunately it does not protect Free Software communities or
+projects from being bullied. Indirectly preventing a competitor from
+entering the market, for example, can be a reason for the antitrust
+agencies to not approve such a partnership, but only if large
+businesses are involved that are able to prevent the usual market
+forces from working. This is a political issue, and needs to be
+brought forward to policy makers. Our interests, those of Free
+Software as a force to create better working and more competitive
+markets, are not sufficiently represented there. That is why I will
+join the FSFE.&lt;/p>
+&lt;p>Thanks for reading.&lt;/p></description></item></channel></rss>

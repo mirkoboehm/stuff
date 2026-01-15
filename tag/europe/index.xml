@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Europe | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/europe/</link><atom:link href="https://www.creative-destruction.org/tag/europe/index.xml" rel="self" type="application/rss+xml"/><description>Europe</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Sep 2025 09:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>Europe</title><link>https://www.creative-destruction.org/tag/europe/</link></image><item><title>Open Source Congress 2025</title><link>https://www.creative-destruction.org/post/2025-09-16-open-source-congress/</link><pubDate>Thu, 18 Sep 2025 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2025-09-16-open-source-congress/</guid><description>&lt;p>The third &lt;a href="https://www.opensourcecongress.org/event/2025/open-source-congress-2025" target="_blank" rel="noopener">Open Source
+Congress&lt;/a>
+took place in Brussels on 16 September 2025. This annual gathering
+brings together code-hosting open source foundations and partners to
+align on critical issues facing the ecosystem. After the Linux
+Foundation created Open Source Congress in 2023, each year a different
+organization has signed up as the host. I would like to thank the
+Eclipse Foundation for agreeing to be the host this year. The event
+focused on four key topics: open source in a multi-polar world,
+cybersecurity, sustainability, and regulation and public policy. The
+primary value of such gatherings lies in alignment and exchange rather
+than concrete actions. Since Open Source Congress operates under
+Chatham House rules and is less accessible than typical open source
+events, sharing insights from the discussions serves the wider
+community. Below are personal observations from the four panels.&lt;/p>
+&lt;h2 id="panel-1---open-source-in-a-multi-polar-world">Panel 1 - Open Source in a Multi-Polar World&lt;/h2>
+&lt;p>The open source ecosystem was multi-polar from its inception. Key open
+source innovations originate from various regions: Ruby from
+Japan, Linux and Python from Europe, the GNU Project from the US. The
+US tech industry was quicker to realize open source technologies as
+a growth driver, allowing US business interests to overlay this
+narrative today. However, nothing is inherently polarizing in how the
+open source ecosystem works. It serves as both
+creative destruction and resilience mechanism, undermining
+traditional control structures while remaining largely
+unregulable. Cultural and language barriers continue to shape
+how and where contributors collaborate, making truly global
+collaboration a key challenge. There is optimism
+that AI will provide instant translation mechanisms to bridge
+such divides. Maintaining arms-length distance from policy making
+remains essential to preserve open source&amp;rsquo;s organic governance. At the same
+time, regulation will inevitably affect the
+ecosystem&amp;rsquo;s global dynamics. The EU Cyber Resilience Act is
+the first law explicitly shaping stakeholder roles.
+While progress has been made in building capacity and
+expertise for open source foundations to engage in policy debates
+when necessary, much work remains.&lt;/p>
+&lt;h2 id="panel-2---cybersecurity-influencing-best-practices-and-standards">Panel 2 - Cybersecurity: Influencing Best Practices and Standards&lt;/h2>
+&lt;p>A global race to define cybersecurity standards creates a
+maze of regulation across international markets. While this
+challenges global manufacturers, open source communities face few
+concrete regulatory obligations. However, to enable global adoption of their
+releases, they are strongly incentivized to support
+downstream users with documentation and sound cybersecurity
+practices. Creating an environment conducive to smooth
+upstream-downstream collaboration requires open source foundations to
+engage in relevant standards development processes that define
+implementation details of cybersecurity regulation. This
+remains difficult, as most stewards lack both funding and
+subject matter expertise for standards development.
+The panel revealed tensions between traditional open source
+collaboration and emerging bureaucratic frameworks at organizations
+like the
+&lt;a href="https://unite.un.org/en/news/sixteen-organizations-endorse-un-open-source-principles" target="_blank" rel="noopener">UN&lt;/a>
+and &lt;a href="https://www.digitalpublicgoods.net/" target="_blank" rel="noopener">DPGA&lt;/a>, warning that OSS
+risks losing its core strengths when bent to external rules. The
+discussion emphasized that effective policy engagement should
+facilitate organic collaboration and create market-driven incentives
+rather than impose rigid bureaucratic structures. Initiatives like
+the Linux Foundation&amp;rsquo;s &lt;a href="https://alpha-omega.dev/" target="_blank" rel="noopener">Alpha-Omega&lt;/a> serve as
+effective funding instruments that align with open source
+principles. In recent years, public initiatives like the German
+&lt;a href="https://www.sovereign.tech/" target="_blank" rel="noopener">Sovereign Tech Agency&lt;/a> increasingly
+support under-maintained projects. Under guidance from &lt;a href="https://openforumeurope.org/" target="_blank" rel="noopener">Open Forum
+Europe&lt;/a>, a &lt;a href="https://eu-stf.openforumeurope.org/" target="_blank" rel="noopener">feasibility
+study&lt;/a> has been submitted to the
+EU to elevate such activities to the European level with a larger
+budget.&lt;/p>
+&lt;h2 id="panel-3---sustainability-and-the-open-ecosystem">Panel 3 - Sustainability and the Open Ecosystem&lt;/h2>
+&lt;p>The sustainability of the open source development model is hotly
+debated. The underlying issue appears to be a mix of insufficient funding and a
+fundamental &amp;ldquo;matchmaking problem&amp;rdquo; of allocating available funds to
+specific projects and contributors efficiently. While
+the myth that open source is the unpaid labor of love of hobbyist
+maintainers still percolates, the 2024 &lt;a href="https://opensourcefundingsurvey2024.com/" target="_blank" rel="noopener">Open Source Software Funding
+Survey&lt;/a> shows that 86% of
+contribution value comes from employee labor. This study raises challenging
+questions. On one hand, what will be the effect of 50m€ public funding
+initiatives if $7.7B is invested by private industry
+annually? On the other hand, if more funding becomes available, how
+will it be distributed? Grant making will profoundly impact
+the viability of individual projects, raising concerns about
+public sector actors&amp;rsquo; ability to effectively disperse
+sovereign-tech-fund-like funds where they are needed most, rather
+than to favored champions or consultancies specializing in grant
+acquisition. However, such initiatives will likely support
+ecosystem diversity and grassroots initiatives, which may
+be a benefit worth the cost.
+Some funding programs focus on maintenance or security, creating
+a risk of fragmenting development work by separating improvement,
+maintenance, and security responsibilities. Since implementing new
+features is always most fascinating, the impression that maintenance
+and cybersecurity are somebody else&amp;rsquo;s problem must be avoided.
+Emerging models favor market-driven approaches like
+the EU CRA, which creates business incentives for maintenance work and
+eliminates freeloading, potentially contributing more to
+open source sustainability than public spending programs that struggle
+with coordination and measurement challenges.&lt;/p>
+&lt;h2 id="panel-4---regulation-and-public-policy">Panel 4 - Regulation and Public Policy&lt;/h2>
+&lt;p>The final session was essentially a moderated Q&amp;amp;A round. A cluster of
+questions evolved around how external forces now influencing the open
+source world will reshape open collaboration dynamics. The
+release-early-release-often, show-me-the-code mentality drives
+experimentation and a somewhat Darwinian trial-and-error approach to
+identifying promising projects. Voluntary participation ensures that
+projects receive attention according to their value to the
+community. Interestingly, funding programs based on selective awards
+are expected to bias these mechanisms more than market access
+regulation. Future research is needed to verify this expectation.
+However, regulatory approaches will fundamentally reshape the
+ecosystem by influencing adoption criteria for components, driving
+consolidation of fragmented libraries into fewer, more maintainable
+packages and addressing collective action problems around
+responsibility and decision-making in policy advocacy. This will
+affect different communities differently, depending on factors like the
+granularity and maintainer base of package repositories. However, there
+is a prevailing assumption that smaller communities and their
+stewards will face greater challenges than larger ones.&lt;/p>
+&lt;h2 id="looking-forward">Looking Forward&lt;/h2>
+&lt;p>Open Source Congress represents more than an annual conference. It
+embodies the vision of ongoing collaboration among open source
+foundations to address the ecosystem&amp;rsquo;s evolving challenges. The
+facilitation of coordination between stewards serves at
+least two purposes: bridging cultural and language divides that have
+historically fragmented global collaboration, and building the
+collective capacity needed to engage effectively with increasingly
+complex regulatory environments. While the tension between preserving
+open source&amp;rsquo;s creative autonomy and meeting external compliance
+requirements will continue to influence the ecosystem&amp;rsquo;s future, the
+foundation community&amp;rsquo;s growing expertise in policy advocacy and
+standards development positions it increasingly better to navigate
+these challenges. The conversations at this year&amp;rsquo;s Congress suggest
+that open source&amp;rsquo;s greatest strength, its ability to adapt and evolve
+organically, will ultimately enable it to thrive within, rather than
+despite, the new regulatory landscape.&lt;/p></description></item><item><title>Pathways to Cybersecurity: Best Practices in Open Source</title><link>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</link><pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</guid><description>&lt;p>The European Union’s Cyber Resilience Act (CRA) presents a
+watershed moment for the open source ecosystem, imposing
+rigorous cybersecurity requirements on products with digital
+elements (PDEs) commercialized in the EU. While the regulation
+will not fully apply until December 2027, with certain provisions
+taking effect earlier, the stakes are enormous—penalties
+reaching €15 million or 2.5% of global annual turnover for non-compliance.&lt;/p>
+&lt;p>The regulation’s impact extends beyond documentation and
+vulnerability reporting. It fundamentally alters the relationship
+between upstream open source projects and downstream commercial
+adopters, demanding greater collaboration for sustainable
+security maintenance. Neither manufacturers nor stewards
+can meet CRA requirements in isolation—manufacturers must
+conduct due diligence when integrating open source components,
+while stewards must implement and document cybersecurity
+policies that facilitate secure development.
+The Linux Foundation’s analysis of three flagship projects—Civil
+Infrastructure Platform (CIP), Yocto Project, and Zephyr Project—reveals
+both the readiness and challenges facing open
+source software stewards under the new regulatory framework.
+The CRA introduces a novel distinction between commercial
+manufacturers who bear primary responsibility for product
+compliance, and open source software stewards who develop
+and maintain open source software without monetization. This
+acknowledges the reality that open source components often
+constitute up to 96% of modern software while respecting the
+fundamental openness of the development model.&lt;/p></description></item><item><title>World of Open Source: Open Source Maturity in Europe</title><link>https://www.creative-destruction.org/publication/oss-europe-2024/</link><pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/oss-europe-2024/</guid><description>&lt;p>For the past three years, LF Research has conducted a study on the
+adoption, opportunities, and perceptions of open source across
+Europe. The trend is clear in 2024: the perceived value of open source
+continues to increase in the region, and stakeholders across sectors
+and industries can see the importance of investing in it. This year&amp;rsquo;s
+report identifies key sectors to channel this investment, the
+opportunity for the public sector to embrace open source for digital
+public goods, and how regulations are interacting with and responding
+to more widespread open source adoption and knowledge. With insights
+taken from the 2024 World of Open Source survey and augmented by
+interviews with over a dozen experts working in open source, this
+report unpacks the current state of open source in Europe and
+highlights next steps to improve adoption, understanding, and
+regulation for open source as this technological space continues to
+mature. Read the report for the full investigation into why open
+source has hit a watershed moment in Europe.&lt;/p></description></item><item><title>Futures of innovation and intellectual property regulation in 2040</title><link>https://www.creative-destruction.org/publication/eu-2024-futures-of-innovation/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/eu-2024-futures-of-innovation/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_34d41abebc57ec25e10d0c7d72699c29.webp 400w,
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_6a8ef3b20cb3381ec6d8b6b3d7f5d137.webp 760w,
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_34d41abebc57ec25e10d0c7d72699c29.webp"
+width="60%"
+height="442"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Open Source in Europe, there and back again</title><link>https://www.creative-destruction.org/post/2023-06-01-welcome-lf-europe/</link><pubDate>Thu, 01 Jun 2023 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2023-06-01-welcome-lf-europe/</guid><description>&lt;p>Open source communities and the software they produce have been at the
+centre of most of my professional life. Three years ago, I accepted an
+offer from MBition, the Mercedes-Benz infotainment development
+subsidiary, to develop their open source strategy and drive horizontal
+collaboration on the infotainment functionality in the automotive
+industry. Since then I have been on an amazing development journey
+culminating in the introduction of the new &lt;a href="https://media.mercedes-benz.com/e-class2023" target="_blank" rel="noopener">Mercedes-Benz E
+class&lt;/a>, the first model
+to feature MBition&amp;rsquo;s next generation infotainment software. While
+delivering such an amazing product to market was exhilarating, I have
+always found a different joy from working directly in the open source
+community. As of today I am excited to announce I am going to be
+focusing on community development at &lt;a href="https://linuxfoundation.eu/" target="_blank" rel="noopener">Linux Foundation
+Europe&lt;/a>.&lt;/p>
+&lt;p>Europe has a special place in the open source community. It is home to
+projects like LibreOffice, KDE, as well as to CERN where the web was
+invented. Linux started in Scandinavia. But just as importantly, and
+besides ecosystem-defining projects like that, there is a culture of
+collaboration and community. &lt;a href="https://www.softwareheritage.org/" target="_blank" rel="noopener">Software
+Heritage&lt;/a> is a great example of
+looking beyond &amp;ldquo;scratching your own itch&amp;rdquo; at how software shapes
+society. This sense of finding common ground and building community
+around it is at the heart of the European project for the last
+decades. At Linux Foundation Europe, I want to contribute to the open
+source software component of this larger effort.&lt;/p>
+&lt;p>Concretely, I expect there will be three main stakeholders: industry,
+the volunteer open source community and the public sector. All three
+share a common interest in innovative, stable, secure open source
+projects, especially when they get adopted as software infrastructure
+components. However, the three groups also speak different languages
+and historically have trouble collaborating. This can be overcome, for
+example, by hosting projects like
+&lt;a href="https://openwallet.foundation/" target="_blank" rel="noopener">OpenWallet&lt;/a> that bring regulators and
+industry together, but also tackle essential software freedom and
+digital sovereignty concerns. Open Source is most successful when it
+boils down to &amp;ldquo;show me the code&amp;rdquo; and facilitating contributions from
+all interested parties. Identifying prospects for such projects and
+building the collaboration between all stakeholders will be the
+essence of my work.&lt;/p>
+&lt;p>Recently, there is a lot of attention on regulatory initiatives that
+affect the open source community, like the &lt;a href="https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act" target="_blank" rel="noopener">Cyber Resilience Act
+(CRA)&lt;/a>
+or the upcoming &lt;a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener">EU AI
+act&lt;/a>. Working with the European
+Commision regulators to ensure that those initiatives support the open
+source projects that are the key innovation drivers in those areas
+instead of hindering them is an absolute top priority. However, the
+bigger picture of facilitating and growing projects that span
+industry, volunteer community and European governments should take
+centre stage in the longer term. I am looking forward to working on
+this European-scale challenge and to the collaboration with all the
+involved contributors.&lt;/p></description></item><item><title>The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy</title><link>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</link><pubDate>Tue, 12 Oct 2021 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</guid><description/></item><item><title>The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy</title><link>https://www.creative-destruction.org/project/ec-oss-impact/</link><pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/project/ec-oss-impact/</guid><description>&lt;p>This study analyses the economic impact of Open Source Software (OSS) and Hardware (OSH) on the European economy. It was commissioned by the European Commission’s DG CONNECT. It is estimated that companies located in the EU invested around €1 billion in OSS in 2018, which resulted in an impact on the European economy of between €65 and €95 billion. The analysis estimates a cost-benefit ratio of above 1:4 and predicts that an increase of 10% of OSS contributions would annually generate an additional 0.4% to 0.6% GDP as well as more than 600 additional ICT start-ups in the EU. Case studies reveal that by procuring OSS instead of proprietary software, the public sector could reduce the total cost of ownership, avoid vendor lock-in and thus increase its digital autonomy. The study also contains an analysis of existing public policy actions in Europe and around the world. The scale of Europe’s institutional capacity related to OSS, however, is disproportionately smaller than the scale of the value created by OSS. The study therefore gives a number of specific public policy recommendations aimed at achieving a digitally autonomous public sector, open R&amp;amp;D enabling European growth and a digitised and internally competitive industry.&lt;/p>
+&lt;p>Communication about the study:&lt;/p>
+&lt;ul>
+&lt;li>European Commission: &lt;a href="https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and" target="_blank" rel="noopener">Study about the impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy&lt;/a>&lt;/li>
+&lt;li>OpenForum Europe: &lt;a href="https://openforumeurope.org/publications/study-about-the-impact-of-open-source-software-and-hardware-on-technological-independence-competitiveness-and-innovation-in-the-eu-economy/" target="_blank" rel="noopener">The study on the impact of Open Source Software and Hardware for the European Commission found that open source software and hardware are key for the region’s digital transformation and can be a major boost to the EU’s GDP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.creative-destruction.org/publication/eu-impact-of-open-source/">Final study report&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>The Relationship Between Open Source Software and Standard Setting</title><link>https://www.creative-destruction.org/publication/ec-jrc-oss-sdo/</link><pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ec-jrc-oss-sdo/</guid><description>&lt;p>This publication is a Science for Policy report by the Joint Research
+Centre (JRC), the European Commission’s science and knowledge
+service. It aims to provide evidence-based scientific support to the
+European policymaking process. The scientific output expressed does
+not imply a policy position of the European Commission. Neither the
+European Commission nor any person acting on behalf of the Commission
+is responsible for the use that might be made of this publication.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_167be684a2b19eda746d16451364924d.webp 400w,
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_a2fbee6494e3d063ba67dccea0dd6383.webp 760w,
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_6a0d6270f86beaaeb8111c54c57922a0.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_167be684a2b19eda746d16451364924d.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>The report has been developed in the framework of the 2017
+Communication of the European Commission ‘Setting out the EU approach
+to Standard Essential Patents’ (COM(2017) 712 final). In this
+Communication there is a direct commitment that &amp;lsquo;The Commission will
+work with stakeholders, open source communities and SDOs for
+successful interaction between open source and standardisation, by
+means of studies and analyses&amp;rsquo;. Standards and open source development
+are both processes widely adopted in the ICT industry to develop
+innovative technologies and drive their adoption in the
+market. Innovators and policy makers assume that a closer
+collaboration between standards and open source software development
+would be mutually beneficial. The interaction between the two is
+however not yet fully understood, especially with regard to how the
+intellectual property regimes applied by these organisations influence
+their ability and motivation to cooperate. This study provides a
+comprehensive analysis of the interaction between standard development
+organisations (SDOs) and open source software (OSS) communities. The
+analysis is based on 20 case studies, a survey of stakeholders
+involved in SDOs and OSS communities, an expert workshop, and a
+comprehensive review of the literature.&lt;/p></description></item><item><title>OpenForum Academy Workshop - Exploring Modern Dimensions of Openness</title><link>https://www.creative-destruction.org/post/2019-09-ofa-workshop/</link><pubDate>Tue, 10 Sep 2019 18:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2019-09-ofa-workshop/</guid><description>&lt;p>The &lt;a href="http://www.openforumeurope.org/about-ofe/openforum-academy/" target="_blank" rel="noopener">OpenForum
+Academy&lt;/a>
+held its second 2019 workshop in Brussels this week. OpenForum Academy
+is a European-based independent think tank which explains the merits
+of openness in computing to policy makers, industry and communities across
+Europe. This workshop series aims at being a forum for practitioners,
+academics and policy makers to collaborate on various topics of
+openness and freedom. It is organized by &lt;a href="http://www.openforumeurope.org/" target="_blank" rel="noopener">OpenForum
+Europe&lt;/a>, enabling it to bridge
+between the abstract academic world and policy discussions at
+the European Commissions. We set out to explore focus topics to answer
+current challenges to openness that the academy will develop insights
+and recommendations for. These topics will shape the work of
+OpenForum Academy for the near future.&lt;/p>
+&lt;p>The workshop was opened by a series of input presentations. One of
+those was on &amp;ldquo;Addressing lock-in challenges through the use of open
+source software projects&amp;rdquo; by &lt;a href="https://www.his.se/en/about-us/Facts-and-figures/staff/bjorn_lundell/" target="_blank" rel="noopener">Björn
+Lundell&lt;/a>,
+a fellow of the academy and professor at the University of Skövde in
+Sweden. He explained for example the need for open source solutions to
+read and write data formats of digital assets of long-term
+importance.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;figure id="figure-standard-and-file-format-lock-in">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Standard and File Format Lock-In" srcset="
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_dcd68d2df68f540c1b1f3a30e5b163b6.webp 400w,
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_b9efb7bc56e5d3159ad9136f1fedd29e.webp 760w,
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_dcd68d2df68f540c1b1f3a30e5b163b6.webp"
+width="60%"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Standard and File Format Lock-In
+&lt;/figcaption>&lt;/figure>
+&lt;p>I presented key findings and recommendations from the
+study on &lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Role of Open Source Software in Standard Setting&amp;rdquo;&lt;/a>. All this served to frame the following
+discussion of potential core topics for the OpenForum Academy to focus.
+OpenForum Europe champions openness in Europe, a topic that has
+sprawled into numerous debates. Which ones of those are important and
+warrant the development of academic papers and policy briefs?&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="OpenForum Academy workshop attendees" srcset="
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_6222910029fc230ca872a420ba777c1c.webp 400w,
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_4b0df9a52e790f2a176498125fb85038.webp 760w,
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_6222910029fc230ca872a420ba777c1c.webp"
+width="60%"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="exploring-modern-dimensions-of-openness">Exploring modern dimensions of openness&lt;/h2>
+&lt;p>Personally, I am primarily interested in Open Source aspects. However,
+there are other dimensions of openness that cover different processes
+and results. There is still a discussion of what an &lt;em>open standard&lt;/em>
+is. &lt;em>Open hardware&lt;/em> works quite differently to software, because the
+open specifications eventually have to be turned into physical
+goods. Access to data is an angle independent from software,
+specifications and hardware, and most software is made useful by the data
+sets it processes. We want more scientific articles to be
+available under &lt;em>open access&lt;/em> licenses, especially when they are
+creating with public funding. The list of topics related to openness
+is probably never-ending. Eventually, the following aspects emerged
+as the currently most interesting ones:&lt;/p>
+&lt;h3 id="openness-and-the-cloud">Openness and the Cloud&lt;/h3>
+&lt;p>How the transition of ICT to cloud and edge services changes the
+importance of FOSS and data unsurprisingly sparked a heated debate
+during the workshop. Is software freedom threatened by the rise of
+cloud computing because software modifications are not required to be
+shared? How can vendor lock-in and a lack of choice be overcome? Very
+importantly, what is new about cloud that is different to before
+(hint: it may be less than we think)? How can consumer interests be
+protected and a healthy business ecosystem promoted? How can
+regulation help and where does regulation overreach (think
+surveillance or user profiling)? Many of these questions are about
+finding the right balance, or identifying the justified intrusions
+into the user&amp;rsquo;s rights to confidentiality and privacy.&lt;/p>
+&lt;h3 id="open-source-as-civil-ict-infrastructure">Open Source as Civil ICT Infrastructure&lt;/h3>
+&lt;p>The EU invests in railroads, highways and data networks. Why does it
+not invest much into
+FOSS? &lt;a href="https://ec.europa.eu/eusurvey/runner/EUFOSSA2-Survey" target="_blank" rel="noopener">FOSSA&lt;/a>
+(hint: please participate in the survey!) is a good start. Much more
+could be done. Civil society is stepping in to take over public
+functions, as in the preservation of knowledge fostered by Wikipedia
+or Software Heritage, often with little public support. What would be
+a framework under which the EU and member states can invest into FOSS
+development, to serve it&amp;rsquo;s own needs or to support support
+sustainability goals? Can a public investment plan be developed for
+the development of OSS ICT infrastructure, including goals and spends?&lt;/p>
+&lt;h3 id="commercial-business-models-and-open-source">Commercial Business Models and Open Source&lt;/h3>
+&lt;p>Much has been discussed recently about the sustainability of FOSS
+development, often confusing it the viability of the own business
+model. Norms that form the pillars of the FOSS movement like
+the
+&lt;a href="https://fsfe.org/freesoftware/basics/4freedoms.en.html" target="_blank" rel="noopener">four freedoms of software&lt;/a> or
+the &lt;a href="https://opensource.org/osd" target="_blank" rel="noopener">Open Source Definition&lt;/a> embody
+community culture at the expense of legalistic terminology. Recently,
+models have emerged that remove some of the freedoms guaranteed by
+those norms, for example in the deceptively
+named &lt;a href="https://commonsclause.com" target="_blank" rel="noopener">Commons Clause License&lt;/a>. The
+relation between FOSS and other rights like trademarks or patents is
+still a much researched topic. Directly related to that are approaches
+on how to valuate FOSS and FOSS based businesses to give guidance to
+industry, VCs and policy makers for investment decisions. Some of our
+fellows feel it is important to take a stand as a community, insist on
+making it clear what FOSS really is and prevent a watering down of
+standards like the Open Source Definition. There is a need to explain
+the work of the wider FOSS community more clearly to illustrate how it
+interacts with and contributes to society.&lt;/p>
+&lt;h2 id="how-to-contribute-and-get-involved">How to contribute and get involved&lt;/h2>
+&lt;p>The academy believes that these topic are of wide-ranging importance
+to the development of the digital society and the single market in the
+EU. They warrant a thorough investigation, deep analysis and a search
+for solutions that connects research, industry and policy makers. We
+hope to support this process by selecting these three subjects as
+focus topics for the OpenForum Academy for the upcoming year. The
+academy will facilitate the work of it&amp;rsquo;s fellows through workshops,
+publications and other means. If you are a researcher, practitioner,
+engaged in European politics or simply otherwise interested, follow
+&lt;em>@OpenForumEurope&lt;/em> or
+&lt;a href="http://www.openforumeurope.org/about-ofe/openforum-academy/" target="_blank" rel="noopener">contact&lt;/a>
+OpenForum Academy to get involved.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Gamalielsson, J. &amp;amp; Lundell, B. (2013) Experiences from implementing PDF in open source: challenges and opportunities for standardisation processes, In Jakobs, K. (Ed.) Proceedings of the 8th IEEE Conference on Standardization and Innovation in Information Technology (SIIT 2013), ISBN 3-86130-802-9, IEEE, Piscataway, pp. 39-49. &lt;a href="https://doi.org/10.1109/SIIT.2013.6774572" target="_blank" rel="noopener">https://doi.org/10.1109/SIIT.2013.6774572&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>FOSS, standard essential patents and FRAND in the European Union</title><link>https://www.creative-destruction.org/post/2018-jrc-workshop/</link><pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2018-jrc-workshop/</guid><description>&lt;p>As part of the research project
+on
+&lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&amp;rdquo;&lt;/a>,
+a workshop was organised by the European Commission, Joint Research
+Centre (JRC) in collaboration with Directorate General Communications
+Networks, Content and Technology (CONNECT) to present and discuss the
+intermediate results to date. The workshop took place in Brussels on
+September 18, 2018. I presented a set of observations from the research on
+the case studies performed as part of the project that are outlined
+below. Other speakers
+where
+&lt;a href="https://www.the-klu.org/faculty-research/resident-faculty/catharina-maracke/" target="_blank" rel="noopener">Catharina Maracke&lt;/a> on
+the issue of legal compliance between Open Source and FRAND
+licenses, &lt;a href="https://perens.com/" target="_blank" rel="noopener">Bruce Perens&lt;/a> on &amp;ldquo;Community Dynamics
+in Open Source&amp;rdquo;,
+and &lt;a href="https://www.gesmer.com/team/andrew-s-updegrove" target="_blank" rel="noopener">Andy Updegrove&lt;/a>
+on &amp;ldquo;Dynamics in Standardisation&amp;rdquo;.&lt;/p>
+&lt;p>You may ask what the relevance of this debate is for the wider Free
+and Open Source Software community. The obvious answer is that to
+distribute
+software
+&lt;a href="https://opensource.com/article/18/3/patent-grant-mit-license" target="_blank" rel="noopener">&amp;ldquo;without restriction&amp;rdquo;&lt;/a>,
+the user needs all the usage rights associated with the program. While
+most FOSS contributors assume that this is naturally the central
+motivation for anybody to contribute in the first place, there is a
+long history of attempts to maintain some sort of exclusive control
+over a piece of FOSS code, possibly using other rights than copyright.&lt;/p>
+&lt;p>Contributor license agreements (CLA) are a well known instrument for
+that. The original author agrees to an exclusive or non-exclusive
+license to a central entity (usually a community organisation or a
+dominating company) to use their work. This may just give a community
+organisation a right to adopt newer licenses. Or it may give
+a
+&lt;a href="https://dirkriehle.com/publications/2009-selected/the-commercial-open-source-business-model/" target="_blank" rel="noopener">single Open Source vendor&lt;/a> the
+right to use other contributor&amp;rsquo;s work commercially. Whether CLA embody
+FOSS culture or violate them by creating an asymmetric distribution of
+benefits between contributors and a company therefore depends on the
+specific terms of the
+CLA. The
+&lt;a href="http://contributoragreements.org" target="_blank" rel="noopener">contributor agreements configurator&lt;/a> helps
+projects to set up a CLA and understand what the motivation behind the
+terms are (&lt;a href="https://endocode.com" target="_blank" rel="noopener">Endocode&lt;/a> contributed the
+implementation). CLA are controversial, especially if they
+include
+&lt;a href="https://help.nextcloud.com/t/cla-caa-ca-etc-etc-let-s-get-it-right/588" target="_blank" rel="noopener">copyright assignments to a single company&lt;/a>. Projects
+and contributors are well-advised to make sure to fully understand
+what they are agreeing to. The main take-away for the argument here is
+that the norm in FOSS communities is a &lt;em>symmetric&lt;/em> distribution of
+rights between all contributors, and CLA are one instrument to modify
+this to the benefit of a single entity.&lt;/p>
+&lt;p>But that is not all. It just helps to explain how such asymmetric
+rights can be used to give a single entity more power in a community
+of contributors. There is a long history of such attempts, and they
+usually involve some other legal rights beyond the terms of the FOSS
+license applied. There is a good reason for that: FOSS licenses give
+contributors and users a time-tested and well-balanced framework for
+collaboration. &lt;a href="https://fsfe.org/freesoftware/basics/4freedoms.en.html" target="_blank" rel="noopener">&amp;ldquo;Use, study, modify, redistribute&amp;rdquo;&lt;/a> is
+a simple, easy to understand mantra that every FOSS contributor knows
+and understands. CLA augment the FOSS license terms with an additional
+contractual agreement, but for the most part stay in the realm of
+copyright just like FOSS licenses. Other instruments not so much:&lt;/p>
+&lt;ul>
+&lt;li>Trademarks are used to enforce a vendor&amp;rsquo;s expectations when others
+adopt and ship their software. This is used by communities to
+protect their names, like in
+the
+&lt;a href="https://www.mozilla.org/en-US/foundation/trademarks/policy/" target="_blank" rel="noopener">Mozilla Trademark Policy&lt;/a>,
+or to make sure specific services are included in devices, like in
+the
+&lt;a href="https://source.android.com/compatibility/overview" target="_blank" rel="noopener">Android Compatibility Program&lt;/a>.&lt;/li>
+&lt;li>Trade secrets like delayed code releases under FOSS licenses or
+proprietary &amp;ldquo;extensions&amp;rdquo; that
+are
+&lt;a href="https://about.mattermost.com/features/" target="_blank" rel="noopener">effectively required for the software to be useful&lt;/a> are
+used to maintain an edge of an &amp;ldquo;enterprise&amp;rdquo; version over the FOSS
+release.&lt;/li>
+&lt;li>The
+&lt;a href="https://www.gnu.org/philosophy/software-patents.en.html" target="_blank" rel="noopener">software patents debate&lt;/a> may
+have slowed down, but is still relevant. Patents exist, and
+applications for patents that include claims that are implemented in
+existing FOSS solutions never stopped. It has become harder to be
+granted a patent for a software-only solution. Institutions like
+the &lt;a href="https://www.openinventionnetwork.com" target="_blank" rel="noopener">Open Invention Network&lt;/a>
+create a safe space where FOSS innovators cross-license freely and
+avoid litigation. However vendors shipping FOSS in products still
+need to clear potential patent claims implemented in
+those. Conformance with patents does not usually follow from FOSS
+licenses.&lt;/li>
+&lt;/ul>
+&lt;p>Which leads to round five of the match with software freedom in one
+corner and exclusivity in the other &amp;ndash; standard-essential patents
+(SEP). Everybody loves standards, and FOSS especially: We use
+standardised programming languages, unicode tables and system call
+interfaces. Standards are the foundation for interoperability, and
+some standards like
+the &lt;a href="http://opendocumentformat.org" target="_blank" rel="noopener">Open Document Format&lt;/a> are the
+result of a long struggle to establish formats that re-open markets
+for competition. All of these standards
+are
+&lt;a href="https://opensource.com/resources/what-are-open-standards" target="_blank" rel="noopener">Open Standards&lt;/a> that
+can be implemented in FOSS without restrictions. But what if
+implementing a standard would be required to interoperate with others,
+or even mandatory under existing regulations, and this standard would
+include functionality that is covered by patent claims, possibly with
+royalty-bearing patent licenses? That is the definition of SEP, which
+are commonly required to be licensed either royalty-free or under
+&amp;ldquo;fair, reasonable and non-discriminatory&amp;rdquo; (FRAND) licenses. It is also
+a relevant and current concern because
+the
+&lt;a href="https://ec.europa.eu/docsroom/documents/26583" target="_blank" rel="noopener">European Commission considers SEP under FRAND licenses a useful instrument&lt;/a> for
+industrial policy in the European Union. Until now, the wider FOSS
+community has contributed some positions to this debate that is for
+the most part dominated by incumbent industries, recognized
+standards-development organisations (SDO) and policy makers.&lt;/p>
+&lt;p>The study currently conducted under the supervision by
+the
+&lt;a href="https://ec.europa.eu/info/departments/joint-research-centre_en" target="_blank" rel="noopener">European Commission Joint Research Centre (EC-JRC)&lt;/a> on
+&lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&amp;rdquo;&lt;/a> aims
+at providing a better understanding of the interplay between FOSS
+licenses, governance and the IPR policies of SDO. At the workshop that
+was just held in Brussels as part of this study where an initial set
+of case studies on the subject have been presented. Theses case
+studies (that I am the author of) will become part of the overall
+study report prepared
+by
+&lt;a href="https://www.inno.tu-berlin.de/menue/about_us/team/prof_dr_rer_pol/" target="_blank" rel="noopener">Knut Blind&lt;/a> and
+me. As the study progresses, a number of early observations from these
+cases will be shared in this blog and other channels. It is important
+that the wider FOSS community recognizes the relevance and importance
+of this subject and actively makes itself heard. CERN, the ECMAscript
+community, the Eclipse Foundation, the Linux Foundation and others
+have already contributed insights to the field work for the
+project. Others, especially FSFE, have been notably absent from the
+debate. The &lt;a href="https://opensource.org" target="_blank" rel="noopener">Open Source Initiative&lt;/a> is
+represented on the project&amp;rsquo;s steering committee.&lt;/p>
+&lt;p>The standards that
+will be shaped by this debate, like 5G mobile communication or IoT
+protocols, will affect us all, as will welfare gains or losses from
+policies that influence the innovativeness of FOSS. There are
+opportunities to contribute: communities can communicate what their
+needs are with regards to standards and FOSS. Contributors can
+provide input to the case studies or the stakeholder survey that will
+be performed in the next phase of the study. Feel free to reach out if
+you would like to participate.&lt;/p></description></item><item><title>The Relationship Between Open Source Software and Standard Setting</title><link>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</link><pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/project/ec-jrc-oss-frand/</guid><description>&lt;p>The objective of the study is to identify possible commonalities and
+barriers for interaction between standardisation and open source
+processes.&lt;/p>
+&lt;p>The study should clarify the role of open source in the context of
+standard setting, in particular its interplay with the licensing of
+standards-essential patents under &amp;ldquo;fair, reasonable and
+non-discriminatory&amp;rdquo; (FRAND) terms and provide an overview of free and
+open source software (FOSS) and FRAND features in standardisation.&lt;/p>
+&lt;p>The study on the interaction between open source software and FRAND
+licensing in standardisation is carried out on behalf of the &lt;a href="https://ec.europa.eu/info/departments/joint-research-centre_en" target="_blank" rel="noopener">European
+Commission&amp;rsquo;s Joint Research
+Centre&lt;/a>
+by &lt;a href="https://www.fokus.fraunhofer.de/en" target="_blank" rel="noopener">Fraunhofer Institute of Open Communication System
+FOKUS&lt;/a> and Mirko Böhm representing
+the &lt;a href="https://www.openinventionnetwork.com/" target="_blank" rel="noopener">Open Invention Network&lt;/a>.&lt;/p>
+&lt;p>Communication about the study:&lt;/p>
+&lt;ul>
+&lt;li>European Commission: &lt;a href="https://ec.europa.eu/digital-single-market/en/news/study-role-open-source-standard-setting" target="_blank" rel="noopener">Study on the role of open source in standard setting&lt;/a>&lt;/li>
+&lt;li>EU Science Hub: &lt;a href="https://ec.europa.eu/jrc/en/science-update/jrc-study-interaction-between-open-source-software-and-frand-licensing-standardisation" target="_blank" rel="noopener">JRC Study on the Interaction between Open Source Software and FRAND licensing in Standardisation&lt;/a>&lt;/li>
+&lt;li>Publication of the final report: &lt;a href="https://ec.europa.eu/jrc/en/publication/eur-scientific-and-technical-research-reports/relationship-between-open-source-software-and-standard-setting" target="_blank" rel="noopener">The Relationship Between Open Source Software and Standard Setting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The project was originally named &amp;ldquo;The Interaction between Open Source
+Software and FRAND licensing in Standardisation&amp;rdquo;. The title was later
+simplified to &amp;ldquo;The Relationship Between Open Source Software and
+Standard Setting&amp;rdquo;.&lt;/p></description></item><item><title>Ist Open Source demokratisch?</title><link>https://www.creative-destruction.org/publication/jahrbuch-netzpolitik-2012/</link><pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/jahrbuch-netzpolitik-2012/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_e98c72b5dbd09c9798dd9ff862748fce.webp 400w,
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_782b12d81404ef6332a2d3db45056a44.webp 760w,
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_e98c72b5dbd09c9798dd9ff862748fce.webp"
+width="60%"
+height="759"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Open-Source-Communities gelten als selbstgesteuert, meritokratisch et
+cetera, aber ein besonderer demokratischer Charakter ihres
+Funktionierens steht selten im Vordergrund. Einzelne investieren oft
+großen Aufwand in ihr Lieblingsprojekt, um zu einem größeren Ganzen
+beizutragen, und Demokratie gilt ebenfalls oft als höheres Gut. Es ist
+daher verlockend, vom einen aufs andere zu schließen und
+Open-Source-Communities ebenfalls als grundsätzlich demokratisch
+anzunehmen. Aber ist das wirklich der Fall? Was bedeutet Demokratie im
+Kontext von Open Source eigentlich? Wie würde eine demokratische
+Open-Source-Community aussehen?&lt;/p></description></item></channel></rss>

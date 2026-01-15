@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OFA | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/ofa/</link><atom:link href="https://www.creative-destruction.org/tag/ofa/index.xml" rel="self" type="application/rss+xml"/><description>OFA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2019 18:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>OFA</title><link>https://www.creative-destruction.org/tag/ofa/</link></image><item><title>OpenForum Academy Workshop - Exploring Modern Dimensions of Openness</title><link>https://www.creative-destruction.org/post/2019-09-ofa-workshop/</link><pubDate>Tue, 10 Sep 2019 18:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2019-09-ofa-workshop/</guid><description>&lt;p>The &lt;a href="http://www.openforumeurope.org/about-ofe/openforum-academy/" target="_blank" rel="noopener">OpenForum
+Academy&lt;/a>
+held its second 2019 workshop in Brussels this week. OpenForum Academy
+is a European-based independent think tank which explains the merits
+of openness in computing to policy makers, industry and communities across
+Europe. This workshop series aims at being a forum for practitioners,
+academics and policy makers to collaborate on various topics of
+openness and freedom. It is organized by &lt;a href="http://www.openforumeurope.org/" target="_blank" rel="noopener">OpenForum
+Europe&lt;/a>, enabling it to bridge
+between the abstract academic world and policy discussions at
+the European Commissions. We set out to explore focus topics to answer
+current challenges to openness that the academy will develop insights
+and recommendations for. These topics will shape the work of
+OpenForum Academy for the near future.&lt;/p>
+&lt;p>The workshop was opened by a series of input presentations. One of
+those was on &amp;ldquo;Addressing lock-in challenges through the use of open
+source software projects&amp;rdquo; by &lt;a href="https://www.his.se/en/about-us/Facts-and-figures/staff/bjorn_lundell/" target="_blank" rel="noopener">Björn
+Lundell&lt;/a>,
+a fellow of the academy and professor at the University of Skövde in
+Sweden. He explained for example the need for open source solutions to
+read and write data formats of digital assets of long-term
+importance.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;figure id="figure-standard-and-file-format-lock-in">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Standard and File Format Lock-In" srcset="
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_dcd68d2df68f540c1b1f3a30e5b163b6.webp 400w,
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_b9efb7bc56e5d3159ad9136f1fedd29e.webp 760w,
+/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2019-09-10_Lundell_OFA-workshop_Brussels_Slide4_hu8d291b392dc10072f966ead193d17207_756001_dcd68d2df68f540c1b1f3a30e5b163b6.webp"
+width="60%"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Standard and File Format Lock-In
+&lt;/figcaption>&lt;/figure>
+&lt;p>I presented key findings and recommendations from the
+study on &lt;a href="https://www.creative-destruction.org/project/ec-jrc-oss-frand/">&amp;ldquo;The Role of Open Source Software in Standard Setting&amp;rdquo;&lt;/a>. All this served to frame the following
+discussion of potential core topics for the OpenForum Academy to focus.
+OpenForum Europe champions openness in Europe, a topic that has
+sprawled into numerous debates. Which ones of those are important and
+warrant the development of academic papers and policy briefs?&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="OpenForum Academy workshop attendees" srcset="
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_6222910029fc230ca872a420ba777c1c.webp 400w,
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_4b0df9a52e790f2a176498125fb85038.webp 760w,
+/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2019-09-OFA-workshop_hu8e638188a6937bd07708cddf65e33c5a_503509_6222910029fc230ca872a420ba777c1c.webp"
+width="60%"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="exploring-modern-dimensions-of-openness">Exploring modern dimensions of openness&lt;/h2>
+&lt;p>Personally, I am primarily interested in Open Source aspects. However,
+there are other dimensions of openness that cover different processes
+and results. There is still a discussion of what an &lt;em>open standard&lt;/em>
+is. &lt;em>Open hardware&lt;/em> works quite differently to software, because the
+open specifications eventually have to be turned into physical
+goods. Access to data is an angle independent from software,
+specifications and hardware, and most software is made useful by the data
+sets it processes. We want more scientific articles to be
+available under &lt;em>open access&lt;/em> licenses, especially when they are
+creating with public funding. The list of topics related to openness
+is probably never-ending. Eventually, the following aspects emerged
+as the currently most interesting ones:&lt;/p>
+&lt;h3 id="openness-and-the-cloud">Openness and the Cloud&lt;/h3>
+&lt;p>How the transition of ICT to cloud and edge services changes the
+importance of FOSS and data unsurprisingly sparked a heated debate
+during the workshop. Is software freedom threatened by the rise of
+cloud computing because software modifications are not required to be
+shared? How can vendor lock-in and a lack of choice be overcome? Very
+importantly, what is new about cloud that is different to before
+(hint: it may be less than we think)? How can consumer interests be
+protected and a healthy business ecosystem promoted? How can
+regulation help and where does regulation overreach (think
+surveillance or user profiling)? Many of these questions are about
+finding the right balance, or identifying the justified intrusions
+into the user&amp;rsquo;s rights to confidentiality and privacy.&lt;/p>
+&lt;h3 id="open-source-as-civil-ict-infrastructure">Open Source as Civil ICT Infrastructure&lt;/h3>
+&lt;p>The EU invests in railroads, highways and data networks. Why does it
+not invest much into
+FOSS? &lt;a href="https://ec.europa.eu/eusurvey/runner/EUFOSSA2-Survey" target="_blank" rel="noopener">FOSSA&lt;/a>
+(hint: please participate in the survey!) is a good start. Much more
+could be done. Civil society is stepping in to take over public
+functions, as in the preservation of knowledge fostered by Wikipedia
+or Software Heritage, often with little public support. What would be
+a framework under which the EU and member states can invest into FOSS
+development, to serve it&amp;rsquo;s own needs or to support support
+sustainability goals? Can a public investment plan be developed for
+the development of OSS ICT infrastructure, including goals and spends?&lt;/p>
+&lt;h3 id="commercial-business-models-and-open-source">Commercial Business Models and Open Source&lt;/h3>
+&lt;p>Much has been discussed recently about the sustainability of FOSS
+development, often confusing it the viability of the own business
+model. Norms that form the pillars of the FOSS movement like
+the
+&lt;a href="https://fsfe.org/freesoftware/basics/4freedoms.en.html" target="_blank" rel="noopener">four freedoms of software&lt;/a> or
+the &lt;a href="https://opensource.org/osd" target="_blank" rel="noopener">Open Source Definition&lt;/a> embody
+community culture at the expense of legalistic terminology. Recently,
+models have emerged that remove some of the freedoms guaranteed by
+those norms, for example in the deceptively
+named &lt;a href="https://commonsclause.com" target="_blank" rel="noopener">Commons Clause License&lt;/a>. The
+relation between FOSS and other rights like trademarks or patents is
+still a much researched topic. Directly related to that are approaches
+on how to valuate FOSS and FOSS based businesses to give guidance to
+industry, VCs and policy makers for investment decisions. Some of our
+fellows feel it is important to take a stand as a community, insist on
+making it clear what FOSS really is and prevent a watering down of
+standards like the Open Source Definition. There is a need to explain
+the work of the wider FOSS community more clearly to illustrate how it
+interacts with and contributes to society.&lt;/p>
+&lt;h2 id="how-to-contribute-and-get-involved">How to contribute and get involved&lt;/h2>
+&lt;p>The academy believes that these topic are of wide-ranging importance
+to the development of the digital society and the single market in the
+EU. They warrant a thorough investigation, deep analysis and a search
+for solutions that connects research, industry and policy makers. We
+hope to support this process by selecting these three subjects as
+focus topics for the OpenForum Academy for the upcoming year. The
+academy will facilitate the work of it&amp;rsquo;s fellows through workshops,
+publications and other means. If you are a researcher, practitioner,
+engaged in European politics or simply otherwise interested, follow
+&lt;em>@OpenForumEurope&lt;/em> or
+&lt;a href="http://www.openforumeurope.org/about-ofe/openforum-academy/" target="_blank" rel="noopener">contact&lt;/a>
+OpenForum Academy to get involved.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Gamalielsson, J. &amp;amp; Lundell, B. (2013) Experiences from implementing PDF in open source: challenges and opportunities for standardisation processes, In Jakobs, K. (Ed.) Proceedings of the 8th IEEE Conference on Standardization and Innovation in Information Technology (SIIT 2013), ISBN 3-86130-802-9, IEEE, Piscataway, pp. 39-49. &lt;a href="https://doi.org/10.1109/SIIT.2013.6774572" target="_blank" rel="noopener">https://doi.org/10.1109/SIIT.2013.6774572&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>An analytical review of text and data mining practices and approaches in Europe</title><link>https://www.creative-destruction.org/publication/ofe-tdm/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ofe-tdm/</guid><description>&lt;h2 id="policy-recommendations-in-view-of-the-upcoming-copyright-legislative-proposal">Policy recommendations in view of the upcoming copyright legislative proposal&lt;/h2>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp 400w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_cbd450258820ef1d06d91cd6dec0d26b.webp 760w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp"
+width="60%"
+height="93"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>This paper is based on extensive desk research, including most of the
+benchmark reports, such as the European Commission funded Expert Group
+Report (2014), the study by De Wolf and Partners (2014), the UK IPO’s
+&amp;ldquo;Exceptions to Copyright&amp;rdquo; brief (October 2014), as well as numerous
+other reports, position papers, articles and blog posts. The initial
+findings have been discussed at the Round Table that OFE organised in
+October 2015, the conclusions of which are available in the follow-up
+White Paper. The desk research and Round Table discussion have been
+complemented by a series of interviews with academics, researchers,
+start-ups, and more established companies (including publishers and
+infrastructure providers).&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp 400w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_9dc1635b6d1214d66f73672a73730018.webp 760w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item></channel></rss>

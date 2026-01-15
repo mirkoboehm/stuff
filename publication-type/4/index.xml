@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4 | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/publication-type/4/</link><atom:link href="https://www.creative-destruction.org/publication-type/4/index.xml" rel="self" type="application/rss+xml"/><description>4</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>4</title><link>https://www.creative-destruction.org/publication-type/4/</link></image><item><title>Pathways to Cybersecurity: Best Practices in Open Source</title><link>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</link><pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</guid><description>&lt;p>The European Union’s Cyber Resilience Act (CRA) presents a
+watershed moment for the open source ecosystem, imposing
+rigorous cybersecurity requirements on products with digital
+elements (PDEs) commercialized in the EU. While the regulation
+will not fully apply until December 2027, with certain provisions
+taking effect earlier, the stakes are enormous—penalties
+reaching €15 million or 2.5% of global annual turnover for non-compliance.&lt;/p>
+&lt;p>The regulation’s impact extends beyond documentation and
+vulnerability reporting. It fundamentally alters the relationship
+between upstream open source projects and downstream commercial
+adopters, demanding greater collaboration for sustainable
+security maintenance. Neither manufacturers nor stewards
+can meet CRA requirements in isolation—manufacturers must
+conduct due diligence when integrating open source components,
+while stewards must implement and document cybersecurity
+policies that facilitate secure development.
+The Linux Foundation’s analysis of three flagship projects—Civil
+Infrastructure Platform (CIP), Yocto Project, and Zephyr Project—reveals
+both the readiness and challenges facing open
+source software stewards under the new regulatory framework.
+The CRA introduces a novel distinction between commercial
+manufacturers who bear primary responsibility for product
+compliance, and open source software stewards who develop
+and maintain open source software without monetization. This
+acknowledges the reality that open source components often
+constitute up to 96% of modern software while respecting the
+fundamental openness of the development model.&lt;/p></description></item><item><title>World of Open Source: Open Source Maturity in Europe</title><link>https://www.creative-destruction.org/publication/oss-europe-2024/</link><pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/oss-europe-2024/</guid><description>&lt;p>For the past three years, LF Research has conducted a study on the
+adoption, opportunities, and perceptions of open source across
+Europe. The trend is clear in 2024: the perceived value of open source
+continues to increase in the region, and stakeholders across sectors
+and industries can see the importance of investing in it. This year&amp;rsquo;s
+report identifies key sectors to channel this investment, the
+opportunity for the public sector to embrace open source for digital
+public goods, and how regulations are interacting with and responding
+to more widespread open source adoption and knowledge. With insights
+taken from the 2024 World of Open Source survey and augmented by
+interviews with over a dozen experts working in open source, this
+report unpacks the current state of open source in Europe and
+highlights next steps to improve adoption, understanding, and
+regulation for open source as this technological space continues to
+mature. Read the report for the full investigation into why open
+source has hit a watershed moment in Europe.&lt;/p></description></item><item><title>The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy</title><link>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</link><pubDate>Tue, 12 Oct 2021 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</guid><description/></item><item><title>An analytical review of text and data mining practices and approaches in Europe</title><link>https://www.creative-destruction.org/publication/ofe-tdm/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ofe-tdm/</guid><description>&lt;h2 id="policy-recommendations-in-view-of-the-upcoming-copyright-legislative-proposal">Policy recommendations in view of the upcoming copyright legislative proposal&lt;/h2>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp 400w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_cbd450258820ef1d06d91cd6dec0d26b.webp 760w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp"
+width="60%"
+height="93"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>This paper is based on extensive desk research, including most of the
+benchmark reports, such as the European Commission funded Expert Group
+Report (2014), the study by De Wolf and Partners (2014), the UK IPO’s
+&amp;ldquo;Exceptions to Copyright&amp;rdquo; brief (October 2014), as well as numerous
+other reports, position papers, articles and blog posts. The initial
+findings have been discussed at the Round Table that OFE organised in
+October 2015, the conclusions of which are available in the follow-up
+White Paper. The desk research and Round Table discussion have been
+complemented by a series of interviews with academics, researchers,
+start-ups, and more established companies (including publishers and
+infrastructure providers).&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp 400w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_9dc1635b6d1214d66f73672a73730018.webp 760w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item></channel></rss>
