@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>governance | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/governance/</link><atom:link href="https://www.creative-destruction.org/tag/governance/index.xml" rel="self" type="application/rss+xml"/><description>governance</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Sep 2025 09:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>governance</title><link>https://www.creative-destruction.org/tag/governance/</link></image><item><title>Open Source Congress 2025</title><link>https://www.creative-destruction.org/post/2025-09-16-open-source-congress/</link><pubDate>Thu, 18 Sep 2025 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2025-09-16-open-source-congress/</guid><description>&lt;p>The third &lt;a href="https://www.opensourcecongress.org/event/2025/open-source-congress-2025" target="_blank" rel="noopener">Open Source
+Congress&lt;/a>
+took place in Brussels on 16 September 2025. This annual gathering
+brings together code-hosting open source foundations and partners to
+align on critical issues facing the ecosystem. After the Linux
+Foundation created Open Source Congress in 2023, each year a different
+organization has signed up as the host. I would like to thank the
+Eclipse Foundation for agreeing to be the host this year. The event
+focused on four key topics: open source in a multi-polar world,
+cybersecurity, sustainability, and regulation and public policy. The
+primary value of such gatherings lies in alignment and exchange rather
+than concrete actions. Since Open Source Congress operates under
+Chatham House rules and is less accessible than typical open source
+events, sharing insights from the discussions serves the wider
+community. Below are personal observations from the four panels.&lt;/p>
+&lt;h2 id="panel-1---open-source-in-a-multi-polar-world">Panel 1 - Open Source in a Multi-Polar World&lt;/h2>
+&lt;p>The open source ecosystem was multi-polar from its inception. Key open
+source innovations originate from various regions: Ruby from
+Japan, Linux and Python from Europe, the GNU Project from the US. The
+US tech industry was quicker to realize open source technologies as
+a growth driver, allowing US business interests to overlay this
+narrative today. However, nothing is inherently polarizing in how the
+open source ecosystem works. It serves as both
+creative destruction and resilience mechanism, undermining
+traditional control structures while remaining largely
+unregulable. Cultural and language barriers continue to shape
+how and where contributors collaborate, making truly global
+collaboration a key challenge. There is optimism
+that AI will provide instant translation mechanisms to bridge
+such divides. Maintaining arms-length distance from policy making
+remains essential to preserve open source&amp;rsquo;s organic governance. At the same
+time, regulation will inevitably affect the
+ecosystem&amp;rsquo;s global dynamics. The EU Cyber Resilience Act is
+the first law explicitly shaping stakeholder roles.
+While progress has been made in building capacity and
+expertise for open source foundations to engage in policy debates
+when necessary, much work remains.&lt;/p>
+&lt;h2 id="panel-2---cybersecurity-influencing-best-practices-and-standards">Panel 2 - Cybersecurity: Influencing Best Practices and Standards&lt;/h2>
+&lt;p>A global race to define cybersecurity standards creates a
+maze of regulation across international markets. While this
+challenges global manufacturers, open source communities face few
+concrete regulatory obligations. However, to enable global adoption of their
+releases, they are strongly incentivized to support
+downstream users with documentation and sound cybersecurity
+practices. Creating an environment conducive to smooth
+upstream-downstream collaboration requires open source foundations to
+engage in relevant standards development processes that define
+implementation details of cybersecurity regulation. This
+remains difficult, as most stewards lack both funding and
+subject matter expertise for standards development.
+The panel revealed tensions between traditional open source
+collaboration and emerging bureaucratic frameworks at organizations
+like the
+&lt;a href="https://unite.un.org/en/news/sixteen-organizations-endorse-un-open-source-principles" target="_blank" rel="noopener">UN&lt;/a>
+and &lt;a href="https://www.digitalpublicgoods.net/" target="_blank" rel="noopener">DPGA&lt;/a>, warning that OSS
+risks losing its core strengths when bent to external rules. The
+discussion emphasized that effective policy engagement should
+facilitate organic collaboration and create market-driven incentives
+rather than impose rigid bureaucratic structures. Initiatives like
+the Linux Foundation&amp;rsquo;s &lt;a href="https://alpha-omega.dev/" target="_blank" rel="noopener">Alpha-Omega&lt;/a> serve as
+effective funding instruments that align with open source
+principles. In recent years, public initiatives like the German
+&lt;a href="https://www.sovereign.tech/" target="_blank" rel="noopener">Sovereign Tech Agency&lt;/a> increasingly
+support under-maintained projects. Under guidance from &lt;a href="https://openforumeurope.org/" target="_blank" rel="noopener">Open Forum
+Europe&lt;/a>, a &lt;a href="https://eu-stf.openforumeurope.org/" target="_blank" rel="noopener">feasibility
+study&lt;/a> has been submitted to the
+EU to elevate such activities to the European level with a larger
+budget.&lt;/p>
+&lt;h2 id="panel-3---sustainability-and-the-open-ecosystem">Panel 3 - Sustainability and the Open Ecosystem&lt;/h2>
+&lt;p>The sustainability of the open source development model is hotly
+debated. The underlying issue appears to be a mix of insufficient funding and a
+fundamental &amp;ldquo;matchmaking problem&amp;rdquo; of allocating available funds to
+specific projects and contributors efficiently. While
+the myth that open source is the unpaid labor of love of hobbyist
+maintainers still percolates, the 2024 &lt;a href="https://opensourcefundingsurvey2024.com/" target="_blank" rel="noopener">Open Source Software Funding
+Survey&lt;/a> shows that 86% of
+contribution value comes from employee labor. This study raises challenging
+questions. On one hand, what will be the effect of 50m€ public funding
+initiatives if $7.7B is invested by private industry
+annually? On the other hand, if more funding becomes available, how
+will it be distributed? Grant making will profoundly impact
+the viability of individual projects, raising concerns about
+public sector actors&amp;rsquo; ability to effectively disperse
+sovereign-tech-fund-like funds where they are needed most, rather
+than to favored champions or consultancies specializing in grant
+acquisition. However, such initiatives will likely support
+ecosystem diversity and grassroots initiatives, which may
+be a benefit worth the cost.
+Some funding programs focus on maintenance or security, creating
+a risk of fragmenting development work by separating improvement,
+maintenance, and security responsibilities. Since implementing new
+features is always most fascinating, the impression that maintenance
+and cybersecurity are somebody else&amp;rsquo;s problem must be avoided.
+Emerging models favor market-driven approaches like
+the EU CRA, which creates business incentives for maintenance work and
+eliminates freeloading, potentially contributing more to
+open source sustainability than public spending programs that struggle
+with coordination and measurement challenges.&lt;/p>
+&lt;h2 id="panel-4---regulation-and-public-policy">Panel 4 - Regulation and Public Policy&lt;/h2>
+&lt;p>The final session was essentially a moderated Q&amp;amp;A round. A cluster of
+questions evolved around how external forces now influencing the open
+source world will reshape open collaboration dynamics. The
+release-early-release-often, show-me-the-code mentality drives
+experimentation and a somewhat Darwinian trial-and-error approach to
+identifying promising projects. Voluntary participation ensures that
+projects receive attention according to their value to the
+community. Interestingly, funding programs based on selective awards
+are expected to bias these mechanisms more than market access
+regulation. Future research is needed to verify this expectation.
+However, regulatory approaches will fundamentally reshape the
+ecosystem by influencing adoption criteria for components, driving
+consolidation of fragmented libraries into fewer, more maintainable
+packages and addressing collective action problems around
+responsibility and decision-making in policy advocacy. This will
+affect different communities differently, depending on factors like the
+granularity and maintainer base of package repositories. However, there
+is a prevailing assumption that smaller communities and their
+stewards will face greater challenges than larger ones.&lt;/p>
+&lt;h2 id="looking-forward">Looking Forward&lt;/h2>
+&lt;p>Open Source Congress represents more than an annual conference. It
+embodies the vision of ongoing collaboration among open source
+foundations to address the ecosystem&amp;rsquo;s evolving challenges. The
+facilitation of coordination between stewards serves at
+least two purposes: bridging cultural and language divides that have
+historically fragmented global collaboration, and building the
+collective capacity needed to engage effectively with increasingly
+complex regulatory environments. While the tension between preserving
+open source&amp;rsquo;s creative autonomy and meeting external compliance
+requirements will continue to influence the ecosystem&amp;rsquo;s future, the
+foundation community&amp;rsquo;s growing expertise in policy advocacy and
+standards development positions it increasingly better to navigate
+these challenges. The conversations at this year&amp;rsquo;s Congress suggest
+that open source&amp;rsquo;s greatest strength, its ability to adapt and evolve
+organically, will ultimately enable it to thrive within, rather than
+despite, the new regulatory landscape.&lt;/p></description></item><item><title>The place of the open source ecosystem in the innovation landscape</title><link>https://www.creative-destruction.org/publication/the-place-of-open-source/</link><pubDate>Mon, 01 Jul 2024 12:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/publication/the-place-of-open-source/</guid><description/></item><item><title>Economics of Open Source</title><link>https://www.creative-destruction.org/publication/oup-economics-of-open-source/</link><pubDate>Thu, 17 Nov 2022 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/oup-economics-of-open-source/</guid><description/></item><item><title>Open Source Software in Standard Setting: The Role of Intellectual Property Right Regimes</title><link>https://www.creative-destruction.org/publication/oup-open-source-standards/</link><pubDate>Sat, 15 Oct 2022 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/oup-open-source-standards/</guid><description/></item><item><title>Standard setting organizations and open source communities: Partners or competitors?</title><link>https://www.creative-destruction.org/publication/ssofoss-en/</link><pubDate>Mon, 28 Jun 2021 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/ssofoss-en/</guid><description/></item><item><title>Opinions and facts</title><link>https://www.creative-destruction.org/post/2017-03-16-opinions-and-facts/</link><pubDate>Thu, 16 Mar 2017 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2017-03-16-opinions-and-facts/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Opinions and facts" srcset="
+/media/img/post/2017-03-opinions-and-facts_huc73dc40a0021abba3da9ebc30bcd1f21_13841_274e850b894d43f673bca296b316d40f.webp 400w,
+/media/img/post/2017-03-opinions-and-facts_huc73dc40a0021abba3da9ebc30bcd1f21_13841_d6d5a5257af09ed9679dda1660644f5c.webp 760w,
+/media/img/post/2017-03-opinions-and-facts_huc73dc40a0021abba3da9ebc30bcd1f21_13841_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2017-03-opinions-and-facts_huc73dc40a0021abba3da9ebc30bcd1f21_13841_274e850b894d43f673bca296b316d40f.webp"
+width="80%"
+height="380"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="from-the-economist-espresso-quote-of-the-day">From The Economist Espresso: Quote of the day&lt;/h2>
+&lt;p>For a long time I was looking for a source for this quote. Separating
+facts and opinions provides a good foundation for many debates. Be
+wary, though, when applying it to discussions with the significant
+other ;-)&lt;/p></description></item><item><title>Claim the right not to tolerate the intolerant</title><link>https://www.creative-destruction.org/post/2015-12-08-dont-tolerate-the-intolerant/</link><pubDate>Tue, 08 Dec 2015 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2015-12-08-dont-tolerate-the-intolerant/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Claim the right not to tolerate the intolerant" srcset="
+/media/img/post/2015-12-popper_hu574f1a1ff4dfacf96c6deebc86c6e16e_22183_fa673ec4afcfa45beadd457d3f481e46.webp 400w,
+/media/img/post/2015-12-popper_hu574f1a1ff4dfacf96c6deebc86c6e16e_22183_d9d337e4ab3af315c4c4d5fc4fc8673d.webp 760w,
+/media/img/post/2015-12-popper_hu574f1a1ff4dfacf96c6deebc86c6e16e_22183_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2015-12-popper_hu574f1a1ff4dfacf96c6deebc86c6e16e_22183_fa673ec4afcfa45beadd457d3f481e46.webp"
+width="80%"
+height="380"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="from-the-economist-espresso-quote-of-the-day">From The Economist Espresso: Quote of the day&lt;/h2>
+&lt;p>Karl Popper is one of my heroes. His &lt;a href="https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies" target="_blank" rel="noopener">thoughts on the &amp;ldquo;open
+society&amp;rdquo;&lt;/a>
+are one of the most influential books I read while studying
+at university (and again, recently). It shaped my thinking about
+political systems like few others. Not to mention &lt;a href="https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery" target="_blank" rel="noopener">&amp;ldquo;The Logic of
+Scientific
+Discovery&amp;rdquo;&lt;/a>,
+another book by him that feels like a revelation.&lt;/p></description></item><item><title>'Open Source in Wirtschaft und Gesellschaft' an der Sommeruni 2013 des evangelischen Studienwerks</title><link>https://www.creative-destruction.org/post/2013-09-15-sommeruni/</link><pubDate>Sun, 15 Sep 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-09-15-sommeruni/</guid><description>&lt;p>Jedes Jahr wieder findet die Sommeruni des evangelischen Studienwerks
+statt. In diesem Jahr mit dabei war das Seminar &lt;a href="http://www.evstudienwerk.de/aktuelles/veranstaltungen/sommeruniversitaet/65.html" target="_blank" rel="noopener">Open Source in
+Wirtschaft und
+Gesellschaft&lt;/a>
+von Mirko Boehm. Paul Adams unterstützte als Ko-Referent. Karsten
+Gerloff, Präsident der &lt;a href="http://fsfe.org" target="_blank" rel="noopener">FSFE&lt;/a>, trat als Gastredner
+auf. Da sich die Teilnehmer ihre Seminare nach eigenem Interesse
+selbst aussuchen, fand sich ein bunte Mischung von Medizinern über
+Naturwissenschaftlern bis zu Theologen zusammen. Die Verbindung aus
+Neugier, Heterogenität der Gruppe und inspirierender Umgebung sorgte
+für explosive Debatten, hitzige Diskussionsrunden und eine wie Flug
+vergangene Woche.&lt;/p>
+&lt;p>Schwerpunkte des Seminars waren die Fragen, wie
+Open-Source-Communities eigentlich funktionieren, was Einzelne zur
+Mitwirkung motiviert, wie sich freie Produkte in die
+Wirtschaftsordnung integrieren und welche politischen
+Herausforderungen und Veränderungen zu bewältigen sind. Während
+schnell Einverständnis herrschte darüber, das der &lt;em>Open Source Way&lt;/em>
+ein gesellschaftliches und kein technisches Problem ist, wurde zu
+anderen sonst in der
+&lt;a href="http://saschalobo.com/2013/03/22/unsere-muetter-unsere-fehler/" target="_blank" rel="noopener">Netzgemeinde&lt;/a>
+als selbstverständlich vermutete Ansichten wie &amp;ldquo;das Internet gehört
+den Benutzern&amp;rdquo; gut argumentiert hinterfragt. Wer trägt die
+Verantwortung für durch unvorsichtige Bewertungen beschädigte
+Reputation, muss alle Teilhabe in Zukunft im Netz stattfinden, braucht
+es eine Internetpolizei, das Strafrecht der realen Welt erweiternde
+Sanktionen, die Regulierung des Netzes? Durch die diversen Blickwinkel
+war manchmal nicht klar, wer mehr von wem lernte, die Seminarleitung
+oder die Teilnehmer.&lt;/p>
+&lt;p>Karsten Gerloff berichtete über die politische Bedeutung von Freier
+Software und offener Innovation, die Bedrohung durch Softwarepatente
+und die Kampagnenarbeit der FSFE.&lt;/p>
+&lt;figure id="figure-paul-karsten-und-mirko-bei-der-sommeruni">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Paul, Karsten und Mirko bei der Sommeruni" srcset="
+/media/img/post/2013-09-sommeruni_hu8943cc80b8385487f1fe7baba6e98aa2_1806199_378ae289f2109b404a7ffe34c3079b52.webp 400w,
+/media/img/post/2013-09-sommeruni_hu8943cc80b8385487f1fe7baba6e98aa2_1806199_671511a25c6ae08b5f540f81e786cfb3.webp 760w,
+/media/img/post/2013-09-sommeruni_hu8943cc80b8385487f1fe7baba6e98aa2_1806199_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2013-09-sommeruni_hu8943cc80b8385487f1fe7baba6e98aa2_1806199_378ae289f2109b404a7ffe34c3079b52.webp"
+width="80%"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Paul, Karsten und Mirko bei der Sommeruni
+&lt;/figcaption>&lt;/figure>
+&lt;p>Die Beschäftigung mit der Materie war dabei von deutlicher
+Ernsthaftigkeit geprägt. Zum Beispiel brauchten die Teilnehmer etwa
+fünf Minuten, um den systematischen Unterschied bei der Integration
+von Copyleft- oder Permissive-lizensierten Beiträgen zu verstehen -
+ein Prozess, der bei nicht wenigen Freie-Software-Communities entweder
+gar nicht oder erst recht spät verstanden wird. Paul Adams war
+sichtlich beeindruckt. Dieses tiefe Eintauchen ins Thema steht
+beispielhaft für das allgemein starke Engagement der Stipendiaten, die
+ihr Studienwerk in weiten Bereichen selbst verwalten - bis hin zur
+Zusammenstellung des Programms der Sommeruniversität selbst.&lt;/p>
+&lt;p>Bei der traditionell turbulenten Abschlussveranstaltung am
+Donnerstagabend wurden die &lt;a href="http://en.wikipedia.org/wiki/The_Free_Software_Definition" target="_blank" rel="noopener">Vier
+Freiheiten&lt;/a>
+anhand der kollaborativen Beschwörung des Geists von Villigst
+illustriert - wenn das nicht eine erfolgreiche Wissensvermittlung
+verdeutlicht&amp;hellip; Unser einstimmiges Fazit - definitiv eine Woche
+lohnend investierter Zeit, die Paul Adams und ich in guter Erinnerung
+behalten werden. Neben den Teilnehmern war auch das Organisationsteam
+(ebenfalls sich freiwillig engagierende Stipendiaten) ausgesprochen
+engagiert und sorgte für einen reibungslosen, angenehmen Ablauf von
+insgesamt sechs parallel verlaufenden Seminaren. Sehr beeindruckend.&lt;/p></description></item><item><title>KDE e.V. General Assembly 2013</title><link>https://www.creative-destruction.org/post/2013-07-18-kde-ga/</link><pubDate>Thu, 18 Jul 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-07-18-kde-ga/</guid><description>&lt;p>tl;dr: If you are a committed KDE contributor and not a KDE
+e.V. member, you are doing it wrong. If you are a KDE user, consider
+helping the KDE User Working Group. Read KDE e.V.&amp;rsquo;s quarterly reports.&lt;/p>
+&lt;figure id="figure-the-test-vote-before-the-assembly-officially-started">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Voting at the KDE e.V. general assembly" srcset="
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_59c65bc2fa97e3e30486b67fc3148ef0.webp 400w,
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_451dd665076a0028479e0da93df2de63.webp 760w,
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_59c65bc2fa97e3e30486b67fc3148ef0.webp"
+width="80%"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The test vote before the assembly officially started
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;a href="http://akademy2013.kde.org" target="_blank" rel="noopener">Akademy 2013&lt;/a> is still on its way, and as
+usual the KDE e.V. General Assembly was held as a part of it. KDE
+e.V. is the representation and governance body of the KDE
+community. Membership in this not-for-profit association registered in
+Berlin, Germany is open to all KDE contributors . Members usually
+assemble once a year to coordinate, to vote on issues important to the
+community and to elect representatives and board members as
+needed. The highlights this year where the discussion of the role of
+the Community Working Group, the report on the first activities of the
+newly established Financial Working Group, and the election of one
+new board member. I was the chairperson of the assembly, and this is
+my inofficial report.&lt;/p>
+&lt;p>The role of KDE e.V. is somewhat described by &amp;ldquo;standing on the
+shoulders of giants&amp;rdquo;. It is made up by community members interested
+in governance matters, and represents the wider KDE community that
+encompasses all non-technical and technical contributors. On one hand
+KDE e.V. takes a passive stance, in that it does not directly
+influence the direction the development of KDE is taking. On the other
+hand it plays an important role and invariably influences the
+community by receicing donations, managing funding of development
+sprints and meetings, covering operational costs like hardware and
+infrastructure, and of course by running the Akademy conference year
+after year. This setup is reflected in the working groups that act as
+focal points for various fields of interest within the
+community. Working groups as established for marketing, system
+administration, community, user relations and finance. Notably absent
+is a development working group, it is commonly accepted that this is
+not KDE e.V.&amp;rsquo;s concern. The membership elects a five person board that
+coordinates the work of the KDE e.V. members and the working
+groups. KDE e.V. currently has 169 active members, which is an
+impressive number considering it&amp;rsquo;s non-technical focus in a
+development community.&lt;/p>
+&lt;p>The abbreviation &amp;ldquo;e.V.&amp;rdquo; stands for &amp;ldquo;eingetragener Verein&amp;rdquo;, German for
+&amp;ldquo;registered association&amp;rdquo;. It functions much like a shareholders
+company in which every member holds exactly one share. This means the
+membership as a whole is the proprietor of all assets owned by the KDE
+community, including the KDE trademark and the operational
+infrastructure. A new member joins the group of joint owners of KDE -
+quite a responsibility. Dictated by the principle of congruence of
+power and responsibility the membership in turn assumes the right to
+allocate funds, elect representatives to related communities et
+cetera. Because of that, it is necessary that the KDE e.V. membership
+represents the community of KDE contributors as broadly as
+possible. Every committed KDE contributor is encouraged to seek
+membership. Send an email to the &lt;a href="https://mail.kde.org/mailman/listinfo/kde-community" target="_blank" rel="noopener">KDE community mailing
+list&lt;/a> to express
+your interest to become a member (&lt;a href="http://ev.kde.org/getinvolved/members.php" target="_blank" rel="noopener">How to become a KDE
+e.V. member&lt;/a>). Only
+individuals can be members, organizations are invited to become
+supporting members. As a bonus, supporting members are invited to
+attend the general assembly.&lt;/p>
+&lt;p>This year&amp;rsquo;s assembly started routinely with the report of the board
+and the different &lt;a href="http://ev.kde.org/workinggroups/" target="_blank" rel="noopener">working
+groups&lt;/a>. Official meeting minutes
+will be published later, but it is fair to say that KDE&amp;rsquo;s house is
+generally in good order. The board is focused on the transition of
+the KDE community to an umbrella for various Free Software efforts as
+described in the &lt;a href="http://manifesto.kde.org" target="_blank" rel="noopener">KDE Manifesto&lt;/a>. As
+projects join the KDE Community, the existing structure of internal
+representation needs to be updated to reflect the interests of these
+sub-communities. As everything in KDE this is a work in progress, the
+first step look rather promising. The marketing working group is
+preparing a campaign to advertise the use of the upcoming KDE
+frameworks on top of Qt. The treasurer and the auditors of
+the accounting reported a small surplus in the fiscal year of 2012
+that will be used to fund additional KDE activities
+in 2013. Spending is well aligned with KDE e.V.&amp;rsquo;s goal and tightly
+supervised. A new system of accounts and cost codes will provide
+better insight in the income and expenses incurred by the various
+activities and events.&lt;/p>
+&lt;p>The mission of the User Working Group established in 2012 is the give
+KDE users a representation within the community and &lt;a href="https://www.creative-destruction.org/post/2012-is-open-source-democratic/">involve them more
+in KDE
+development&lt;/a>. This
+effort still needs more pickup. Growing the role of the User Working
+Group is very important, since the strength of Free Software is only
+realised by users and developers forming the communities together. It
+will need a charter, user representatives to KDE e.V., and routine
+activities of involving KDE users in development and quality
+improvement efforts.&lt;/p>
+&lt;p>The Community Working Group moderates how contributors work
+together. The principle of KDE e.V. assuming a passive, supporting
+role is routinely challenged whenever the community asks the Community
+Working Group to resolve conflicts. The KDE Manifesto makes it very
+clear that KDE is an inclusive community with a strong sense for
+intrinsically motivated, voluntary contribution. Exercising authority
+in such a setup is tricky - it should be reduced to a minimum, however
+that minimum needs to be determined in some way. Even occasional
+abuse, rudeness or bad manners set the tone of the community and can
+cause substantial damage. So far KDE in general lacks instruments to
+control that damage effectively. Sadly, few individual cases were not
+resolved for extended periods of time, causing contributors to leave
+the community. The discussion of how to empower the Community Working
+Group and find a generic way to manage such situations took ginormous
+time, but was definitely worth it. However, it is not over. A conflict
+resolution BoF session was held on Monday, and a policy will be
+proposed to the membership in the weeks after Akademy. The Community
+Working Group has earned a lot of respect by me and many others with
+the prudent and calm way it handles these issues, especialy
+considering the amount of frustration dealing with such issues can
+cause. It needs the support of all of us to define how the standards
+set by the KDE Manifesto and the &lt;a href="http://www.kde.org/code-of-conduct/" target="_blank" rel="noopener">Code of
+Conduct&lt;/a> can be achieved.&lt;/p>
+&lt;p>Albert Astals Cid was elected for the vacant board seat in an
+incredibly tight race (a tie in the first round of voting, and a
+one vote win in the second). Competitive votes like that show that
+there is choice, and that the future of KDE is defined by the
+contributors. Congratulations, Albert! Many thanks to both Albert and
+Marta Rybczynska for their candidacy, and to everybody who grilled the
+candidates during the questions and answers session. Sebastian Kügler
+stepped down after being a board member since 2006 - many thanks to
+him as well for all the great work he has done. Subscribe to the &lt;a href="https://mail.kde.org/mailman/listinfo/kde-community" target="_blank" rel="noopener">KDE
+Community mailing
+list&lt;/a> to get
+involved in KDE governance matters. Consider joining one of the
+working groups to support them in their important work. At last, the
+&lt;a href="http://ev.kde.org/reports/" target="_blank" rel="noopener">quarterly reports&lt;/a> help in staying up to
+date with KDE e.V.s work.&lt;/p></description></item><item><title>Is Open Source democratic?</title><link>https://www.creative-destruction.org/post/2012-is-open-source-democratic/</link><pubDate>Wed, 29 Aug 2012 18:08:50 +0200</pubDate><guid>https://www.creative-destruction.org/post/2012-is-open-source-democratic/</guid><description>&lt;p>In his recent post, Glyn Moody asks an important
+question -
+&lt;a href="http://www.h-online.com/open/features/Can-open-source-be-democratic-1663702.html" target="_blank" rel="noopener">&amp;ldquo;Can Open Source be democratic?&amp;rdquo;&lt;/a> He
+describes how Free Software emerged as a distributed, bottom-up system
+of writing code. The central defining aspects of that culture are a
+uniquely open process not just of programming but also of its
+organization, and a close relationship between programmers and
+users. Effectively, users and programmers together were both
+contributors, they collaborated on the project. Glyn goes on to
+explain how this community effort changed over time to become more
+institutionalized, more corporate and more dull - &amp;ldquo;becoming a &amp;lsquo;Firefox
+Affiliate&amp;rsquo;, hardly something that sets the pulse racing.&amp;rdquo; Ordinary
+users no longer play an important part in Open Source projects.&lt;/p>
+&lt;figure id="figure-for-aristotle-the-underlying-principle-of-democracy-is-freedom-since-only-in-a-democracy-the-citizens-can-have-a-share-in-freedom">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Aristotle" srcset="
+/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_b6ea70e7a2f1482223e96218d8fd5a3c.webp 400w,
+/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_5eb5225b08c9fe87efc059f0e7e5aa3b.webp 760w,
+/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_b6ea70e7a2f1482223e96218d8fd5a3c.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+For Aristotle the underlying principle of democracy is freedom, since only in a democracy the citizens can have a share in freedom.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Underlying is the assumption that Open Source is democratic, and this
+assumption needs to be questioned. Open Source communities have been
+coined to be self-directed, meritocratic,  &amp;hellip;, but it is rarely
+emphasized that they are democratic. Since individuals are investing
+effort in their favorite projects to contribute to something greater,
+and democracy is commonly considered to be a greater good as well, it
+is intriguing to make the jump to thinking of Open Source communities
+as being democratic. But are they? What is the meaning of democracy in
+the context of Open Source? What does a democratic community look
+like?&lt;/p>
+&lt;p>Some may say that such political concepts cannot easily be transferred
+to how Open Source communities should function. While it may not be
+easy, it is still worthwhile - democracies have dealt with similar
+problems of inclusion and the distribution of power and
+responsibility. Just like democratic states, communities are volunteer
+organizations that congregate to build the public goods they desire in
+the commons. Just like citizens, members of communities have a choice
+of voice or exit that they make based on the expected influence they
+have as citizens. There are enough similarities to justify learning by
+example.&lt;/p>
+&lt;h2 id="on-being-a-contributor">On being a contributor&lt;/h2>
+&lt;p>Democracy means &amp;ldquo;rule of the people&amp;rdquo;, and postulates, amongst other
+things, for each individual to be equal before the law and to have a
+vote in the political process and election of the government. This
+immediately boils down to the central Yin-Yang question of who is a
+citizen and who is not. Are users considered integral parts (citizens)
+of the Open Source communities, or outsiders who provide feedback? And
+should they be the equals of developers?  While today we seem to think
+that equality comes standard, it is in fact a dynamic concept, its
+meaning changes with culture. Think about the Voting Rights Act of
+1965 that finally abolished voter&amp;rsquo;s discrimination by race in the US,
+or the fact that women will gain the right to vote in Saudi Arabia in
+the year 2015. This is what Glyn observes - users changed from being
+integral elements of the community to playing an only marginal role,
+akin to not having a vote.&lt;/p>
+&lt;p>Eligibility and acceptance are what discerns citizens from barbarians
+and slaves. Eligibility answers the question of which individuals can
+potentially become citizens. Acceptance is the requirements an
+eligible individual has to fulfill to gain citizenship. For example, a
+foreigner living in a country may be eligible for citizenship, but to
+be accepted needs to pay taxes for a number of years. When the same
+questions are applied to Open Source communities, they translate to
+&amp;ldquo;Who is a contributor and could thus become a citizen of our
+community? How does somebody join the project?&amp;rdquo; and second, &amp;ldquo;What
+does a newcomer have to do to be considered a contributor, a part of
+the community?&amp;rdquo; (does that sound like &amp;ldquo;How do I become a committer&amp;rdquo;? -
+exactly). In Open Source communities usually all individuals are
+eligible to join, but to be accepted and integrated, they need to
+&lt;em>contribute to the code&lt;/em>.&lt;/p>
+&lt;p>So for users to become integral parts of Open Source communities
+again, users that engage with an Open Source project need to be equal
+contributors amongst peers, to be eligible. This is far from standard,
+and not the mind-set of most contributors I know. Most communities I
+work with value direct contributions to the project source code higher
+than feedback from users. They (unconsciously?) consider users
+outsiders and refer them to talk to the issue tracker, a proven way to
+make sure they never come back again with more feedback. So firstly,
+users need to be considered eligible to become community members, and
+second their efforts (feedback, for example) need to qualify them for
+acceptance as ordinary contributors.&lt;/p>
+&lt;h2 id="on-open-governance">On Open Governance&lt;/h2>
+&lt;p>But not all communities are created equal. When evaluating how
+democratic a community is, we need to look at their reason to
+exist. Not all Open Source projects are created by developers and
+users together, and the distribution of power and responsibility
+usually follows this outset goal or doctrine. If a project that is
+founded by developers and users  grows organically into an openly
+governed community (like KDE), it is likened to a democracy. A project
+that is founded by a company (think Mozilla or Qt) and maybe allows
+external contributors in along as they accept the decrees^wCLA of the
+king^wowner company aches more towards an aristocracy. Not all
+contributors are equals, and the ruling government cannot be replaced.&lt;/p>
+&lt;p>There has been a long debate over what the most central trait of a
+democracy is. Opinions differ, but there is one question - can the
+citizens, on a regular basis, re-elect or replace the ruling
+government in a structured process, without the need for a revolution?
+With this argument in mind, it becomes apparent that not all Open
+Source communities are democratic. KDE is to an extend, with a weak
+government and regular elections where every active member has exactly
+one vote. Think about electing a new government for Android, and the
+difference becomes apparent. Of the Open Source projects Glyn
+mentioned in his post, few can be considered democratic by this
+standard.&lt;/p>
+&lt;p>Back to the question on how to reduce the distance between users and
+developers and how to build communities that thrive on
+collaboration. Users, like any contributor, will consider the effect
+their investment of time into the project will have. If the utility
+they gain from contributing outweighs the cost of the effort to
+contribute, they will join the community and help with the
+project. The utility is directly related to the openness of the
+community governance; it will be less if the contributor&amp;rsquo;s influence
+is only on mundane details, and greater if she has the chance to
+become the next president of KDE e.V. This emphasizes the importance
+of Open Governance for the longevity and community spirit of Open
+Source projects. Only with both the Open Source way and Open
+Governance, the user experiences the freedom to create that convinces
+her to join the project. Democracy in communities is Open Source
+combined with Open Governance.&lt;/p>
+&lt;h2 id="conclusions">Conclusions&lt;/h2>
+&lt;p>From the status of being a contributor - a citizen - follows
+the
+&lt;a href="https://endocode.com/blog/2012/03/16/managing-trust-in-mixed-commercial-and-volunteer-open-source-communities/" target="_blank" rel="noopener">right and duty&lt;/a> to
+take part in the community&amp;rsquo;s affairs. Open Source can be democratic if
+it treats all the community members equally. Three requirements for
+considering an Open Source community democratic have been developed in
+the discussion above:&lt;/p>
+&lt;ul>
+&lt;li>To be democratic requires not to discriminate amongst contributors
+(users and developers). Users are contributors. They need to be
+encouraged to join the community, to give feedback and to otherwise
+help improve the project.&lt;/li>
+&lt;li>Demmocracy in communities means Open Source combined with Open
+Governance. The availability of the source code under a Free
+Software license is not sufficient for an Open Source community to
+be democratic. Without equality, without the contributors
+controlling the project as equals, it may be Open Source, but it is
+not democratic.&lt;/li>
+&lt;li>Governance is open if the contributors are equals and the community
+elects its own representation. Defining Open Governance as the
+situation where the contributors are in control of their project on
+all levels, democracy in an Open Source project can only be achieved
+when all contributors have equal say on all matters of the project.&lt;/li>
+&lt;/ul>
+&lt;p>Whether or not contributors fully are equals amongst peers can only be
+decided by actions, not by words. The ethical question whether or not
+democracy is desirable for an Open Source project has been avoided in
+this article. In my personal opinion, Glyn is absolutely right: For
+Open Source to continue being successful, direct and indirect
+contributors need to get back to working together. With the widening
+appeal of Open Source software, naturally developers will become more
+experienced and professional, and the average user will turn to be
+less technical and computer savvy. This trend will likely continue
+with the growing user base of Open Source. And because it is
+inevitable, Open Source projects should instead prepare to liaise more
+with users and generally get good at integrating users and coders in
+the community.&lt;/p>
+&lt;p style="text-align: center; font-size: 80%;">&lt;a
+href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"
+rel="license">&lt;img style="border-width: 0;"
+src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" alt="Creative
+Commons License" />&lt;/a> This work is licensed under a &lt;a
+href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"
+rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported
+License&lt;/a>.&lt;/p></description></item><item><title>It's the Free Software, stupid!</title><link>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</link><pubDate>Sat, 30 Jun 2012 18:08:50 +0200</pubDate><guid>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</guid><description>&lt;p>Heated discussions are going on in the KDE community in the aftermath
+of the announcement of Nokia&amp;rsquo;s platform strategy change. Rationality
+often goes out of the window when people feel such a change goes
+against their personal values or beliefs. In the past days, I worked
+on an analysis of the impact of the changes on KDAB, Qt and the Free
+Software communities we work with, especially KDE. KDAB is rooted
+deeply in the KDE community, and many of our developers work with Qt
+and KDE for years now. We are sharing the same worries and hopes, so
+the results may be interesting for others as well. This post is about
+Qt, KDE, Free Software, politics, devices, markets, strategies - it
+does not get much better than that. Read on.&lt;/p>
+&lt;h2 id="be-thankful-for-what-you-got">Be thankful for what you got&lt;/h2>
+&lt;p>We are told to judge by actions, not by words, so let us have a look
+at the development of Qt since Nokia bought Trolltech, and how the KDE
+community benefitted from it. It is important to stress this up front
+because it is easy to forget that since then, Nokia has been a very
+important benefactor. KDE is based on Qt and always relied heavily
+it&amp;rsquo;s technical advances. Trolltech convinced many developers to use Qt
+because of it&amp;rsquo;s superior quality and ease of use and the friendly and
+inspiring developer community. But it was a small company, and could
+not have afforded to forgo the license revenue made from selling
+commercial Qt licenses. This revenue was the central pillar of
+Trolltech&amp;rsquo;s business model. Trolltech was also in the uneasy situation
+that it influenced the software industry way more than it&amp;rsquo;s small size
+warranted, and attracted the attention of much larger
+competitors. With the takeover, the revenue Trolltech generated was to
+a large extend irrelevant to Nokia. The development framework is a
+strategic asset, and selling Qt licenses is not in line with Nokia&amp;rsquo;s
+core competencies. It also made perfect business sense to invest even
+more resources that could never have been afforded from the license
+revenue, to be able to rely on Qt as the future UI platform. This
+investment resulted in huge performance improvements, new technologies
+like QML, a continuous stable development process with many releases,
+Qt Creator, and many other goodies.&lt;/p>
+&lt;p>But the biggest gift Nokia ever presented us with was to relicense Qt
+under the LGPL. It finally overcame the acceptance issue with Qt in
+the wider Free Software space, and helped grow the Qt user base
+massively. While other important safeguards like the Free Qt
+Foundation were already in place, using Qt under the LGPL license is
+so much less of a hurdle to take then to enforce the rights granted
+through the Free Qt Foundation. Those rights can also only be executed
+once, and only as an action of last resort. Without Qt under LGPL,
+MeeGo would not have been accepted by the software industry. This, the
+public hosting of the Qt git repo and the massive development manpower
+Nokia invested in Qt benefit KDE immensely.&lt;/p>
+&lt;p>The best part is that none of these presents can be un-given or taken
+away. Qt is there to stay under the current Free Software licenses,
+and the quality it gained in the recent years will also remain at
+KDE&amp;rsquo;s service. There are new developments in KDE like QML and QtQuick
+that KDE still has to fully make use of. Today&amp;rsquo;s Qt is a superb
+platform to base the development of KDE on in the coming
+years. Thanks, Nokia.&lt;/p>
+&lt;h2 id="qt">Qt&lt;/h2>
+&lt;p>It is an open question how these past achievements translate into the
+future when it comes to Qt&amp;rsquo;s own development. From talking to business
+partners and contacts at Nokia, it is pretty clear that no new
+direction has been set for the Qt unit at Nokia. The announcement that
+there will be no layoffs or budget cuts is comforting, but it needs to
+be taken with a grain of salt. It may have all kinds of reasons, for
+example personnel retention, local labor laws, maintaining an
+undamaged business unit that can be sold - or the simple lack of an
+updated strategy. So all these statements have to be mentally extended
+with an &amp;ldquo;&amp;hellip;until further notice&amp;rdquo;. By definition, strategy changes do
+not occur on a regular basis. Even if the Microsoft partnership is
+unsuccessful (in sales figures, for example), it will take 3 to 5
+years for that to be realized and the strategy to be re-evaluated. In
+that time frame, there will most certainly be changes to the Qt unit
+if it remains within Nokia.&lt;/p>
+&lt;h3 id="checking-the-facts-about-nokia-platforms-shipping-qt">Checking the facts about Nokia platforms shipping Qt&lt;/h3>
+&lt;p>Nokia plans to ship another 150 million Symbian devices with Qt
+installed. The ability to do so depends heavily on the appeal of these
+phones to users willing to pay more than the magical 100 Euro barrier
+price. A vivid app market is necessary to reach this goal, since apps
+are a major sales driver in today&amp;rsquo;s smartphones. Will companies keep
+investing in the fledgling Symbian plus Qt app space? Investors shy
+away from shrinking markets. Every corporate strategist tasked with
+developing a product-market-matrix will put anything Symbian related
+into the &amp;ldquo;de-invest&amp;rdquo; bracket. Why does the Symbian market shrink? Have
+a look at the diagram that visualizes the spectrum of Nokia phones
+(while creating the image I discovered how close the Qt and the
+Windows Phone 7 shades of green are - a coincidence? I guess we will
+never know).&lt;/p>
+&lt;figure id="figure-the-nokia-qt-dilemma">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Nokia Qt Dilemma" srcset="
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp 400w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_146dd0e61a7e03ea14367ea30581d1a7.webp 760w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp"
+width="60%"
+height="156"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Nokia Qt Dilemma
+&lt;/figcaption>&lt;/figure>
+&lt;p>The lower end S30/S40 devices are becoming more attractive because
+features are added to them that so far required a smart
+phone. Internet access becomes more and more pervasive, and apps are
+being developed for these devices now. Having a Facebook app, for
+example, will be a convincing argument for those buyers who never
+really wanted a clunky smartphone. Also, these not-so-dumb phones will
+continue to be developed and shipped under the new strategy, resulting
+in better customer acceptance.&lt;/p>
+&lt;p>Through constantly improving hardware, the smartphones are being sold
+at steadily decreasing prices. The cheapest Android phones are now at
+below 100 Euro. This puts additional pressure on the sales revenue
+generated by the current high-end Symbian phones. Customer acceptance
+plays an important role in this segment as well. Read the latest
+tweets, and half of them are in the line of &amp;ldquo;I finally got rid of my
+Nokia and got an Android phone now&amp;rdquo;. Customers will shy away from a
+line of phones that is already announced to be replaced. It is like
+beating the proverbial dead horse.&lt;/p>
+&lt;p>So the Symbian market segment will shrink, and with that the
+importance (and clout) of Qt within Nokia. Customers do not care about
+mobile OSes to a large extend. As soon as an average S40 phone will
+ship apps and have internet access, the middle bracket in the above
+diagram will fade away. Nokia is trying to define a &amp;ldquo;mid range phone&amp;rdquo;
+segment between the feature phones (S30/S40) and the smartphone (WP7)
+ranges. This segment is not established in the phone market, and it is
+questionable whether there will be a niche for it.&lt;/p>
+&lt;p>Because of that, app developers will hesitate to invest in the
+platform, and the Qt mobile ecosystem will be under a lot of
+pressure. In all the Nokia devices, Qt will not gain the widest
+coverage of all development platforms. Very likely it will be S30/S40,
+by device count, and WP7, by sales volume. Remember this is about Qt
+within Nokia. It only influences KDE indirectly, by defining Qt&amp;rsquo;s role
+in the platform strategy.&lt;/p>
+&lt;h3 id="qt-on-other-mobile-platforms">Qt on other Mobile Platforms&lt;/h3>
+&lt;p>With apps currently being developed in Java for the S30/S40 based
+phones, Nokia uses 3 different development platforms for it&amp;rsquo;s phone
+lineup, Java, Symbian with Qt, and WP7.&lt;/p>
+&lt;p>There is a hopelessly romantic rumor that Qt support might come for
+the S30/S40 platform. A reality check is needed here. The low-end
+devices are shipping with S30/S40 because it is available today, not
+because it is a great modern future-proof platform. The apps for these
+phones are being developed now, or within the next twelve months. Even
+if a full-scale Qt port is started today, it won&amp;rsquo;t be available
+short-term. No doubt the Qt community will be able to pull off that
+stunt. But finishing the port is one thing, getting it through quality
+acceptance and to the point where it is shipped in devices is
+another. App developers would only target those devices when they
+gained a sufficient market share, and by that time, an Android phone
+sells for 50 Euro. Because of that, I do not think there will be an
+official strategy to make Qt available on S30/S40. And since Qt is
+also not coming to to WP7, Qt&amp;rsquo;s cross platform claim is moot within
+Nokia.&lt;/p>
+&lt;p>If the Qt ports to Androids, Blackberries, Badas and Kindles become a
+viable reality, other vendors will sell more devices supporting Qt
+than Nokia. And that is a development going on now, while Nokia will
+need between one and two years to release the first WP7 phone. These
+forces will heavily impede Nokia&amp;rsquo;s ability to differentiate based on
+the features of Qt, and result in less motivation to base a future
+strategy on Qt as a disruptive technology. The disruption will happen
+while Nokia is developing it&amp;rsquo;s first WP7 phone.&lt;/p>
+&lt;h3 id="open-governance-of-qt">Open Governance of Qt&lt;/h3>
+&lt;p>Regarding Open Governance, it is another open question if this strategy is
+viable for Qt in the absence of a major investor (of time and money)
+that drives the development. There is a good chance that it ends up
+like XFree.org and produces little more than bike shedding for a long
+time. Free Software projects under Open Governance, like the Linux
+kernel, or X.org, or - not quite the same, but very similar - the C++
+standard, tend to innovate slowly. Because of that, I am not convinced
+that an impressive Qt 5 can be developed by the community under Open
+Governance in a reasonable time frame. Do not get this wrong: The idea
+is great, the problem is that it might not work out as we all hope
+for. Three major scenarios come to mind when thinking about the future
+of Qt&amp;rsquo;s governance:&lt;/p>
+&lt;ol>
+&lt;li>Nokia considers Qt a strategic asset, and continues to heavily
+invest in it. In this case, Open Governance has a chance to
+succeed, but might not be in Nokia&amp;rsquo;s own interest, since it will be
+losing control over it&amp;rsquo;s own important technology.&lt;/li>
+&lt;li>Qt is switched into maintenance mode, because it is not seen as
+important for the future. In this case, Open Governance will have a
+hard time to be implemented in the first place, and partners will
+hesitate to take responsibility for individual modules.&lt;/li>
+&lt;li>Nokia plans to sell the Qt unit as an asset. In this case, the
+potential buyer will want enforceable control over it&amp;rsquo;s
+investment. For that plan, Open Governance devalues Qt as a
+sellable product. The biggest challenge for the transition to Open
+Governance is to make sure the companies invested in Qt support it
+fully, and want to see it happen.&lt;/li>
+&lt;/ol>
+&lt;p>Maybe I missed a scenario that will make it work? Please post your
+feedback.&lt;/p>
+&lt;p>The biggest challenge for Qt itself will be the potential talent
+drain. Qt attracted excellent developers from all over the world
+because it was innovative and elite. Those are people that won&amp;rsquo;t be
+comfortable with being parked on the back burner, and might not feel
+at home with Nokia anymore. At the same time, they do not exactly have
+problems finding another job. It will be hard for Nokia to convince
+employees not to leave, and also to hire new talent of the same
+quality. This is a long-term threat to the quality of Qt, and it&amp;rsquo;s
+ability to innovate.&lt;/p>
+&lt;h2 id="countering-the-threat-of-free-software-in-the-mobile-market">Countering the &amp;ldquo;threat&amp;rdquo; of Free Software in the mobile market&lt;/h2>
+&lt;p>Android based devices and Nokia smartphones together make up 64% of
+the global smartphone market at the time of this writing, according to
+Wikipedia (&lt;a href="http://en.wikipedia.org/wiki/Smartphone%29" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Smartphone)&lt;/a>. If Nokia would
+have successfully transitioned to a MeeGo based smartphone line with
+Qt GUIs, the majority of the mobile devices market would use Free
+Software based development tools, on open and inviting ecosystems for
+developers, a competitive app market with low entry barriers, all in
+all promising innovation and affordable devices. Nokia was looking for
+a solution for it&amp;rsquo;s future platform problem, and it was determined to
+base it on Free Software. The stock market loved the idea. Google
+agreed, too, and made Android.&lt;/p>
+&lt;p>At the same time, market demand for Windows based phones is at an
+overall low. There is simply no need for another closed proprietary
+phone OS, considering the alternatives. The tendency of it becoming an
+accepted standard that phone software platforms should be based on
+Free Software threatens Microsofts investment in WP7, and it&amp;rsquo;s general
+position as a closed operating system vendor. WP7 was a solution
+looking for a problem.&lt;/p>
+&lt;p>There is probably a large overlap of institutional investors in Nokia
+and Microsoft, given that they are both market leaders and publicly
+traded companies. Both companies see their markets under siege, and
+are not doing very well, so it might have sounded like a good idea at
+the time to combine the hardware vendor looking for a phone OS with
+the phone OS vendor looking for hardware. The partnership is
+unbalanced though, because if it fails, Microsoft will still be the
+market leader in PC OS installations, and Nokia will have lost
+relevance in the global smart phone market. The stock market did not
+love that idea so much.&lt;/p>
+&lt;p>But it is seriously hard to believe that simply pushing WP7 to the
+market was Microsoft&amp;rsquo;s only motivation. Also, there are other vendors
+that started offering WP7 phones. So why Nokia? There must be another
+compelling reason for Microsoft to first send a top-ranking emissary
+to Nokia, and then form a partnership that by all the usual criteria
+looks like a takeover. This reason that was important enough for
+Microsoft to invest billions into Nokia was to battle Free Software in
+it&amp;rsquo;s emerging mobile market.&lt;/p>
+&lt;p>The strategic goal of ensuring that future phone OSes are based on
+proprietary and in particular not on Free Software was very likely the
+major motivator for Microsoft to pursue this unequal partnership. The
+recent ban of Free Software from the Microsoft app store indicates a
+similar motivation. Nokia&amp;rsquo;s Free Software based platform strategy is
+dead, and it will not come back. This means Microsoft achieved one
+strategic goal immediately by establishing the partnership and
+aborting Nokia&amp;rsquo;s Free Software based efforts. If this move was about
+WP7 introduction into the market, why rely on the stumbling giant
+Nokia, and not on one of the hungry Asian tigers, like HTC, who are
+already offering WP7 phones? Because those did not have a Free
+Software based strategy. Maemo or MeeGo together with Android are a
+thought unbearable to Microsoft.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>About Qt - Qt was a compelling toolkit that developers loved to work
+with before Nokia bought it. That is the real reason for it&amp;rsquo;s
+success. Developers tell their managers that they want to use Qt
+rather than something else. That quality of Qt has gotten even
+better. This is why I think Qt will continue to be strong and - after
+the shakeout happening now - to grow in both the Free Software and the
+commercial development spaces. Qt reputation with decision makers has
+been damaged, though. They regarded it not only as stable from a
+software point of view, but also as being trustworthy from a
+development process and maintenance point of view. This image has been
+severely tarnished. So for now, the Qt market will shrink because
+mobile users will leave, and it will recover and grow at a slower rate
+afterwards due to the reduced willingness of developers and decision
+makers to invest in it. The change of pace might be a good thing for
+Qt itself after the recent coding marathons it went through. The
+trolls will work hard on keeping Qt the best and one and only true
+cross-platform UI toolkit on the planet. I wish them all the best for
+the turbulent time to come. Hug a troll, everybody!&lt;/p>
+&lt;p>About KDE - KDE as a technology will not be affected much right
+now. Qt is Free Software and does not change over night. There are
+enough great new features that KDE still has to digest. Even the
+longer term outlook of the strategy for Qt only has an indirect effect
+on KDE. Not many developers joined KDE because of the prospect of Qt
+on mobile phones, so even the community will remain stable. The
+development focus of Qt becomes broader again, away from concentrating
+on features for the mobile space. Whether Nokia will continue to
+support KDE at the same scale as in the last years is mostly a PR
+decision, so it is also not related to the more technical aspects
+described above. It will depend on the friendly relationship that has
+been developed so far, and how it continues. Nonetheless, the next KDE
+version will be shipped on time. KDE is in good shape.&lt;/p>
+&lt;p>About Free Software - Nokia&amp;rsquo;s strategy change is a very sad
+development in this regard, because it is not just about Qt. Microsoft
+is trying to prevent Free Software from becoming mainstream in the
+mobile space. Beside the feeling that it is already too late for that,
+the process raises the question if such activity against the GNU
+competition should be concerning the regulators. Antitrust and other
+market law protects businesses from unfair competition, but
+unfortunately it does not protect Free Software communities or
+projects from being bullied. Indirectly preventing a competitor from
+entering the market, for example, can be a reason for the antitrust
+agencies to not approve such a partnership, but only if large
+businesses are involved that are able to prevent the usual market
+forces from working. This is a political issue, and needs to be
+brought forward to policy makers. Our interests, those of Free
+Software as a force to create better working and more competitive
+markets, are not sufficiently represented there. That is why I will
+join the FSFE.&lt;/p>
+&lt;p>Thanks for reading.&lt;/p></description></item></channel></rss>

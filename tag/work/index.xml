@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>work | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/work/</link><atom:link href="https://www.creative-destruction.org/tag/work/index.xml" rel="self" type="application/rss+xml"/><description>work</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Mar 2020 11:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>work</title><link>https://www.creative-destruction.org/tag/work/</link></image><item><title>Video conferencing at scale - A practical guide</title><link>https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/</link><pubDate>Mon, 16 Mar 2020 11:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/</guid><description>&lt;p>We are video conferencing day-in day-out now. Small conversations via
+video call are a regular part of remote work. In times of restricted
+travel and polluted air, this is excellent. It also works pretty well
+for two or three people. With 6, it gets difficult to manage who
+speaks. Above ten, things get tricky both from a technical as well as
+a social perspective.
+We have all been in this call
+where there was an echo that blew everybody&amp;rsquo;s ears off, except for
+that one person that did not hear it (it was them). I have collected a
+few technical tips and practises over time that may help make video
+conferences easier and more enjoyable.&lt;/p>
+&lt;p>In situations with a small number of participants, there will be few
+technical issues. The technology for video conferencing handles such
+setups quite well. Group size is also a social matter &amp;ndash; it is easy to
+ask your buddy in the one-to-one to hang on a second while you silence
+the phone. In a call with 20 people, it is rude to have the phone ring
+in the first place. So let&amp;rsquo;s be spoiled brats here and look at the
+finer things in demanding situations:&lt;/p>
+&lt;h2 id="basics">Basics&lt;/h2>
+&lt;p>There are two main contributors to enjoyable video conferencing,
+network and media, as in audio and video. Both start to act up with
+more participants because network use increases with the number of
+participants and audio adds up as well from multiple sources. Let&amp;rsquo;s
+break it down.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="A video-conferencing headset." srcset="
+/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_9b4edc9ac0c7c9b51dfdf04f94c24db5.webp 400w,
+/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_543b5bc4997a92f98a74f0b9411f5d60.webp 760w,
+/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_9b4edc9ac0c7c9b51dfdf04f94c24db5.webp"
+width="80%"
+height="560"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="networking">Networking&lt;/h2>
+&lt;p>Choppy audio or hanging video often indicate issues with networking
+(or too much load on the computer, but that is less common
+today). Network issues can be related to bandwidth, latency and
+stability.&lt;/p>
+&lt;p>Regarding &lt;em>bandwidth&lt;/em>, a good audio stream requires a couple of KB per
+second, while a good video stream requires 100s of KB to tens of MBs
+per second. For video connections, the requirements add up with the
+number of participants and quickly reach the limits of slower internet
+connections. If the choppiness reduces when video is turned off, it
+indicates an issue with network bandwith. Bandwidth has a weakest link
+problem, it is limited by the slowest element in the connection between
+the participants. For example, if a computer is tethered to the
+internet connection of a mobile phone, the wifi connection between the
+computer and the phone may look faster than the internet connection
+speed of the phone which then becomes the bottleneck.
+Most commonly, bandwidth at the internet provider
+is quite reliable and fast, so that the limits should be located
+between the internet access point and the computer.&lt;/p>
+&lt;ul>
+&lt;li>For wifi connections, make sure there is plenty of reserve bandwidth
+above that constantly needed for conferencing. Other applications
+also use bandwidth. Loading a larger web page can be demonstrated to
+temporarily cause choppy video in a conference. As a rule of thumb,
+wifi should be at least at 100MB per second, ideally way
+higher. Keep in mind that wifi speed drops as the distance to the
+access point increases. Moving around the house or cafe may affect
+the available bandwidth.&lt;/li>
+&lt;li>Phone internet connections are suitable for one-to-ones. For more
+participants, they can quickly exhaust network bandwidth and may
+rack up volume-based data fees. They also make everybody else&amp;rsquo;s
+experience miserable because the camera usually zooms in on your
+nose hair.&lt;/li>
+&lt;li>Wired network connections are great because they do not degrade with
+distance and provide fast, consistent speed. One check for
+potential wifi issues is to temporarily connect the computer to the
+internet access point using a network cable and see if the
+conference quality improves.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Latency&lt;/em>, or network delay, is also a potential problem. It is
+usually low enough for wifi and wired internet connections and can be
+low to horrendous on mobile. There is not much that can be done about
+it from the users side.&lt;/p>
+&lt;p>Network &lt;em>stability&lt;/em> (basically all aspects in how your network
+connection quality may change while the conference is in progress) can
+become a real nuisance. Especially for longer video conferences
+like the 8-hour one I just attended a lot of disturbances can
+happen. For example, a badly shielded vacuum cleaner may interfere
+with wireless network. Murphy&amp;rsquo;s law has it that your neighbour will
+always start vacuuming 10 minutes into the call. Another interference
+may be network traffic by other users. Wifi bandwidth is shared and
+can be eaten up if family members create a lot of other
+traffic. Reducing the Netflix subscription to only one stream may help
+here :-) In general, relying on bandwidth to be constantly available
+is a bit risky. Also here, using a wired connection circumvents some
+of the problems, since it (usually) does not share bandwidth with
+other computers on the local network.&lt;/p>
+&lt;p>As a good rule of thumb, more bandwidth (a faster internet connection)
+is always better, and wired network beats everything in terms of
+consistent quality and stability. Go wired or sit close to the wifi
+access point.&lt;/p>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;p>Video depends mostly on hardware and system load, provided the
+computer can handle processing the video data. In most
+cases, if video quality degrades, it is not because of hardware
+issues, but because the software decides the computer or the network
+cannot handle a higher resolution and switches to a lower
+one. Consider shutting down unnecessary programs, especially if you
+are low on memory. The task manager or activity monitor display memory
+and processor usage and indicate if the computer is
+overloaded. High-quality video uses exponentially more computing power
+and bandwidth depending on the resolution, so reducing video quality
+along the usual steps (ultra-&amp;gt;HD-&amp;gt;SD-&amp;gt;whateveritiscalled) will result
+in much lower requirements.&lt;/p>
+&lt;h2 id="audio">Audio&lt;/h2>
+&lt;p>Audio is often the most difficult issue because it usually works just fine
+in test situations and then causes problems during the
+conference. Key issues are feedback, background noise and foreground
+noise.&lt;/p>
+&lt;p>&lt;em>Audio feedback loops&lt;/em> are the worst. They range from a simple
+annoying echo to techno-music-like loops that get increasingly
+louder. This is caused by the microphone picking up the output of the
+speakers, retransmitting it to the audience so that it is played by
+the speakers again with a delay and this way
+causing a never-ending loop. It gets louder if the volume of the next
+round is higher than before and softer if it is lower. It can be
+anything from a decreasing echo to a cacophony.&lt;/p>
+&lt;p>This also indicates the remedy to feedback: In a conference settings
+where the participants all attend remotely, the audio of the
+conference should &lt;em>never&lt;/em> come from speakers so that the microphone
+can pick it up. Use a headset instead. Always. If you take one thing
+away from this guide, it should be to always use a headset for video
+conferencing with groups. Use in-ears if you don&amp;rsquo;t like headphone
+hair.&lt;/p>
+&lt;p>Conferencing software has audio echo cancellation (feedback
+suppression) built in. It works ok, but not in all
+situations. Sometimes it slips in the middle of a call just for a
+second, but long enough for you to hear yourself speak with some delay
+or to deafen the whole audience. Better not to rely on it - keep it
+simple and use a headset.&lt;/p>
+&lt;p>&lt;em>Foreground noise&lt;/em> is one thing that throws off software echo
+cancellation at times. Foreground noise is ambient sound that
+originates from close to or the casing of the microphone. Ideally the
+only foreground noise should be what you say. However, the built-in
+microphones is located within to the computer and picks up typing on
+the keyboard or anything else your hands do very loudly. Such noises
+appear a lot louder to the audience than to you because they are
+partially filtered by our hearing. Another problem with the built-in
+microphone being integrated in the computer case is that it picks up
+typing, rattling and anything physical going on on the desk the
+computer sits on. The remedy to this is the same as to echo &amp;ndash; use a
+headset that also has a built-in microphone. This separates the
+microphone from the computer casing and locates it much closer to your
+mouth and further away from the keyboard. So again &amp;ndash; use a headset,
+now with a microphone.&lt;/p>
+&lt;p>&lt;em>Background noise&lt;/em> is caused by whatever happens in your environment
+during the call. Your phone notifications, people walking by or
+talking to each other, clocks ticking, all of this will be picked up and
+transmitted to the audience. And it adds up if their are many. It is a
+matter of courtesie as well to avoid that as much as possible. There
+are three remedies: Mute yourself when you are not talking. Reduce
+background noise by picking a quiet room or moving further away from
+the sources. Keep your microphone close to your mouth (headset&amp;hellip;) so
+that the microphone volume can be lowered as much as possible.&lt;/p>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>If the calls are important, consider doing a trial run where you
+participate on the other end. Try out typing, talking to other people
+in the room, shuffling things on the desk and all the other things
+that could go wrong. Especially if the setup is going to be used
+often, it is worth spending time to make sure it works really well.&lt;/p>
+&lt;p>Keep in mind that it may appear on &lt;em>your end&lt;/em> that the built-in
+speakers and microphone work just fine but it may make the experience
+for everybody else on the call miserable with your voice being choppy
+and overlaid by typing noises.&lt;/p>
+&lt;p>For indoor use, gamer headsets offer a great combination of
+comfortable, high-quality headphones with good microphones that can be
+worn for a few hours without becoming annoying.&lt;/p>
+&lt;p>Interestingly, the choice of specific video conferencing tool does not
+matter that much. Modern web or app based systems work pretty much the
+same, as long as the discussed technical aspects are taken care
+of.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>To sum up, there are four key steps towards better video
+conferencing with larger groups:&lt;/p>
+&lt;ul>
+&lt;li>Use a headset with a microphone close, but not too close to your
+mouth. Avoid using the built-in speakers.&lt;/li>
+&lt;li>Use a wired network connection or ensure a very good connection to
+the wifi network. Avoid mobile networks for this use case.&lt;/li>
+&lt;li>Use a headset (or stand-alone) microphone and avoid the built-in
+microphone of the computer to reduce foreground noise.&lt;/li>
+&lt;li>Ensure a quiet environment and mute yourself when not speaking.&lt;/li>
+&lt;/ul>
+&lt;p>Finally, it will be helpful to consider online meeting etiquette. If
+you participate in a call, make time for it. Put your phone on
+do-not-disturb during the call and focus your attention on what is
+being discussed. Combined with a solid technical setup, this should
+make video conferences a lot more enjoyable.&lt;/p></description></item></channel></rss>
