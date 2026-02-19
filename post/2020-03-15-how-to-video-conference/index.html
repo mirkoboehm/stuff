@@ -1,0 +1,193 @@
+<!doctype html><!-- This site was created with Wowchemy. https://www.wowchemy.com --><!-- Last Published: February 19, 2026 --><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><link rel=stylesheet href=/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=/css/wowchemy.00a98fb4962bbc6d706031f374ef5d3d.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-QSVGBNN9G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(e,t){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon",event_callback:function(){t!=="_blank"&&(document.location=e)}}),console.debug("Outbound link clicked: "+e)}function onClickCallback(e){if(e.target.tagName!=="A"||e.target.host===window.location.host)return;trackOutboundLink(e.target,e.target.getAttribute("target"))}gtag("js",new Date),gtag("config","G-QSVGBNN9G7",{}),gtag("set",{cookie_flags:"SameSite=None;Secure"}),document.addEventListener("click",onClickCallback,!1)</script><meta name=author content="Mirko Boehm"><meta name=description content="We are video conferencing day-in day-out now. Small conversations via
+video call are a regular part of remote work. In times of restricted
+travel and polluted air, this is excellent. It also works pretty well
+for two or three people. With 6, it gets difficult to manage who
+speaks. Above ten, things get tricky both from a technical as well as
+a social perspective.
+We have all been in this call
+where there was an echo that blew everybody&rsquo;s ears off, except for
+that one person that did not hear it (it was them). I have collected a
+few technical tips and practises over time that may help make video
+conferences easier and more enjoyable."><link rel=alternate hreflang=en-us href=https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/><link rel=canonical href=https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_180x180_fill_lanczos_center_3.png><meta name=theme-color content="#4caf50"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:site_name" content="Creative Destruction & Me"><meta property="og:url" content="https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/"><meta property="og:title" content="Video conferencing at scale - A practical guide | Creative Destruction & Me"><meta property="og:description" content="We are video conferencing day-in day-out now. Small conversations via
+video call are a regular part of remote work. In times of restricted
+travel and polluted air, this is excellent. It also works pretty well
+for two or three people. With 6, it gets difficult to manage who
+speaks. Above ten, things get tricky both from a technical as well as
+a social perspective.
+We have all been in this call
+where there was an echo that blew everybody&rsquo;s ears off, except for
+that one person that did not hear it (it was them). I have collected a
+few technical tips and practises over time that may help make video
+conferences easier and more enjoyable."><meta property="og:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2020-03-16T11:00:00+00:00"><meta property="article:modified_time" content="2026-01-14T14:40:45+01:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.creative-destruction.org/post/2020-03-15-how-to-video-conference/"},"headline":"Video conferencing at scale - A practical guide","datePublished":"2020-03-16T11:00:00Z","dateModified":"2026-01-14T14:40:45+01:00","author":{"@type":"Person","name":"Mirko Boehm"},"publisher":{"@type":"Organization","name":"Creative Destruction \u0026 Me","logo":{"@type":"ImageObject","url":"https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_192x192_fill_lanczos_center_3.png"}},"description":"\u003cp\u003eWe are video conferencing day-in day-out now. Small conversations via\nvideo call are a regular part of remote work. In times of restricted\ntravel and polluted air, this is excellent. It also works pretty well\nfor two or three people. With 6, it gets difficult to manage who\nspeaks. Above ten, things get tricky both from a technical as well as\na social perspective.\nWe have all been in this call\nwhere there was an echo that blew everybody\u0026rsquo;s ears off, except for\nthat one person that did not hear it (it was them). I have collected a\nfew technical tips and practises over time that may help make video\nconferences easier and more enjoyable.\u003c/p\u003e"}</script><title>Video conferencing at scale - A practical guide | Creative Destruction & Me</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=3f3645bd62279c72436fa0cdfc1d5e1c><script src=/js/wowchemy-init.min.3af5864bbbc12102f75c2e28505928b4.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class="page-header header--fixed"><header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/#talks><span>Talks & Events</span></a></li><li class=nav-item><a class=nav-link href=/#posts><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/#teaching><span>Teaching</span></a></li><li class=nav-item><a class=nav-link href=/#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href=/#gallery><span>Gallery</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>Video conferencing at scale - A practical guide</h1><div class=article-metadata><div><span class=author-highlighted><a href=/authors/mirko/>Mirko Boehm</a></span></div><span class=article-date>Mar 16, 2020
+<span class=middot-divider></span>
+Last updated on Jan 14, 2026</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>9 min read</span></div></div><div class=article-container><div class=article-style><p>We are video conferencing day-in day-out now. Small conversations via
+video call are a regular part of remote work. In times of restricted
+travel and polluted air, this is excellent. It also works pretty well
+for two or three people. With 6, it gets difficult to manage who
+speaks. Above ten, things get tricky both from a technical as well as
+a social perspective.
+We have all been in this call
+where there was an echo that blew everybody&rsquo;s ears off, except for
+that one person that did not hear it (it was them). I have collected a
+few technical tips and practises over time that may help make video
+conferences easier and more enjoyable.</p><p>In situations with a small number of participants, there will be few
+technical issues. The technology for video conferencing handles such
+setups quite well. Group size is also a social matter &ndash; it is easy to
+ask your buddy in the one-to-one to hang on a second while you silence
+the phone. In a call with 20 people, it is rude to have the phone ring
+in the first place. So let&rsquo;s be spoiled brats here and look at the
+finer things in demanding situations:</p><h2 id=basics>Basics</h2><p>There are two main contributors to enjoyable video conferencing,
+network and media, as in audio and video. Both start to act up with
+more participants because network use increases with the number of
+participants and audio adds up as well from multiple sources. Let&rsquo;s
+break it down.</p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt="A video-conferencing headset." srcset="/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_9b4edc9ac0c7c9b51dfdf04f94c24db5.webp 400w,
+/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_543b5bc4997a92f98a74f0b9411f5d60.webp 760w,
+/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_1200x1200_fit_q75_h2_lanczos.webp 1200w" src=/media/img/post/2020-video-conferencing-setup_hu885464ce4460ce61367e8b827b9c29fb_809661_9b4edc9ac0c7c9b51dfdf04f94c24db5.webp width=80% height=560 loading=lazy data-zoomable></div></div></figure><h2 id=networking>Networking</h2><p>Choppy audio or hanging video often indicate issues with networking
+(or too much load on the computer, but that is less common
+today). Network issues can be related to bandwidth, latency and
+stability.</p><p>Regarding <em>bandwidth</em>, a good audio stream requires a couple of KB per
+second, while a good video stream requires 100s of KB to tens of MBs
+per second. For video connections, the requirements add up with the
+number of participants and quickly reach the limits of slower internet
+connections. If the choppiness reduces when video is turned off, it
+indicates an issue with network bandwith. Bandwidth has a weakest link
+problem, it is limited by the slowest element in the connection between
+the participants. For example, if a computer is tethered to the
+internet connection of a mobile phone, the wifi connection between the
+computer and the phone may look faster than the internet connection
+speed of the phone which then becomes the bottleneck.
+Most commonly, bandwidth at the internet provider
+is quite reliable and fast, so that the limits should be located
+between the internet access point and the computer.</p><ul><li>For wifi connections, make sure there is plenty of reserve bandwidth
+above that constantly needed for conferencing. Other applications
+also use bandwidth. Loading a larger web page can be demonstrated to
+temporarily cause choppy video in a conference. As a rule of thumb,
+wifi should be at least at 100MB per second, ideally way
+higher. Keep in mind that wifi speed drops as the distance to the
+access point increases. Moving around the house or cafe may affect
+the available bandwidth.</li><li>Phone internet connections are suitable for one-to-ones. For more
+participants, they can quickly exhaust network bandwidth and may
+rack up volume-based data fees. They also make everybody else&rsquo;s
+experience miserable because the camera usually zooms in on your
+nose hair.</li><li>Wired network connections are great because they do not degrade with
+distance and provide fast, consistent speed. One check for
+potential wifi issues is to temporarily connect the computer to the
+internet access point using a network cable and see if the
+conference quality improves.</li></ul><p><em>Latency</em>, or network delay, is also a potential problem. It is
+usually low enough for wifi and wired internet connections and can be
+low to horrendous on mobile. There is not much that can be done about
+it from the users side.</p><p>Network <em>stability</em> (basically all aspects in how your network
+connection quality may change while the conference is in progress) can
+become a real nuisance. Especially for longer video conferences
+like the 8-hour one I just attended a lot of disturbances can
+happen. For example, a badly shielded vacuum cleaner may interfere
+with wireless network. Murphy&rsquo;s law has it that your neighbour will
+always start vacuuming 10 minutes into the call. Another interference
+may be network traffic by other users. Wifi bandwidth is shared and
+can be eaten up if family members create a lot of other
+traffic. Reducing the Netflix subscription to only one stream may help
+here :-) In general, relying on bandwidth to be constantly available
+is a bit risky. Also here, using a wired connection circumvents some
+of the problems, since it (usually) does not share bandwidth with
+other computers on the local network.</p><p>As a good rule of thumb, more bandwidth (a faster internet connection)
+is always better, and wired network beats everything in terms of
+consistent quality and stability. Go wired or sit close to the wifi
+access point.</p><h2 id=video>Video</h2><p>Video depends mostly on hardware and system load, provided the
+computer can handle processing the video data. In most
+cases, if video quality degrades, it is not because of hardware
+issues, but because the software decides the computer or the network
+cannot handle a higher resolution and switches to a lower
+one. Consider shutting down unnecessary programs, especially if you
+are low on memory. The task manager or activity monitor display memory
+and processor usage and indicate if the computer is
+overloaded. High-quality video uses exponentially more computing power
+and bandwidth depending on the resolution, so reducing video quality
+along the usual steps (ultra->HD->SD->whateveritiscalled) will result
+in much lower requirements.</p><h2 id=audio>Audio</h2><p>Audio is often the most difficult issue because it usually works just fine
+in test situations and then causes problems during the
+conference. Key issues are feedback, background noise and foreground
+noise.</p><p><em>Audio feedback loops</em> are the worst. They range from a simple
+annoying echo to techno-music-like loops that get increasingly
+louder. This is caused by the microphone picking up the output of the
+speakers, retransmitting it to the audience so that it is played by
+the speakers again with a delay and this way
+causing a never-ending loop. It gets louder if the volume of the next
+round is higher than before and softer if it is lower. It can be
+anything from a decreasing echo to a cacophony.</p><p>This also indicates the remedy to feedback: In a conference settings
+where the participants all attend remotely, the audio of the
+conference should <em>never</em> come from speakers so that the microphone
+can pick it up. Use a headset instead. Always. If you take one thing
+away from this guide, it should be to always use a headset for video
+conferencing with groups. Use in-ears if you don&rsquo;t like headphone
+hair.</p><p>Conferencing software has audio echo cancellation (feedback
+suppression) built in. It works ok, but not in all
+situations. Sometimes it slips in the middle of a call just for a
+second, but long enough for you to hear yourself speak with some delay
+or to deafen the whole audience. Better not to rely on it - keep it
+simple and use a headset.</p><p><em>Foreground noise</em> is one thing that throws off software echo
+cancellation at times. Foreground noise is ambient sound that
+originates from close to or the casing of the microphone. Ideally the
+only foreground noise should be what you say. However, the built-in
+microphones is located within to the computer and picks up typing on
+the keyboard or anything else your hands do very loudly. Such noises
+appear a lot louder to the audience than to you because they are
+partially filtered by our hearing. Another problem with the built-in
+microphone being integrated in the computer case is that it picks up
+typing, rattling and anything physical going on on the desk the
+computer sits on. The remedy to this is the same as to echo &ndash; use a
+headset that also has a built-in microphone. This separates the
+microphone from the computer casing and locates it much closer to your
+mouth and further away from the keyboard. So again &ndash; use a headset,
+now with a microphone.</p><p><em>Background noise</em> is caused by whatever happens in your environment
+during the call. Your phone notifications, people walking by or
+talking to each other, clocks ticking, all of this will be picked up and
+transmitted to the audience. And it adds up if their are many. It is a
+matter of courtesie as well to avoid that as much as possible. There
+are three remedies: Mute yourself when you are not talking. Reduce
+background noise by picking a quiet room or moving further away from
+the sources. Keep your microphone close to your mouth (headset&mldr;) so
+that the microphone volume can be lowered as much as possible.</p><h2 id=setup>Setup</h2><p>If the calls are important, consider doing a trial run where you
+participate on the other end. Try out typing, talking to other people
+in the room, shuffling things on the desk and all the other things
+that could go wrong. Especially if the setup is going to be used
+often, it is worth spending time to make sure it works really well.</p><p>Keep in mind that it may appear on <em>your end</em> that the built-in
+speakers and microphone work just fine but it may make the experience
+for everybody else on the call miserable with your voice being choppy
+and overlaid by typing noises.</p><p>For indoor use, gamer headsets offer a great combination of
+comfortable, high-quality headphones with good microphones that can be
+worn for a few hours without becoming annoying.</p><p>Interestingly, the choice of specific video conferencing tool does not
+matter that much. Modern web or app based systems work pretty much the
+same, as long as the discussed technical aspects are taken care
+of.</p><h2 id=summary>Summary</h2><p>To sum up, there are four key steps towards better video
+conferencing with larger groups:</p><ul><li>Use a headset with a microphone close, but not too close to your
+mouth. Avoid using the built-in speakers.</li><li>Use a wired network connection or ensure a very good connection to
+the wifi network. Avoid mobile networks for this use case.</li><li>Use a headset (or stand-alone) microphone and avoid the built-in
+microphone of the computer to reduce foreground noise.</li><li>Ensure a quiet environment and mute yourself when not speaking.</li></ul><p>Finally, it will be helpful to consider online meeting etiquette. If
+you participate in a call, make time for it. Put your phone on
+do-not-disturb during the call and focus your attention on what is
+being discussed. Combined with a solid technical setup, this should
+make video conferences a lot more enjoyable.</p></div><div class=article-tags><a class="badge badge-light" href=/tag/foss/>FOSS</a>
+<a class="badge badge-light" href=/tag/remote/>remote</a>
+<a class="badge badge-light" href=/tag/work/>work</a></div><div class=share-box><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F&text=Video+conferencing+at+scale+-+A+practical+guide" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F&t=Video+conferencing+at+scale+-+A+practical+guide" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=Video%20conferencing%20at%20scale%20-%20A%20practical%20guide&body=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F" target=_blank rel=noopener class=share-btn-email aria-label=envelope><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F&title=Video+conferencing+at+scale+-+A+practical+guide" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in><i class="fab fa-linkedin-in"></i></a></li><li><a href="whatsapp://send?text=Video+conferencing+at+scale+-+A+practical+guide%20https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp><i class="fab fa-whatsapp"></i></a></li><li><a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2020-03-15-how-to-video-conference%2F&title=Video+conferencing+at+scale+-+A+practical+guide" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo><i class="fab fa-weibo"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=https://www.creative-destruction.org/><img class="avatar mr-3 avatar-circle" src=/authors/mirko/avatar_huee757338177b18fd21f3184743f4d131_552123_270x270_fill_lanczos_center_3.png alt="Mirko Boehm"></a><div class=media-body><h5 class=card-title><a href=https://www.creative-destruction.org/>Mirko Boehm</a></h5><h6 class=card-subtitle>Open Source Economics & Policy</h6><p class=card-text>Economics of Open Source and Intellectual Property</p><ul class=network-icon aria-hidden=true><li><a href=https://floss.social/@mirkoboehm target=_blank rel=noopener><i class="fab fa-mastodon"></i></a></li><li><a href=https://github.com/mirkoboehm target=_blank rel=noopener><i class="fab fa-github"></i></a></li><li><a href="https://scholar.google.com/citations?user=xjsllvsAAAAJ&hl=en" target=_blank rel=noopener><i class="fas fa-graduation-cap"></i></a></li><li><a href=https://www.linkedin.com/in/mirkoboehm/ target=_blank rel=noopener><i class="fab fa-linkedin"></i></a></li></ul></div></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by><span class=float-right aria-hidden=true><a href=# id=back_to_top><span class=button_icon><i class="fas fa-chevron-up fa-2x"></i></span></a></span></p></footer></div></div><script src=/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js></script>
+<script id=search-hit-fuse-template type=text/x-template>
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script>
+<script src=/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js type=module></script></body></html>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>threadweaver | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/threadweaver/</link><atom:link href="https://www.creative-destruction.org/tag/threadweaver/index.xml" rel="self" type="application/rss+xml"/><description>threadweaver</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Aug 2014 18:00:00 +0200</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>threadweaver</title><link>https://www.creative-destruction.org/tag/threadweaver/</link></image><item><title>HelW olorld! - Concurrent programming using the ThreadWeaver framework</title><link>https://www.creative-destruction.org/post/2014-08-11-helw-olorld/</link><pubDate>Mon, 11 Aug 2014 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2014-08-11-helw-olorld/</guid><description>&lt;p>Concurrent programming means creating applications that perform
+multiple operations at the same time. A common problem is that the
+user sees the application pause. A typical requirement is that an
+operation which may take an arbitrary amount of time because it is,
+for example, performing disk I/O, is scheduled for execution but
+immediately taken of the main thread of the application (the one that
+starts &lt;code>main()&lt;/code>). To illustrate how this problem would be solved and to
+jump right into using ThreadWeaver, let&amp;rsquo;s simulate this problem by
+printing &lt;em>Hello World!&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> as the asynchronous payload:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;QtCore&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;ThreadWeaver/ThreadWeaver&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">argc&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">char&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">argv&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">QCoreApplication&lt;/span> &lt;span class="n">app&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">argc&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">argv&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">ThreadWeaver&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">stream&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">make_job&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">[]()&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="n">qDebug&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34;Hello World!&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This short but complete program written in C++11 outputs the common
+greeting to the command line.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> It does so, however, from a worker
+thread managed by the global ThreadWeaver queue. The header file
+&lt;code>ThreadWeaver/ThreadWeaver&lt;/code> included in line 2 contains the essential
+declarations needed to use the most common ThreadWeaver
+operations. The components used in this examples are the global queue,
+a job and a queueing mechanism. The global queue is a singleton
+instance of the ThreadWeaver thread pool that is instantiated when it
+it first accessed after the application starts. A job represents
+&amp;ldquo;something&amp;rdquo; that should be executed asynchroneously. In this case, the
+thing to execute is a C++ lambda function that prints the welcome
+message. The queueing mechanism used here is a queue stream, an API
+inspired by the &lt;em>iostream&lt;/em> family of classes. ThreadWeaver builds on
+top of Qt, and similar to most Qt applications requires a
+QCoreApplication (or one of its descendants) to exist throughout the
+lifetime of the application. Up to line 7, the program looks like any
+other Qt application.&lt;/p>
+&lt;p>To have the job lambda function called by one of the worker threads, a
+job is created that wraps it using the &lt;code>make_job()&lt;/code>. It is then handed
+to the queue stream. The queue stream will submit the jobs for
+execution when the queuing command is completed, that is at the
+closing semicolon. Once the job is queued, one of the worker threads
+will automatically pick it up from the queue and execute
+it. &lt;code>ThreadWeaver::Job&lt;/code> is the unit of execution handled by
+ThreadWeaver queues. Jobs are simple runnable types that perform one
+task, defined in their &lt;code>run()&lt;/code> method. Some jobs wrap a
+lambda function as in this example or decorate other jobs. However
+implementing custom, reusable job classes is only a matter of writing
+a class that inherits &lt;code>ThreadWeaver::Job&lt;/code> and re-implementing
+it&amp;rsquo;s &lt;code>run&lt;/code> method. The job that was created by &lt;code>make_job()&lt;/code>
+in this example wraps the specified lambda function, and executes it
+when it is itself executed by a worker thread.&lt;/p>
+&lt;p>The program does not specify where the job should be executed, and not
+even when exactly. In a scenario where there would be many jobs
+waiting in the queue, execution of the new job would not be
+immediate. Which worker thread will be assigned the job is also
+undefined. The programmer gives up a bit of control over the details
+of execution, and in turns benefits from the automatic distribution of
+jobs amongst the available processors by the worker threads in the
+queue. Every program that links the ThreadWeaver library has access to
+a global queue for the execution of jobs. If no queue is specified
+when enqueueing a job, the global one will be used by default. Workers
+threads are allocated when needed by the queue. If the global pool is
+never accessed by an application, it will never be instantiated.&lt;/p>
+&lt;p>An application performing tasks in background threads should never
+exit while any of these operations is still in progress. In the case
+of ThreadWeaver, this means all jobs in the queue need to be either
+completed or dequeued and all worker threads idle before the
+application may exit. The global pool is in fact a QObject child of
+the &lt;code>QCoreApplication&lt;/code> object instantiated in line 7. It will be
+deleted by the destructor of QCoreApplication. When it is destroyed,
+it will wait until all queued up jobs have completed. The program will
+thus wait in line 8 until the job has finished printing &amp;ldquo;Hello World!&amp;rdquo;
+and will then exit. The job was enqueued as a shared pointer, so
+memory management is taken care of. While this example was very much
+simplified, the described functionality already has many practical
+applications. For example, the many operations real-life applications
+need to perform at startup, like loading translations, icon resources
+et cetera, can be removed from the criticial path this way. In this
+case the operations usually need to be performed in a certain order
+and then handed over to the main thread. Solutions for that are built
+into ThreadWeaver as well.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Since there have been questions - the title of the post refers to the problem of writing output from multiple threads without synchronization, which breaks the guarantees on order of execution. A boon for every concurrent program.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The examples are part of the ThreadWeaver source code and can be found in the &lt;a href="https://api.kde.org/frameworks/threadweaver/html/index.html" target="_blank" rel="noopener">KDE API DOCS&lt;/a>.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>KDE Frameworks 5 Tech Preview released, with updated ThreadWeaver</title><link>https://www.creative-destruction.org/post/2014-01-07-kde-frameworks/</link><pubDate>Tue, 07 Jan 2014 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2014-01-07-kde-frameworks/</guid><description>&lt;p>Today, the KDE Community &lt;a href="http://dot.kde.org/2014/01/07/frameworks-5-tech-preview" target="_blank" rel="noopener">released a tech preview of the upcoming KDE
+5
+Frameworks&lt;/a>,
+the new, modularised incarnation of what was previously distributed
+simply as the KDE libraries. The new frameworks are drop-in extensions
+to Qt applications, with minimal and well-documented dependencies for
+easier deployment. The tech preview contains two frameworks that are
+marked as mature, namely KArchive and ThreadWeaver. The updated
+ThreadWeaver was my major piece of library coding work in 2013, and
+was finished just in time for the release. Even though it is a tech
+preview, it is stable, and no major (or even significant but minor)
+changes in the current API are expected until the final
+release. Programmers are already encouraged to use it, and provide
+feedback and bug reports.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Recycled Paper Weaving" srcset="
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_55ef0e7e90032ace5ae5d1f43bbf7101.webp 400w,
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_5ed878cde768578fe581f66754e24041.webp 760w,
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_55ef0e7e90032ace5ae5d1f43bbf7101.webp"
+width="60%"
+height="720"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>ThreadWeaver is a concurrent execution scheduler written in
+C++. Available for all target platforms of the Qt framework, including
+desktop, mobile and embedded environments, ThreadWeaver delivers
+concurrent execution of tasks, load balancing with regard to
+user-defined criteria, multiple independent queues, processing graph
+modelling, aggregate jobs and other comprehensive features. As all
+other KDE frameworks, ThreadWeaver is Free Software. Its only
+dependency is Qt, which makes it a tier 1 framework in KDE&amp;rsquo;s lingo.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>A number of the &lt;a href="http://www.slideshare.net/mirkoboehm/thread-weaver-in-kde-frameworks-5%22" target="_blank" rel="noopener">new features of
+ThreadWeaver&lt;/a>
+were announced at Akademy 2013. Jobs, the unit of concurrent execution
+in ThreadWeaver, are now managed by the queue using shared pointers,
+meaning that auto-delete behaviour is implicit and controlled by the
+user. Helper templates are available to queue stack or member
+variables, so allocation of jobs can be static or dynamic. Functors or
+lambda functions can be used to construct jobs. Job aggregates like
+collections and sequences now execute their own run() method before
+queueing their elements, so that aggregates can generate their own
+elements. Success and queueing state of jobs are now integrated into a
+single status. Jobs can signal the result of execution by setting a
+status, but also using exceptions, simplifying error reporting in more
+complex job classes. Jobs can be decorated, and no more inherit
+QObject by default. Decorators can be used to add signals, change
+priorities or modify just about any behaviour of jobs independently of
+the actual job class used. The construction of the global queue can
+now be customised using a queue factory. The QueueStream API greatly
+simplifies queueing jobs with a familiar iostream-like C++ syntax.&lt;/p>
+&lt;p>ThreadWeaver follows the Unix idiom of doing one thing, and doing it
+right. Similar to how small Unix programs can be combined to create an
+practically infinite space of computing solutions, ThreadWeaver offers
+itself to programmers as an add-on module with minimal
+dependencies. Including it extends an application with concurrent
+scheduling capability. But the same Unix idiom is also applied in a
+second sense. Within ThreadWeaver, a few basic concepts – jobs and
+their aggregates, queues and policies – are implemented that again
+provide simple building blocks that can be combined creatively,
+offering a vast space of potential solutions within the scope of the
+application.&lt;/p>
+&lt;p>The history of ThreadWeaver goes back to KDE 3. The idea of
+implementing a thread pool based execution scheduler that manages
+dependencies between jobs was implemented as a proof of concept using
+Qt 3. However it turned out to be difficult to implement and use
+because of the lack of thread-safe reference counting of the
+implicitly shared classes at the time. These fundamental problems have
+been solved with the release of Qt 4. Additionally, the introduction
+of cross-thread signal-slot connections further simplified the
+communication between jobs and the application&amp;rsquo;s user interface. The
+first production ready version of ThreadWeaver was released as part of
+KDELibs with KDE 4.0. For KDE Frameworks 5, it was almost completely
+re-written to simplify memory management of jobs, make use of new Qt 5
+features like atomic variables, and in part to reflect new language
+constructs in C++11 like lambda functions. ThreadWeaver comes with an
+extensive set of unit tests that all pass in the tech preview (hear,
+hear).&lt;/p>
+&lt;p>In the following weeks and months, the framework will be polished and
+debugged based on user feedback. Also, a series of posts here on this
+blog will introduce individual ThreadWeaver concepts and features in
+depth, mostly based on example programs, including contrasting it to
+thread handling in Qt using QThread or Qt Concurrent. ThreadWeaver is
+very close to production quality, having been tested continuously in
+the last couple of months. There may still be smaller, source
+compatible changes to the framework. We ask interested programmers out
+there to provide feedback and bug reports to make ThreadWeaver what it
+should be &amp;ndash; a worry-free, easy to use and powerful add-on to Qt that
+programmers enjoy using. Have fun!&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="http://www.flickr.com/photos/originalbliss/2897019812" target="_blank" rel="noopener">Image&lt;/a> by Shannan Sinclair, thanks&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

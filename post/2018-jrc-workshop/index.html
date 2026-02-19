@@ -1,0 +1,194 @@
+<!doctype html><!-- This site was created with Wowchemy. https://www.wowchemy.com --><!-- Last Published: February 19, 2026 --><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><link rel=stylesheet href=/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=/css/wowchemy.00a98fb4962bbc6d706031f374ef5d3d.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-QSVGBNN9G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(e,t){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon",event_callback:function(){t!=="_blank"&&(document.location=e)}}),console.debug("Outbound link clicked: "+e)}function onClickCallback(e){if(e.target.tagName!=="A"||e.target.host===window.location.host)return;trackOutboundLink(e.target,e.target.getAttribute("target"))}gtag("js",new Date),gtag("config","G-QSVGBNN9G7",{}),gtag("set",{cookie_flags:"SameSite=None;Secure"}),document.addEventListener("click",onClickCallback,!1)</script><meta name=author content="Mirko Boehm"><meta name=description content="As part of the research project
+on
+&ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&rdquo;,
+a workshop was organised by the European Commission, Joint Research
+Centre (JRC) in collaboration with Directorate General Communications
+Networks, Content and Technology (CONNECT) to present and discuss the
+intermediate results to date. The workshop took place in Brussels on
+September 18, 2018. I presented a set of observations from the research on
+the case studies performed as part of the project that are outlined
+below. Other speakers
+where
+Catharina Maracke on
+the issue of legal compliance between Open Source and FRAND
+licenses, Bruce Perens on &ldquo;Community Dynamics
+in Open Source&rdquo;,
+and Andy Updegrove
+on &ldquo;Dynamics in Standardisation&rdquo;."><link rel=alternate hreflang=en-us href=https://www.creative-destruction.org/post/2018-jrc-workshop/><link rel=canonical href=https://www.creative-destruction.org/post/2018-jrc-workshop/><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_180x180_fill_lanczos_center_3.png><meta name=theme-color content="#4caf50"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:site_name" content="Creative Destruction & Me"><meta property="og:url" content="https://www.creative-destruction.org/post/2018-jrc-workshop/"><meta property="og:title" content="FOSS, standard essential patents and FRAND in the European Union | Creative Destruction & Me"><meta property="og:description" content="As part of the research project
+on
+&ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&rdquo;,
+a workshop was organised by the European Commission, Joint Research
+Centre (JRC) in collaboration with Directorate General Communications
+Networks, Content and Technology (CONNECT) to present and discuss the
+intermediate results to date. The workshop took place in Brussels on
+September 18, 2018. I presented a set of observations from the research on
+the case studies performed as part of the project that are outlined
+below. Other speakers
+where
+Catharina Maracke on
+the issue of legal compliance between Open Source and FRAND
+licenses, Bruce Perens on &ldquo;Community Dynamics
+in Open Source&rdquo;,
+and Andy Updegrove
+on &ldquo;Dynamics in Standardisation&rdquo;."><meta property="og:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2018-09-22T00:00:00+00:00"><meta property="article:modified_time" content="2019-10-30T21:40:27+01:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.creative-destruction.org/post/2018-jrc-workshop/"},"headline":"FOSS, standard essential patents and FRAND in the European Union","datePublished":"2018-09-22T00:00:00Z","dateModified":"2019-10-30T21:40:27+01:00","author":{"@type":"Person","name":"Mirko Boehm"},"publisher":{"@type":"Organization","name":"Creative Destruction \u0026 Me","logo":{"@type":"ImageObject","url":"https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_192x192_fill_lanczos_center_3.png"}},"description":"\u003cp\u003eAs part of the research project\non\n\u003ca href=\"/project/ec-jrc-oss-frand/\"\u003e\u0026ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation\u0026rdquo;\u003c/a\u003e,\na workshop was organised by the European Commission, Joint Research\nCentre (JRC) in collaboration with Directorate General Communications\nNetworks, Content and Technology (CONNECT) to present and discuss the\nintermediate results to date. The workshop took place in Brussels on\nSeptember 18, 2018. I presented a set of observations from the research on\nthe case studies performed as part of the project that are outlined\nbelow. Other speakers\nwhere\n\u003ca href=\"https://www.the-klu.org/faculty-research/resident-faculty/catharina-maracke/\" target=\"_blank\" rel=\"noopener\"\u003eCatharina Maracke\u003c/a\u003e on\nthe issue of legal compliance between Open Source and FRAND\nlicenses, \u003ca href=\"https://perens.com/\" target=\"_blank\" rel=\"noopener\"\u003eBruce Perens\u003c/a\u003e on \u0026ldquo;Community Dynamics\nin Open Source\u0026rdquo;,\nand \u003ca href=\"https://www.gesmer.com/team/andrew-s-updegrove\" target=\"_blank\" rel=\"noopener\"\u003eAndy Updegrove\u003c/a\u003e\non \u0026ldquo;Dynamics in Standardisation\u0026rdquo;.\u003c/p\u003e"}</script><title>FOSS, standard essential patents and FRAND in the European Union | Creative Destruction & Me</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=81a0b3373712686014aa0189ea2ee6a5><script src=/js/wowchemy-init.min.3af5864bbbc12102f75c2e28505928b4.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class="page-header header--fixed"><header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/#talks><span>Talks & Events</span></a></li><li class=nav-item><a class=nav-link href=/#posts><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/#teaching><span>Teaching</span></a></li><li class=nav-item><a class=nav-link href=/#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href=/#gallery><span>Gallery</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>FOSS, standard essential patents and FRAND in the European Union</h1><div class=article-metadata><div><span class=author-highlighted><a href=/authors/mirko/>Mirko Boehm</a></span></div><span class=article-date>Sep 22, 2018
+<span class=middot-divider></span>
+Last updated on Oct 30, 2019</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>6 min read</span></div></div><div class=article-container><div class=article-style><p>As part of the research project
+on
+<a href=/project/ec-jrc-oss-frand/>&ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&rdquo;</a>,
+a workshop was organised by the European Commission, Joint Research
+Centre (JRC) in collaboration with Directorate General Communications
+Networks, Content and Technology (CONNECT) to present and discuss the
+intermediate results to date. The workshop took place in Brussels on
+September 18, 2018. I presented a set of observations from the research on
+the case studies performed as part of the project that are outlined
+below. Other speakers
+where
+<a href=https://www.the-klu.org/faculty-research/resident-faculty/catharina-maracke/ target=_blank rel=noopener>Catharina Maracke</a> on
+the issue of legal compliance between Open Source and FRAND
+licenses, <a href=https://perens.com/ target=_blank rel=noopener>Bruce Perens</a> on &ldquo;Community Dynamics
+in Open Source&rdquo;,
+and <a href=https://www.gesmer.com/team/andrew-s-updegrove target=_blank rel=noopener>Andy Updegrove</a>
+on &ldquo;Dynamics in Standardisation&rdquo;.</p><p>You may ask what the relevance of this debate is for the wider Free
+and Open Source Software community. The obvious answer is that to
+distribute
+software
+<a href=https://opensource.com/article/18/3/patent-grant-mit-license target=_blank rel=noopener>&ldquo;without restriction&rdquo;</a>,
+the user needs all the usage rights associated with the program. While
+most FOSS contributors assume that this is naturally the central
+motivation for anybody to contribute in the first place, there is a
+long history of attempts to maintain some sort of exclusive control
+over a piece of FOSS code, possibly using other rights than copyright.</p><p>Contributor license agreements (CLA) are a well known instrument for
+that. The original author agrees to an exclusive or non-exclusive
+license to a central entity (usually a community organisation or a
+dominating company) to use their work. This may just give a community
+organisation a right to adopt newer licenses. Or it may give
+a
+<a href=https://dirkriehle.com/publications/2009-selected/the-commercial-open-source-business-model/ target=_blank rel=noopener>single Open Source vendor</a> the
+right to use other contributor&rsquo;s work commercially. Whether CLA embody
+FOSS culture or violate them by creating an asymmetric distribution of
+benefits between contributors and a company therefore depends on the
+specific terms of the
+CLA. The
+<a href=http://contributoragreements.org target=_blank rel=noopener>contributor agreements configurator</a> helps
+projects to set up a CLA and understand what the motivation behind the
+terms are (<a href=https://endocode.com target=_blank rel=noopener>Endocode</a> contributed the
+implementation). CLA are controversial, especially if they
+include
+<a href=https://help.nextcloud.com/t/cla-caa-ca-etc-etc-let-s-get-it-right/588 target=_blank rel=noopener>copyright assignments to a single company</a>. Projects
+and contributors are well-advised to make sure to fully understand
+what they are agreeing to. The main take-away for the argument here is
+that the norm in FOSS communities is a <em>symmetric</em> distribution of
+rights between all contributors, and CLA are one instrument to modify
+this to the benefit of a single entity.</p><p>But that is not all. It just helps to explain how such asymmetric
+rights can be used to give a single entity more power in a community
+of contributors. There is a long history of such attempts, and they
+usually involve some other legal rights beyond the terms of the FOSS
+license applied. There is a good reason for that: FOSS licenses give
+contributors and users a time-tested and well-balanced framework for
+collaboration. <a href=https://fsfe.org/freesoftware/basics/4freedoms.en.html target=_blank rel=noopener>&ldquo;Use, study, modify, redistribute&rdquo;</a> is
+a simple, easy to understand mantra that every FOSS contributor knows
+and understands. CLA augment the FOSS license terms with an additional
+contractual agreement, but for the most part stay in the realm of
+copyright just like FOSS licenses. Other instruments not so much:</p><ul><li>Trademarks are used to enforce a vendor&rsquo;s expectations when others
+adopt and ship their software. This is used by communities to
+protect their names, like in
+the
+<a href=https://www.mozilla.org/en-US/foundation/trademarks/policy/ target=_blank rel=noopener>Mozilla Trademark Policy</a>,
+or to make sure specific services are included in devices, like in
+the
+<a href=https://source.android.com/compatibility/overview target=_blank rel=noopener>Android Compatibility Program</a>.</li><li>Trade secrets like delayed code releases under FOSS licenses or
+proprietary &ldquo;extensions&rdquo; that
+are
+<a href=https://about.mattermost.com/features/ target=_blank rel=noopener>effectively required for the software to be useful</a> are
+used to maintain an edge of an &ldquo;enterprise&rdquo; version over the FOSS
+release.</li><li>The
+<a href=https://www.gnu.org/philosophy/software-patents.en.html target=_blank rel=noopener>software patents debate</a> may
+have slowed down, but is still relevant. Patents exist, and
+applications for patents that include claims that are implemented in
+existing FOSS solutions never stopped. It has become harder to be
+granted a patent for a software-only solution. Institutions like
+the <a href=https://www.openinventionnetwork.com target=_blank rel=noopener>Open Invention Network</a>
+create a safe space where FOSS innovators cross-license freely and
+avoid litigation. However vendors shipping FOSS in products still
+need to clear potential patent claims implemented in
+those. Conformance with patents does not usually follow from FOSS
+licenses.</li></ul><p>Which leads to round five of the match with software freedom in one
+corner and exclusivity in the other &ndash; standard-essential patents
+(SEP). Everybody loves standards, and FOSS especially: We use
+standardised programming languages, unicode tables and system call
+interfaces. Standards are the foundation for interoperability, and
+some standards like
+the <a href=http://opendocumentformat.org target=_blank rel=noopener>Open Document Format</a> are the
+result of a long struggle to establish formats that re-open markets
+for competition. All of these standards
+are
+<a href=https://opensource.com/resources/what-are-open-standards target=_blank rel=noopener>Open Standards</a> that
+can be implemented in FOSS without restrictions. But what if
+implementing a standard would be required to interoperate with others,
+or even mandatory under existing regulations, and this standard would
+include functionality that is covered by patent claims, possibly with
+royalty-bearing patent licenses? That is the definition of SEP, which
+are commonly required to be licensed either royalty-free or under
+&ldquo;fair, reasonable and non-discriminatory&rdquo; (FRAND) licenses. It is also
+a relevant and current concern because
+the
+<a href=https://ec.europa.eu/docsroom/documents/26583 target=_blank rel=noopener>European Commission considers SEP under FRAND licenses a useful instrument</a> for
+industrial policy in the European Union. Until now, the wider FOSS
+community has contributed some positions to this debate that is for
+the most part dominated by incumbent industries, recognized
+standards-development organisations (SDO) and policy makers.</p><p>The study currently conducted under the supervision by
+the
+<a href=https://ec.europa.eu/info/departments/joint-research-centre_en target=_blank rel=noopener>European Commission Joint Research Centre (EC-JRC)</a> on
+<a href=/project/ec-jrc-oss-frand/>&ldquo;The Interaction between Open Source Software and FRAND licensing in Standardisation&rdquo;</a> aims
+at providing a better understanding of the interplay between FOSS
+licenses, governance and the IPR policies of SDO. At the workshop that
+was just held in Brussels as part of this study where an initial set
+of case studies on the subject have been presented. Theses case
+studies (that I am the author of) will become part of the overall
+study report prepared
+by
+<a href=https://www.inno.tu-berlin.de/menue/about_us/team/prof_dr_rer_pol/ target=_blank rel=noopener>Knut Blind</a> and
+me. As the study progresses, a number of early observations from these
+cases will be shared in this blog and other channels. It is important
+that the wider FOSS community recognizes the relevance and importance
+of this subject and actively makes itself heard. CERN, the ECMAscript
+community, the Eclipse Foundation, the Linux Foundation and others
+have already contributed insights to the field work for the
+project. Others, especially FSFE, have been notably absent from the
+debate. The <a href=https://opensource.org target=_blank rel=noopener>Open Source Initiative</a> is
+represented on the project&rsquo;s steering committee.</p><p>The standards that
+will be shaped by this debate, like 5G mobile communication or IoT
+protocols, will affect us all, as will welfare gains or losses from
+policies that influence the innovativeness of FOSS. There are
+opportunities to contribute: communities can communicate what their
+needs are with regards to standards and FOSS. Contributors can
+provide input to the case studies or the stakeholder survey that will
+be performed in the next phase of the study. Feel free to reach out if
+you would like to participate.</p></div><div class=article-tags><a class="badge badge-light" href=/tag/foss/>FOSS</a>
+<a class="badge badge-light" href=/tag/europe/>Europe</a>
+<a class="badge badge-light" href=/tag/jrc/>JRC</a>
+<a class="badge badge-light" href=/tag/sdo/>SDO</a>
+<a class="badge badge-light" href=/tag/frand/>FRAND</a>
+<a class="badge badge-light" href=/tag/sep/>SEP</a></div><div class=share-box><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F&text=FOSS%2C+standard+essential+patents+and+FRAND+in+the+European+Union" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F&t=FOSS%2C+standard+essential+patents+and+FRAND+in+the+European+Union" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=FOSS%2C%20standard%20essential%20patents%20and%20FRAND%20in%20the%20European%20Union&body=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F" target=_blank rel=noopener class=share-btn-email aria-label=envelope><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F&title=FOSS%2C+standard+essential+patents+and+FRAND+in+the+European+Union" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in><i class="fab fa-linkedin-in"></i></a></li><li><a href="whatsapp://send?text=FOSS%2C+standard+essential+patents+and+FRAND+in+the+European+Union%20https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp><i class="fab fa-whatsapp"></i></a></li><li><a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2018-jrc-workshop%2F&title=FOSS%2C+standard+essential+patents+and+FRAND+in+the+European+Union" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo><i class="fab fa-weibo"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=https://www.creative-destruction.org/><img class="avatar mr-3 avatar-circle" src=/authors/mirko/avatar_huee757338177b18fd21f3184743f4d131_552123_270x270_fill_lanczos_center_3.png alt="Mirko Boehm"></a><div class=media-body><h5 class=card-title><a href=https://www.creative-destruction.org/>Mirko Boehm</a></h5><h6 class=card-subtitle>Open Source Economics & Policy</h6><p class=card-text>Economics of Open Source and Intellectual Property</p><ul class=network-icon aria-hidden=true><li><a href=https://floss.social/@mirkoboehm target=_blank rel=noopener><i class="fab fa-mastodon"></i></a></li><li><a href=https://github.com/mirkoboehm target=_blank rel=noopener><i class="fab fa-github"></i></a></li><li><a href="https://scholar.google.com/citations?user=xjsllvsAAAAJ&hl=en" target=_blank rel=noopener><i class="fas fa-graduation-cap"></i></a></li><li><a href=https://www.linkedin.com/in/mirkoboehm/ target=_blank rel=noopener><i class="fab fa-linkedin"></i></a></li></ul></div></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by><span class=float-right aria-hidden=true><a href=# id=back_to_top><span class=button_icon><i class="fas fa-chevron-up fa-2x"></i></span></a></span></p></footer></div></div><script src=/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js></script>
+<script id=search-hit-fuse-template type=text/x-template>
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script>
+<script src=/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js type=module></script></body></html>

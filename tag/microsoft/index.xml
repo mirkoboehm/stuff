@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microsoft | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/microsoft/</link><atom:link href="https://www.creative-destruction.org/tag/microsoft/index.xml" rel="self" type="application/rss+xml"/><description>Microsoft</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Oct 2018 15:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>Microsoft</title><link>https://www.creative-destruction.org/tag/microsoft/</link></image><item><title>Microsoft Joins the Open Invention Network Community</title><link>https://www.creative-destruction.org/post/2018-microsoft-joins-oin/</link><pubDate>Wed, 10 Oct 2018 15:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2018-microsoft-joins-oin/</guid><description>&lt;p>Today, &lt;a href="https://www.microsoft.com" target="_blank" rel="noopener">Microsoft&lt;/a>
+and
+&lt;a href="https://www.openinventionnetwork.com/" target="_blank" rel="noopener">Open Invention Network (OIN)&lt;/a>
+announced that Microsoft has become a member of the OIN community. OIN
+is the largest patent non-aggression community in history with over
+2.600 community member companies. It&amp;rsquo;s mission is to protect core Open
+Source technologies from patent litigation. It shapes the norms of
+collaboration as Open Source becomes more industrial and the edge
+between free and proprietary software becomes increasingly
+important. Many key innovators license their patent portfolio through
+OIN, including Google, IBM, NEC, Philip, Red Hat, Sony, SUSE and
+Toyota. Until now however, one party was missing from the community
+that became an increasingly important contributor to Open Source
+technologies, and that was Microsoft. This gap closes today. I believe
+this is a historic moment that will encourage innovation and
+dramatically reduces risks for the wider Open Source community.&lt;/p>
+&lt;p>I am a Free Software contributor for more than twenty
+years. Contributing for me was always about working towards the
+creation of a large body of Free and Open Source Software that
+benefits everybody. It was never about working &lt;em>against&lt;/em> something or
+some entity. Later, I
+started
+&lt;a href="https://www.slideshare.net/mirkoboehm/cebit-opensourceforumpresentation" target="_blank" rel="noopener">presenting about Free Software arguing that &amp;ldquo;companies are community&amp;rdquo;&lt;/a>,
+a notion that at the time caused concern with many long-term Free
+Software contributors. For me, this emphasizes that the Open Source
+way is about working towards open collaboration with all interested
+contributors.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Microsoft loves Linux" srcset="
+/media/img/post/ms_loves_linux_hu858ac22adcb60b943640e1c9219703f6_10351_ea93f1ebb78ff07397f2c83d0fcf311f.webp 400w,
+/media/img/post/ms_loves_linux_hu858ac22adcb60b943640e1c9219703f6_10351_37d4e6ee313d7ef76771d2ce61e3a30e.webp 760w,
+/media/img/post/ms_loves_linux_hu858ac22adcb60b943640e1c9219703f6_10351_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/ms_loves_linux_hu858ac22adcb60b943640e1c9219703f6_10351_ea93f1ebb78ff07397f2c83d0fcf311f.webp"
+width="653"
+height="367"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>When Free Software emerged, it was a strong competitor for all
+incumbent proprietary software vendors, and Microsoft was one of the
+largest of them. Some initial conflict was inevitable. However,
+attitudes change and everybody learns. Eventually, Microsoft rather
+impressively reinvented itself as an important Open Source
+contributor. The announcement today is a culmination of the process
+that completes for patent licensing what began with code releases and
+major contributions to various
+projects. Today,
+&lt;a href="https://www.zdnet.com/article/linux-now-dominates-azure/" target="_blank" rel="noopener">Linux based workloads on Azure are quite common&lt;/a>. For
+Microsoft, joining OIN resolves an inherent conflict that existed as a
+leftover from the transition to being a major Free Software
+contributor: If technologies are developed collaboratively, the
+contributors should exercise joint stewardship over the result that is
+released under an Open Source license. Extracting license revenue from
+such collaboratively developed Open Source technology creates a rift
+and undermines collaboration. By &amp;ldquo;making peace with the free world&amp;rdquo;
+and joining OIN,
+Microsoft
+&lt;a href="https://www.yahoo.com/news/microsoft-may-relinquishing-billions-android-patent-royalties-141047213.html" target="_blank" rel="noopener">may pre-empt it&amp;rsquo;s own patent licensing revenue for Android and other technologies&lt;/a> covered
+by the OIN Linux System definition, but it gains significant
+reputation and acceptance in the wider Open Source community. Since
+this is where software innovation is happening, the long-term benefits
+of this strategy should outweigh the cost by far.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Open Invention Network" srcset="
+/media/img/post/OIN_logo_300dpi_hub65928be94d50260b17e2296b1257b3e_51500_48cfd80b25a83cac0be03fb23ad09af2.webp 400w,
+/media/img/post/OIN_logo_300dpi_hub65928be94d50260b17e2296b1257b3e_51500_5598af508c627ee70e216ed42dfdaeec.webp 760w,
+/media/img/post/OIN_logo_300dpi_hub65928be94d50260b17e2296b1257b3e_51500_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/OIN_logo_300dpi_hub65928be94d50260b17e2296b1257b3e_51500_48cfd80b25a83cac0be03fb23ad09af2.webp"
+width="760"
+height="74"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>For Open Invention Network, today&amp;rsquo;s news are a major step
+forward. Membership in the OIN community is free of charge. All
+participants cross-license their patent portfolio within the
+field-of-use definition of core Open Source technologies. It is not
+necessary to hold a patent portfolio to join OIN. This means everybody
+in the network immediately benefits from the
+new
+&lt;a href="https://azure.microsoft.com/en-us/blog/microsoft-joins-open-invention-network-to-help-protect-linux-and-open-source/" target="_blank" rel="noopener">cross-licensing commitment of over 60.000 patents&lt;/a> made
+by Microsoft. A network like OIN becomes more and more valuable the
+more patents are cross-licensed and the more software technologies are
+covered by that (a network effect :-). With Microsoft on board, it
+should be even more obvious
+that
+&lt;a href="https://www.openinventionnetwork.com/joining-oin/join-now/" target="_blank" rel="noopener">joining OIN&lt;/a> is
+the best and also the easiest way to enter the patent “no-fly zone”
+over Linux. This benefits Open Source innovation and the wider Open
+Source community, which in turn contributes Free Software to the
+common good. Everybody wins.&lt;/p></description></item></channel></rss>

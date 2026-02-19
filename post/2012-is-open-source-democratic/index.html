@@ -1,0 +1,160 @@
+<!doctype html><!-- This site was created with Wowchemy. https://www.wowchemy.com --><!-- Last Published: February 19, 2026 --><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><link rel=stylesheet href=/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=/css/wowchemy.00a98fb4962bbc6d706031f374ef5d3d.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-QSVGBNN9G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(e,t){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon",event_callback:function(){t!=="_blank"&&(document.location=e)}}),console.debug("Outbound link clicked: "+e)}function onClickCallback(e){if(e.target.tagName!=="A"||e.target.host===window.location.host)return;trackOutboundLink(e.target,e.target.getAttribute("target"))}gtag("js",new Date),gtag("config","G-QSVGBNN9G7",{}),gtag("set",{cookie_flags:"SameSite=None;Secure"}),document.addEventListener("click",onClickCallback,!1)</script><meta name=author content="Mirko Boehm"><meta name=description content="In his recent post, Glyn Moody asks an important question - &ldquo;Can Open Source be democratic?&rdquo; He describes how Free Software emerged as a distributed, bottom-up system of writing code. The central defining aspects of that culture are a uniquely open process not just of programming but also of its organization, and a close relationship between programmers and users."><link rel=alternate hreflang=en-us href=https://www.creative-destruction.org/post/2012-is-open-source-democratic/><link rel=canonical href=https://www.creative-destruction.org/post/2012-is-open-source-democratic/><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_180x180_fill_lanczos_center_3.png><meta name=theme-color content="#4caf50"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:site_name" content="Creative Destruction & Me"><meta property="og:url" content="https://www.creative-destruction.org/post/2012-is-open-source-democratic/"><meta property="og:title" content="Is Open Source democratic? | Creative Destruction & Me"><meta property="og:description" content="In his recent post, Glyn Moody asks an important question - &ldquo;Can Open Source be democratic?&rdquo; He describes how Free Software emerged as a distributed, bottom-up system of writing code. The central defining aspects of that culture are a uniquely open process not just of programming but also of its organization, and a close relationship between programmers and users."><meta property="og:image" content="https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2012-08-29T18:08:50+02:00"><meta property="article:modified_time" content="2019-05-16T13:33:58+02:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.creative-destruction.org/post/2012-is-open-source-democratic/"},"headline":"Is Open Source democratic?","datePublished":"2012-08-29T18:08:50+02:00","dateModified":"2019-05-16T13:33:58+02:00","author":{"@type":"Person","name":"Mirko Boehm"},"publisher":{"@type":"Organization","name":"Creative Destruction \u0026 Me","logo":{"@type":"ImageObject","url":"https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_192x192_fill_lanczos_center_3.png"}},"description":"In his recent post, Glyn Moody asks an important question - \u0026ldquo;Can Open Source be democratic?\u0026rdquo; He describes how Free Software emerged as a distributed, bottom-up system of writing code. The central defining aspects of that culture are a uniquely open process not just of programming but also of its organization, and a close relationship between programmers and users."}</script><title>Is Open Source democratic? | Creative Destruction & Me</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=f6b1f3ddf4b622e0a2bcbb0cb00969b5><script src=/js/wowchemy-init.min.3af5864bbbc12102f75c2e28505928b4.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class="page-header header--fixed"><header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Creative Destruction & Me</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/#talks><span>Talks & Events</span></a></li><li class=nav-item><a class=nav-link href=/#posts><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/#teaching><span>Teaching</span></a></li><li class=nav-item><a class=nav-link href=/#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href=/#gallery><span>Gallery</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>Is Open Source democratic?</h1><div class=article-metadata><div><span class=author-highlighted><a href=/authors/mirko/>Mirko Boehm</a></span></div><span class=article-date>Aug 29, 2012
+<span class=middot-divider></span>
+Last updated on May 16, 2019</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>8 min read</span></div></div><div class=article-container><div class=article-style><p>In his recent post, Glyn Moody asks an important
+question -
+<a href=http://www.h-online.com/open/features/Can-open-source-be-democratic-1663702.html target=_blank rel=noopener>&ldquo;Can Open Source be democratic?&rdquo;</a> He
+describes how Free Software emerged as a distributed, bottom-up system
+of writing code. The central defining aspects of that culture are a
+uniquely open process not just of programming but also of its
+organization, and a close relationship between programmers and
+users. Effectively, users and programmers together were both
+contributors, they collaborated on the project. Glyn goes on to
+explain how this community effort changed over time to become more
+institutionalized, more corporate and more dull - &ldquo;becoming a &lsquo;Firefox
+Affiliate&rsquo;, hardly something that sets the pulse racing.&rdquo; Ordinary
+users no longer play an important part in Open Source projects.</p><figure id=figure-for-aristotle-the-underlying-principle-of-democracy-is-freedom-since-only-in-a-democracy-the-citizens-can-have-a-share-in-freedom><div class="d-flex justify-content-center"><div class=w-100><img alt=Aristotle srcset="/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_b6ea70e7a2f1482223e96218d8fd5a3c.webp 400w,
+/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_5eb5225b08c9fe87efc059f0e7e5aa3b.webp 760w,
+/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_1200x1200_fit_q75_h2_lanczos.webp 1200w" src=/media/img/post/aristotle-altemps_hue90612a493a95dbd18bbb2231dca5ed8_2244558_b6ea70e7a2f1482223e96218d8fd5a3c.webp width=60% height=760 loading=lazy data-zoomable></div></div><figcaption>For Aristotle the underlying principle of democracy is freedom, since only in a democracy the citizens can have a share in freedom.</figcaption></figure><p>Underlying is the assumption that Open Source is democratic, and this
+assumption needs to be questioned. Open Source communities have been
+coined to be self-directed, meritocratic,  &mldr;, but it is rarely
+emphasized that they are democratic. Since individuals are investing
+effort in their favorite projects to contribute to something greater,
+and democracy is commonly considered to be a greater good as well, it
+is intriguing to make the jump to thinking of Open Source communities
+as being democratic. But are they? What is the meaning of democracy in
+the context of Open Source? What does a democratic community look
+like?</p><p>Some may say that such political concepts cannot easily be transferred
+to how Open Source communities should function. While it may not be
+easy, it is still worthwhile - democracies have dealt with similar
+problems of inclusion and the distribution of power and
+responsibility. Just like democratic states, communities are volunteer
+organizations that congregate to build the public goods they desire in
+the commons. Just like citizens, members of communities have a choice
+of voice or exit that they make based on the expected influence they
+have as citizens. There are enough similarities to justify learning by
+example.</p><h2 id=on-being-a-contributor>On being a contributor</h2><p>Democracy means &ldquo;rule of the people&rdquo;, and postulates, amongst other
+things, for each individual to be equal before the law and to have a
+vote in the political process and election of the government. This
+immediately boils down to the central Yin-Yang question of who is a
+citizen and who is not. Are users considered integral parts (citizens)
+of the Open Source communities, or outsiders who provide feedback? And
+should they be the equals of developers?  While today we seem to think
+that equality comes standard, it is in fact a dynamic concept, its
+meaning changes with culture. Think about the Voting Rights Act of
+1965 that finally abolished voter&rsquo;s discrimination by race in the US,
+or the fact that women will gain the right to vote in Saudi Arabia in
+the year 2015. This is what Glyn observes - users changed from being
+integral elements of the community to playing an only marginal role,
+akin to not having a vote.</p><p>Eligibility and acceptance are what discerns citizens from barbarians
+and slaves. Eligibility answers the question of which individuals can
+potentially become citizens. Acceptance is the requirements an
+eligible individual has to fulfill to gain citizenship. For example, a
+foreigner living in a country may be eligible for citizenship, but to
+be accepted needs to pay taxes for a number of years. When the same
+questions are applied to Open Source communities, they translate to
+&ldquo;Who is a contributor and could thus become a citizen of our
+community? How does somebody join the project?&rdquo; and second, &ldquo;What
+does a newcomer have to do to be considered a contributor, a part of
+the community?&rdquo; (does that sound like &ldquo;How do I become a committer&rdquo;? -
+exactly). In Open Source communities usually all individuals are
+eligible to join, but to be accepted and integrated, they need to
+<em>contribute to the code</em>.</p><p>So for users to become integral parts of Open Source communities
+again, users that engage with an Open Source project need to be equal
+contributors amongst peers, to be eligible. This is far from standard,
+and not the mind-set of most contributors I know. Most communities I
+work with value direct contributions to the project source code higher
+than feedback from users. They (unconsciously?) consider users
+outsiders and refer them to talk to the issue tracker, a proven way to
+make sure they never come back again with more feedback. So firstly,
+users need to be considered eligible to become community members, and
+second their efforts (feedback, for example) need to qualify them for
+acceptance as ordinary contributors.</p><h2 id=on-open-governance>On Open Governance</h2><p>But not all communities are created equal. When evaluating how
+democratic a community is, we need to look at their reason to
+exist. Not all Open Source projects are created by developers and
+users together, and the distribution of power and responsibility
+usually follows this outset goal or doctrine. If a project that is
+founded by developers and users  grows organically into an openly
+governed community (like KDE), it is likened to a democracy. A project
+that is founded by a company (think Mozilla or Qt) and maybe allows
+external contributors in along as they accept the decrees^wCLA of the
+king^wowner company aches more towards an aristocracy. Not all
+contributors are equals, and the ruling government cannot be replaced.</p><p>There has been a long debate over what the most central trait of a
+democracy is. Opinions differ, but there is one question - can the
+citizens, on a regular basis, re-elect or replace the ruling
+government in a structured process, without the need for a revolution?
+With this argument in mind, it becomes apparent that not all Open
+Source communities are democratic. KDE is to an extend, with a weak
+government and regular elections where every active member has exactly
+one vote. Think about electing a new government for Android, and the
+difference becomes apparent. Of the Open Source projects Glyn
+mentioned in his post, few can be considered democratic by this
+standard.</p><p>Back to the question on how to reduce the distance between users and
+developers and how to build communities that thrive on
+collaboration. Users, like any contributor, will consider the effect
+their investment of time into the project will have. If the utility
+they gain from contributing outweighs the cost of the effort to
+contribute, they will join the community and help with the
+project. The utility is directly related to the openness of the
+community governance; it will be less if the contributor&rsquo;s influence
+is only on mundane details, and greater if she has the chance to
+become the next president of KDE e.V. This emphasizes the importance
+of Open Governance for the longevity and community spirit of Open
+Source projects. Only with both the Open Source way and Open
+Governance, the user experiences the freedom to create that convinces
+her to join the project. Democracy in communities is Open Source
+combined with Open Governance.</p><h2 id=conclusions>Conclusions</h2><p>From the status of being a contributor - a citizen - follows
+the
+<a href=https://endocode.com/blog/2012/03/16/managing-trust-in-mixed-commercial-and-volunteer-open-source-communities/ target=_blank rel=noopener>right and duty</a> to
+take part in the community&rsquo;s affairs. Open Source can be democratic if
+it treats all the community members equally. Three requirements for
+considering an Open Source community democratic have been developed in
+the discussion above:</p><ul><li>To be democratic requires not to discriminate amongst contributors
+(users and developers). Users are contributors. They need to be
+encouraged to join the community, to give feedback and to otherwise
+help improve the project.</li><li>Demmocracy in communities means Open Source combined with Open
+Governance. The availability of the source code under a Free
+Software license is not sufficient for an Open Source community to
+be democratic. Without equality, without the contributors
+controlling the project as equals, it may be Open Source, but it is
+not democratic.</li><li>Governance is open if the contributors are equals and the community
+elects its own representation. Defining Open Governance as the
+situation where the contributors are in control of their project on
+all levels, democracy in an Open Source project can only be achieved
+when all contributors have equal say on all matters of the project.</li></ul><p>Whether or not contributors fully are equals amongst peers can only be
+decided by actions, not by words. The ethical question whether or not
+democracy is desirable for an Open Source project has been avoided in
+this article. In my personal opinion, Glyn is absolutely right: For
+Open Source to continue being successful, direct and indirect
+contributors need to get back to working together. With the widening
+appeal of Open Source software, naturally developers will become more
+experienced and professional, and the average user will turn to be
+less technical and computer savvy. This trend will likely continue
+with the growing user base of Open Source. And because it is
+inevitable, Open Source projects should instead prepare to liaise more
+with users and generally get good at integrating users and coders in
+the community.</p><p style=text-align:center;font-size:80%><a href=http://creativecommons.org/licenses/by-sa/3.0/deed.en_US rel=license><img style=border-width:0 src=http://i.creativecommons.org/l/by-sa/3.0/80x15.png alt="Creative
+Commons License"></a> This work is licensed under a <a href=http://creativecommons.org/licenses/by-sa/3.0/deed.en_US rel=license>Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</p></div><div class=article-tags><a class="badge badge-light" href=/tag/foss/>FOSS</a>
+<a class="badge badge-light" href=/tag/governance/>governance</a></div><div class=share-box><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F&text=Is+Open+Source+democratic%3F" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F&t=Is+Open+Source+democratic%3F" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=Is%20Open%20Source%20democratic%3F&body=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F" target=_blank rel=noopener class=share-btn-email aria-label=envelope><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F&title=Is+Open+Source+democratic%3F" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in><i class="fab fa-linkedin-in"></i></a></li><li><a href="whatsapp://send?text=Is+Open+Source+democratic%3F%20https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp><i class="fab fa-whatsapp"></i></a></li><li><a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.creative-destruction.org%2Fpost%2F2012-is-open-source-democratic%2F&title=Is+Open+Source+democratic%3F" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo><i class="fab fa-weibo"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=https://www.creative-destruction.org/><img class="avatar mr-3 avatar-circle" src=/authors/mirko/avatar_huee757338177b18fd21f3184743f4d131_552123_270x270_fill_lanczos_center_3.png alt="Mirko Boehm"></a><div class=media-body><h5 class=card-title><a href=https://www.creative-destruction.org/>Mirko Boehm</a></h5><h6 class=card-subtitle>Open Source Economics & Policy</h6><p class=card-text>Economics of Open Source and Intellectual Property</p><ul class=network-icon aria-hidden=true><li><a href=https://floss.social/@mirkoboehm target=_blank rel=noopener><i class="fab fa-mastodon"></i></a></li><li><a href=https://github.com/mirkoboehm target=_blank rel=noopener><i class="fab fa-github"></i></a></li><li><a href="https://scholar.google.com/citations?user=xjsllvsAAAAJ&hl=en" target=_blank rel=noopener><i class="fas fa-graduation-cap"></i></a></li><li><a href=https://www.linkedin.com/in/mirkoboehm/ target=_blank rel=noopener><i class="fab fa-linkedin"></i></a></li></ul></div></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by><span class=float-right aria-hidden=true><a href=# id=back_to_top><span class=button_icon><i class="fas fa-chevron-up fa-2x"></i></span></a></span></p></footer></div></div><script src=/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js></script>
+<script id=search-hit-fuse-template type=text/x-template>
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script>
+<script src=/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js type=module></script></body></html>

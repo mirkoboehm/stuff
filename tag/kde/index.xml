@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KDE | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/kde/</link><atom:link href="https://www.creative-destruction.org/tag/kde/index.xml" rel="self" type="application/rss+xml"/><description>KDE</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>KDE</title><link>https://www.creative-destruction.org/tag/kde/</link></image><item><title>The emergence of governance norms in volunteer-driven open source communities</title><link>https://www.creative-destruction.org/publication/fossgovernance/</link><pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/fossgovernance/</guid><description>&lt;p>As a reminiscence to the early times of free software collaboration,
+this paper published in October 2019 captures many moments and
+thoughts from involvement in the KDE community and FSFE. It is
+published as the inaugural article in the &lt;em>Journal of Open Law,
+Technology &amp;amp; Society&lt;/em> that continues the 10 year history of the
+&lt;em>International Free and Open Source Law Review&lt;/em>.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_019a059b62c5f0432205c38cdf9d1251.webp 400w,
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_9f67176dc8e6c398c4be44b13819899f.webp 760w,
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_019a059b62c5f0432205c38cdf9d1251.webp"
+width="60%"
+height="213"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>KDE e.V. - the Backbone of the KDE Community</title><link>https://www.creative-destruction.org/publication/20-years-of-kd/</link><pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/20-years-of-kd/</guid><description>&lt;h2 id="thoughts-and-stories-about-one-of-the-biggest-floss-communities-in-the-world">Thoughts and stories about one of the biggest FLOSS communities in the world&lt;/h2>
+&lt;p>This book presents 37 stories about the technical, social and cultural
+aspects that shaped the way the KDE community operates today. It has
+been written as part of the 20th anniversary of KDE. From community
+founders and veterans to newcomers, with insights from different
+perspectives and points of view, the book provides you with a
+thrilling trip through the history of such an amazing geek family.&lt;/p></description></item><item><title>HelW olorld! - Concurrent programming using the ThreadWeaver framework</title><link>https://www.creative-destruction.org/post/2014-08-11-helw-olorld/</link><pubDate>Mon, 11 Aug 2014 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2014-08-11-helw-olorld/</guid><description>&lt;p>Concurrent programming means creating applications that perform
+multiple operations at the same time. A common problem is that the
+user sees the application pause. A typical requirement is that an
+operation which may take an arbitrary amount of time because it is,
+for example, performing disk I/O, is scheduled for execution but
+immediately taken of the main thread of the application (the one that
+starts &lt;code>main()&lt;/code>). To illustrate how this problem would be solved and to
+jump right into using ThreadWeaver, let&amp;rsquo;s simulate this problem by
+printing &lt;em>Hello World!&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> as the asynchronous payload:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;QtCore&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;ThreadWeaver/ThreadWeaver&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">argc&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">char&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">argv&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">QCoreApplication&lt;/span> &lt;span class="n">app&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">argc&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">argv&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">ThreadWeaver&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">stream&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">make_job&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">[]()&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="n">qDebug&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34;Hello World!&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This short but complete program written in C++11 outputs the common
+greeting to the command line.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> It does so, however, from a worker
+thread managed by the global ThreadWeaver queue. The header file
+&lt;code>ThreadWeaver/ThreadWeaver&lt;/code> included in line 2 contains the essential
+declarations needed to use the most common ThreadWeaver
+operations. The components used in this examples are the global queue,
+a job and a queueing mechanism. The global queue is a singleton
+instance of the ThreadWeaver thread pool that is instantiated when it
+it first accessed after the application starts. A job represents
+&amp;ldquo;something&amp;rdquo; that should be executed asynchroneously. In this case, the
+thing to execute is a C++ lambda function that prints the welcome
+message. The queueing mechanism used here is a queue stream, an API
+inspired by the &lt;em>iostream&lt;/em> family of classes. ThreadWeaver builds on
+top of Qt, and similar to most Qt applications requires a
+QCoreApplication (or one of its descendants) to exist throughout the
+lifetime of the application. Up to line 7, the program looks like any
+other Qt application.&lt;/p>
+&lt;p>To have the job lambda function called by one of the worker threads, a
+job is created that wraps it using the &lt;code>make_job()&lt;/code>. It is then handed
+to the queue stream. The queue stream will submit the jobs for
+execution when the queuing command is completed, that is at the
+closing semicolon. Once the job is queued, one of the worker threads
+will automatically pick it up from the queue and execute
+it. &lt;code>ThreadWeaver::Job&lt;/code> is the unit of execution handled by
+ThreadWeaver queues. Jobs are simple runnable types that perform one
+task, defined in their &lt;code>run()&lt;/code> method. Some jobs wrap a
+lambda function as in this example or decorate other jobs. However
+implementing custom, reusable job classes is only a matter of writing
+a class that inherits &lt;code>ThreadWeaver::Job&lt;/code> and re-implementing
+it&amp;rsquo;s &lt;code>run&lt;/code> method. The job that was created by &lt;code>make_job()&lt;/code>
+in this example wraps the specified lambda function, and executes it
+when it is itself executed by a worker thread.&lt;/p>
+&lt;p>The program does not specify where the job should be executed, and not
+even when exactly. In a scenario where there would be many jobs
+waiting in the queue, execution of the new job would not be
+immediate. Which worker thread will be assigned the job is also
+undefined. The programmer gives up a bit of control over the details
+of execution, and in turns benefits from the automatic distribution of
+jobs amongst the available processors by the worker threads in the
+queue. Every program that links the ThreadWeaver library has access to
+a global queue for the execution of jobs. If no queue is specified
+when enqueueing a job, the global one will be used by default. Workers
+threads are allocated when needed by the queue. If the global pool is
+never accessed by an application, it will never be instantiated.&lt;/p>
+&lt;p>An application performing tasks in background threads should never
+exit while any of these operations is still in progress. In the case
+of ThreadWeaver, this means all jobs in the queue need to be either
+completed or dequeued and all worker threads idle before the
+application may exit. The global pool is in fact a QObject child of
+the &lt;code>QCoreApplication&lt;/code> object instantiated in line 7. It will be
+deleted by the destructor of QCoreApplication. When it is destroyed,
+it will wait until all queued up jobs have completed. The program will
+thus wait in line 8 until the job has finished printing &amp;ldquo;Hello World!&amp;rdquo;
+and will then exit. The job was enqueued as a shared pointer, so
+memory management is taken care of. While this example was very much
+simplified, the described functionality already has many practical
+applications. For example, the many operations real-life applications
+need to perform at startup, like loading translations, icon resources
+et cetera, can be removed from the criticial path this way. In this
+case the operations usually need to be performed in a certain order
+and then handed over to the main thread. Solutions for that are built
+into ThreadWeaver as well.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Since there have been questions - the title of the post refers to the problem of writing output from multiple threads without synchronization, which breaks the guarantees on order of execution. A boon for every concurrent program.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The examples are part of the ThreadWeaver source code and can be found in the &lt;a href="https://api.kde.org/frameworks/threadweaver/html/index.html" target="_blank" rel="noopener">KDE API DOCS&lt;/a>.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>KDE Frameworks 5 Tech Preview released, with updated ThreadWeaver</title><link>https://www.creative-destruction.org/post/2014-01-07-kde-frameworks/</link><pubDate>Tue, 07 Jan 2014 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2014-01-07-kde-frameworks/</guid><description>&lt;p>Today, the KDE Community &lt;a href="http://dot.kde.org/2014/01/07/frameworks-5-tech-preview" target="_blank" rel="noopener">released a tech preview of the upcoming KDE
+5
+Frameworks&lt;/a>,
+the new, modularised incarnation of what was previously distributed
+simply as the KDE libraries. The new frameworks are drop-in extensions
+to Qt applications, with minimal and well-documented dependencies for
+easier deployment. The tech preview contains two frameworks that are
+marked as mature, namely KArchive and ThreadWeaver. The updated
+ThreadWeaver was my major piece of library coding work in 2013, and
+was finished just in time for the release. Even though it is a tech
+preview, it is stable, and no major (or even significant but minor)
+changes in the current API are expected until the final
+release. Programmers are already encouraged to use it, and provide
+feedback and bug reports.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Recycled Paper Weaving" srcset="
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_55ef0e7e90032ace5ae5d1f43bbf7101.webp 400w,
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_5ed878cde768578fe581f66754e24041.webp 760w,
+/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2014-01-07-weaving_huc8ec5acf46b1ae12e7aa9cfc79db2e80_262694_55ef0e7e90032ace5ae5d1f43bbf7101.webp"
+width="60%"
+height="720"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>ThreadWeaver is a concurrent execution scheduler written in
+C++. Available for all target platforms of the Qt framework, including
+desktop, mobile and embedded environments, ThreadWeaver delivers
+concurrent execution of tasks, load balancing with regard to
+user-defined criteria, multiple independent queues, processing graph
+modelling, aggregate jobs and other comprehensive features. As all
+other KDE frameworks, ThreadWeaver is Free Software. Its only
+dependency is Qt, which makes it a tier 1 framework in KDE&amp;rsquo;s lingo.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>A number of the &lt;a href="http://www.slideshare.net/mirkoboehm/thread-weaver-in-kde-frameworks-5%22" target="_blank" rel="noopener">new features of
+ThreadWeaver&lt;/a>
+were announced at Akademy 2013. Jobs, the unit of concurrent execution
+in ThreadWeaver, are now managed by the queue using shared pointers,
+meaning that auto-delete behaviour is implicit and controlled by the
+user. Helper templates are available to queue stack or member
+variables, so allocation of jobs can be static or dynamic. Functors or
+lambda functions can be used to construct jobs. Job aggregates like
+collections and sequences now execute their own run() method before
+queueing their elements, so that aggregates can generate their own
+elements. Success and queueing state of jobs are now integrated into a
+single status. Jobs can signal the result of execution by setting a
+status, but also using exceptions, simplifying error reporting in more
+complex job classes. Jobs can be decorated, and no more inherit
+QObject by default. Decorators can be used to add signals, change
+priorities or modify just about any behaviour of jobs independently of
+the actual job class used. The construction of the global queue can
+now be customised using a queue factory. The QueueStream API greatly
+simplifies queueing jobs with a familiar iostream-like C++ syntax.&lt;/p>
+&lt;p>ThreadWeaver follows the Unix idiom of doing one thing, and doing it
+right. Similar to how small Unix programs can be combined to create an
+practically infinite space of computing solutions, ThreadWeaver offers
+itself to programmers as an add-on module with minimal
+dependencies. Including it extends an application with concurrent
+scheduling capability. But the same Unix idiom is also applied in a
+second sense. Within ThreadWeaver, a few basic concepts – jobs and
+their aggregates, queues and policies – are implemented that again
+provide simple building blocks that can be combined creatively,
+offering a vast space of potential solutions within the scope of the
+application.&lt;/p>
+&lt;p>The history of ThreadWeaver goes back to KDE 3. The idea of
+implementing a thread pool based execution scheduler that manages
+dependencies between jobs was implemented as a proof of concept using
+Qt 3. However it turned out to be difficult to implement and use
+because of the lack of thread-safe reference counting of the
+implicitly shared classes at the time. These fundamental problems have
+been solved with the release of Qt 4. Additionally, the introduction
+of cross-thread signal-slot connections further simplified the
+communication between jobs and the application&amp;rsquo;s user interface. The
+first production ready version of ThreadWeaver was released as part of
+KDELibs with KDE 4.0. For KDE Frameworks 5, it was almost completely
+re-written to simplify memory management of jobs, make use of new Qt 5
+features like atomic variables, and in part to reflect new language
+constructs in C++11 like lambda functions. ThreadWeaver comes with an
+extensive set of unit tests that all pass in the tech preview (hear,
+hear).&lt;/p>
+&lt;p>In the following weeks and months, the framework will be polished and
+debugged based on user feedback. Also, a series of posts here on this
+blog will introduce individual ThreadWeaver concepts and features in
+depth, mostly based on example programs, including contrasting it to
+thread handling in Qt using QThread or Qt Concurrent. ThreadWeaver is
+very close to production quality, having been tested continuously in
+the last couple of months. There may still be smaller, source
+compatible changes to the framework. We ask interested programmers out
+there to provide feedback and bug reports to make ThreadWeaver what it
+should be &amp;ndash; a worry-free, easy to use and powerful add-on to Qt that
+programmers enjoy using. Have fun!&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="http://www.flickr.com/photos/originalbliss/2897019812" target="_blank" rel="noopener">Image&lt;/a> by Shannan Sinclair, thanks&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>KDE rejects Fairsearch initiative claims: Free Software is competitive</title><link>https://www.creative-destruction.org/post/2013-09-kde-nope-to-fairsearch/</link><pubDate>Wed, 04 Sep 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-09-kde-nope-to-fairsearch/</guid><description>&lt;p>The KDE community is deeply concerned by the wrong notion contained in
+the recent complaint by the &lt;a href="http://www.fairsearch.org/mobile/fairsearch-announces-complaint-in-eu-on-googles-anti-competitive-mobile-strategy" target="_blank" rel="noopener">Fairsearch initiative
+claiming&lt;/a>
+that &amp;ldquo;distribution of Android at below-cost&amp;rdquo; could constitute
+anti-competitive behaviour or predatory pricing. Free Software
+platforms like KDE or Android are open to all actors without
+discrimination and at extremely low barriers of entry. The fact that
+Free Software solutions offer attractive alternatives to proprietary
+closed-source offerings makes it more competitive, not less.&lt;/p>
+&lt;p>KDE is one of the largest volunteer-driven Free Software&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>
+communities. The KDE community builds a free platform to create user
+experiences for desktop, mobile and other devices, and invites
+individuals and companies to extend and build upon this platform. Our
+community is a world-wide collaboration of companies and individuals
+that together create programs in an openly governed development
+process. Millions of users benefit from the programs that are
+distributed under a Free Software license that guarantees the &lt;a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank" rel="noopener">Four
+Freedoms of
+software&lt;/a>. This license
+means that our users and contributors together create a public good
+that others can redistribute or build upon.&lt;/p>
+&lt;p>The KDE Community calls on the European Commission to very
+carefully analyze the Fairsearch complaint for attempts to reduce the
+strong competition of Free Software platforms like KDE or Android to
+proprietary non-free offerings. We encourage the European Commission
+to understand that Free Software truly fosters innovation and
+increases competition, and to protect the liberty of our contributors
+and those of other communities to collaboratively create and
+distribute Free Software as a common good.&lt;/p>
+&lt;h2 id="the-four-freedoms-force-actors-to-compete-within-markets-not-for-control-over-markets">The &amp;ldquo;Four Freedoms&amp;rdquo; force actors to compete within markets, not for control over markets&lt;/h2>
+&lt;p>Free Software provides a level playing field for all competitors. By
+minimizing barriers of entry and eliminating discrimination of access
+to formats, standards and technologies, Free Software platforms create
+comparable starting positions for all actors, leaving them with
+options to convince customers about (with) the functionality of their
+products and the quality of their services. Lock-in and artificial
+market segregation through discriminative licensing or essential
+technologies are systematically reduced. In fact, the most popular
+Free Software licence, the GPL, clearly forbids any kind of
+discrimination of use.&lt;/p>
+&lt;p>Consumers benefit from this openness by having choice between multiple
+interoperable products and by lower prices through increased
+competition. This is because Free Software implies open standards
+accessible to any party willing to implement them. The Free Software
+nature of the platforms fosters the proliferation of technical
+understanding and skills, improving the chances for the development of
+a more diverse, less concentrated technology business ecosystem. These
+concrete opportunities for economic development specifically in the
+European Union are endangered if Free Software platforms are penalized
+because of misunderstood complaints of predatory pricing.&lt;/p>
+&lt;p>The claim of anti-competitiveness of Free Software platforms is
+untenable. Even in the extraordinary situation where only one entity
+contributes to development, the licenses under which the products are
+distributed explicitly rule out almost all typical forms of
+anti-competitive behaviour like exclusive dealing (for example through
+selective partnership licensing programs), any kind of fixed or
+barrier pricing or territorial divisions often employed by proprietary
+vendors. While trademarks can be used to limit platform fragmentation,
+they will not leverage control over competing products based on the
+Free Software platform itself. For example, Kindle Fire and Facebook
+Phone are products build upon the Android Open Source Project platform
+without any further restrictions.&lt;/p>
+&lt;p>Because the open, competitive nature of Free Software platform fosters
+confidence in users and vendors that the risk of undue lock-in is
+minimal, an obvious trend towards de facto standardization on open
+platforms is observable in many technological fields including the
+mobile space. Since actors are usually not inclined to voluntarily
+return to the strong lock-in of proprietary platforms, vendors of
+proprietary platforms have shown a tendency towards hampering the
+emergence of Free Software platforms by spreading &amp;ldquo;FUD&amp;rdquo; (&lt;a href="http://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt" target="_blank" rel="noopener">fear, uncertainty
+and
+doubt&lt;/a>). Volunteer-driven
+Free Software communities rely on regulators to identify these
+attempts and to provide protection of open innovation against the
+vested interest of strong proprietary players.&lt;/p>
+&lt;h2 id="conclusion---free-software-platforms-are-competitive-by-nature">Conclusion - Free Software platforms are competitive by nature&lt;/h2>
+&lt;p>The KDE Community is asking the European Commission to protect the
+liberty to develop and distribute platforms under accepted Free
+Software licenses providing the Four Freedoms to all potential users
+and to derivative works, and to recognize the overwhelming benefit to
+the public provided by open and collaborative innovation processes. We
+have shown that the elements of Free Software licenses largely
+eliminate the possibility of anti-competitive behaviour, especially by
+forbidding discrimination between users of the product. The predatory
+pricing claims against Free Software platforms in the recent
+Fairsearch complaint are wrong in substance and hurtful to
+collaborative development and open innovation.&lt;/p>
+&lt;p>Sincerely,&lt;/p>
+&lt;p>Mirko Boehm&lt;br>
+KDE Community&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Often referred to as “open source”. “Free Software” is the original and more accurate name which reflects all the aspects of the same phenomenon.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>KDE e.V. General Assembly 2013</title><link>https://www.creative-destruction.org/post/2013-07-18-kde-ga/</link><pubDate>Thu, 18 Jul 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-07-18-kde-ga/</guid><description>&lt;p>tl;dr: If you are a committed KDE contributor and not a KDE
+e.V. member, you are doing it wrong. If you are a KDE user, consider
+helping the KDE User Working Group. Read KDE e.V.&amp;rsquo;s quarterly reports.&lt;/p>
+&lt;figure id="figure-the-test-vote-before-the-assembly-officially-started">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Voting at the KDE e.V. general assembly" srcset="
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_59c65bc2fa97e3e30486b67fc3148ef0.webp 400w,
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_451dd665076a0028479e0da93df2de63.webp 760w,
+/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2013-07-kde-ga_huaf89183451818f046cfc9b11bff581d8_1476085_59c65bc2fa97e3e30486b67fc3148ef0.webp"
+width="80%"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The test vote before the assembly officially started
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;a href="http://akademy2013.kde.org" target="_blank" rel="noopener">Akademy 2013&lt;/a> is still on its way, and as
+usual the KDE e.V. General Assembly was held as a part of it. KDE
+e.V. is the representation and governance body of the KDE
+community. Membership in this not-for-profit association registered in
+Berlin, Germany is open to all KDE contributors . Members usually
+assemble once a year to coordinate, to vote on issues important to the
+community and to elect representatives and board members as
+needed. The highlights this year where the discussion of the role of
+the Community Working Group, the report on the first activities of the
+newly established Financial Working Group, and the election of one
+new board member. I was the chairperson of the assembly, and this is
+my inofficial report.&lt;/p>
+&lt;p>The role of KDE e.V. is somewhat described by &amp;ldquo;standing on the
+shoulders of giants&amp;rdquo;. It is made up by community members interested
+in governance matters, and represents the wider KDE community that
+encompasses all non-technical and technical contributors. On one hand
+KDE e.V. takes a passive stance, in that it does not directly
+influence the direction the development of KDE is taking. On the other
+hand it plays an important role and invariably influences the
+community by receicing donations, managing funding of development
+sprints and meetings, covering operational costs like hardware and
+infrastructure, and of course by running the Akademy conference year
+after year. This setup is reflected in the working groups that act as
+focal points for various fields of interest within the
+community. Working groups as established for marketing, system
+administration, community, user relations and finance. Notably absent
+is a development working group, it is commonly accepted that this is
+not KDE e.V.&amp;rsquo;s concern. The membership elects a five person board that
+coordinates the work of the KDE e.V. members and the working
+groups. KDE e.V. currently has 169 active members, which is an
+impressive number considering it&amp;rsquo;s non-technical focus in a
+development community.&lt;/p>
+&lt;p>The abbreviation &amp;ldquo;e.V.&amp;rdquo; stands for &amp;ldquo;eingetragener Verein&amp;rdquo;, German for
+&amp;ldquo;registered association&amp;rdquo;. It functions much like a shareholders
+company in which every member holds exactly one share. This means the
+membership as a whole is the proprietor of all assets owned by the KDE
+community, including the KDE trademark and the operational
+infrastructure. A new member joins the group of joint owners of KDE -
+quite a responsibility. Dictated by the principle of congruence of
+power and responsibility the membership in turn assumes the right to
+allocate funds, elect representatives to related communities et
+cetera. Because of that, it is necessary that the KDE e.V. membership
+represents the community of KDE contributors as broadly as
+possible. Every committed KDE contributor is encouraged to seek
+membership. Send an email to the &lt;a href="https://mail.kde.org/mailman/listinfo/kde-community" target="_blank" rel="noopener">KDE community mailing
+list&lt;/a> to express
+your interest to become a member (&lt;a href="http://ev.kde.org/getinvolved/members.php" target="_blank" rel="noopener">How to become a KDE
+e.V. member&lt;/a>). Only
+individuals can be members, organizations are invited to become
+supporting members. As a bonus, supporting members are invited to
+attend the general assembly.&lt;/p>
+&lt;p>This year&amp;rsquo;s assembly started routinely with the report of the board
+and the different &lt;a href="http://ev.kde.org/workinggroups/" target="_blank" rel="noopener">working
+groups&lt;/a>. Official meeting minutes
+will be published later, but it is fair to say that KDE&amp;rsquo;s house is
+generally in good order. The board is focused on the transition of
+the KDE community to an umbrella for various Free Software efforts as
+described in the &lt;a href="http://manifesto.kde.org" target="_blank" rel="noopener">KDE Manifesto&lt;/a>. As
+projects join the KDE Community, the existing structure of internal
+representation needs to be updated to reflect the interests of these
+sub-communities. As everything in KDE this is a work in progress, the
+first step look rather promising. The marketing working group is
+preparing a campaign to advertise the use of the upcoming KDE
+frameworks on top of Qt. The treasurer and the auditors of
+the accounting reported a small surplus in the fiscal year of 2012
+that will be used to fund additional KDE activities
+in 2013. Spending is well aligned with KDE e.V.&amp;rsquo;s goal and tightly
+supervised. A new system of accounts and cost codes will provide
+better insight in the income and expenses incurred by the various
+activities and events.&lt;/p>
+&lt;p>The mission of the User Working Group established in 2012 is the give
+KDE users a representation within the community and &lt;a href="https://www.creative-destruction.org/post/2012-is-open-source-democratic/">involve them more
+in KDE
+development&lt;/a>. This
+effort still needs more pickup. Growing the role of the User Working
+Group is very important, since the strength of Free Software is only
+realised by users and developers forming the communities together. It
+will need a charter, user representatives to KDE e.V., and routine
+activities of involving KDE users in development and quality
+improvement efforts.&lt;/p>
+&lt;p>The Community Working Group moderates how contributors work
+together. The principle of KDE e.V. assuming a passive, supporting
+role is routinely challenged whenever the community asks the Community
+Working Group to resolve conflicts. The KDE Manifesto makes it very
+clear that KDE is an inclusive community with a strong sense for
+intrinsically motivated, voluntary contribution. Exercising authority
+in such a setup is tricky - it should be reduced to a minimum, however
+that minimum needs to be determined in some way. Even occasional
+abuse, rudeness or bad manners set the tone of the community and can
+cause substantial damage. So far KDE in general lacks instruments to
+control that damage effectively. Sadly, few individual cases were not
+resolved for extended periods of time, causing contributors to leave
+the community. The discussion of how to empower the Community Working
+Group and find a generic way to manage such situations took ginormous
+time, but was definitely worth it. However, it is not over. A conflict
+resolution BoF session was held on Monday, and a policy will be
+proposed to the membership in the weeks after Akademy. The Community
+Working Group has earned a lot of respect by me and many others with
+the prudent and calm way it handles these issues, especialy
+considering the amount of frustration dealing with such issues can
+cause. It needs the support of all of us to define how the standards
+set by the KDE Manifesto and the &lt;a href="http://www.kde.org/code-of-conduct/" target="_blank" rel="noopener">Code of
+Conduct&lt;/a> can be achieved.&lt;/p>
+&lt;p>Albert Astals Cid was elected for the vacant board seat in an
+incredibly tight race (a tie in the first round of voting, and a
+one vote win in the second). Competitive votes like that show that
+there is choice, and that the future of KDE is defined by the
+contributors. Congratulations, Albert! Many thanks to both Albert and
+Marta Rybczynska for their candidacy, and to everybody who grilled the
+candidates during the questions and answers session. Sebastian Kügler
+stepped down after being a board member since 2006 - many thanks to
+him as well for all the great work he has done. Subscribe to the &lt;a href="https://mail.kde.org/mailman/listinfo/kde-community" target="_blank" rel="noopener">KDE
+Community mailing
+list&lt;/a> to get
+involved in KDE governance matters. Consider joining one of the
+working groups to support them in their important work. At last, the
+&lt;a href="http://ev.kde.org/reports/" target="_blank" rel="noopener">quarterly reports&lt;/a> help in staying up to
+date with KDE e.V.s work.&lt;/p></description></item><item><title>KDE Akademy and Qt Contributor Summit in Bilbao, Spain</title><link>https://www.creative-destruction.org/post/2013-07-10-akademy/</link><pubDate>Wed, 10 Jul 2013 18:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/post/2013-07-10-akademy/</guid><description>&lt;p>&lt;a href="http://akademy2013.kde.org" target="_blank" rel="noopener">Akademy&lt;/a>, the annual conference of the
+KDE community, will take place from July 13 to July 19 2013 in Bilbao,
+Spain. It will be prefixed on July 12 by the general assembly
+of &lt;a href="http://ev.kde.org" target="_blank" rel="noopener">KDE e.V.&lt;/a>, the charitable foundation that
+supports the development of KDE. As usual, it will be followed by a
+full week of frantic, collaborative hacking, birds of a
+feather sessions and
+mini-conferences. &lt;a href="http://qt-project.org" target="_blank" rel="noopener">Qt Project&lt;/a> and the KDE
+Community are very close companions, and this year for the first time
+the
+&lt;a href="http://qt-project.org/groups/qt-contributors-summit-2013/wiki" target="_blank" rel="noopener">Qt Contributor Summit&lt;/a> will
+be co-located with Akademy and take place July 14 and 15. In short, if
+you haven&amp;rsquo;t been to a Free Software community conference like that,
+this the one of the most awesome of them all, and the Qt Contributor
+Summit only adds more greatness to it. I am on the way to it, to chair
+the general assembly and to give a presentation on the concepts and
+philosophy of Threadweaver.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="I am going to Akademy 2013!" srcset="
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_e49bbfba709ef2ea54225ac67a9f8df1.webp 400w,
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_06e9b1b0e5fd2ae65c945f3f80e25f16.webp 760w,
+/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2013-07-ak2013badge_hu577b0f51addf8b77b9a6a7144dde6903_10292_e49bbfba709ef2ea54225ac67a9f8df1.webp"
+width="70%"
+height="178"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Last year at Akademy,
+my
+&lt;a href="http://www.slideshare.net/mirkoboehm/meritocracy-in-kde" target="_blank" rel="noopener">Meritocracy in KDE&lt;/a> presentation
+was all about meritocracy, Open Governance and how the KDE Community
+can evolve to be attractive to contributors of all kinds and flavors,
+especially beyond coders. KDE is headed to morph into an umbrella
+community for similarily minded end-user focused Free Software
+projects, based on a set of shared values and ideals. Being an ex
+long-time KDE e.V. board member inevitably provides a certain high
+level perspective on governance related matters, and the presentation
+focused on providing food for thought for this process. It was the
+conference where we drafted
+the &lt;a href="http://manifesto.kde.org" target="_blank" rel="noopener">KDE Manifesto&lt;/a>. After long
+consideration, it was published later in 2012 and represents an
+excellent summary of what the community and it&amp;rsquo;s contributors believe
+in. Kudos again to all who contributed to that,
+especially
+&lt;a href="http://ervin.ipsquad.net/tags/kde-manifesto-genesis/" target="_blank" rel="noopener">Kevin Ottens&lt;/a>.&lt;/p>
+&lt;p>Too much of community building, politico-economic analysis and
+meta-thinking is not good for mental health (besides, I do a lot of
+that all year around at
+the
+&lt;a href="http://www.inno.tu-berlin.de" target="_blank" rel="noopener">Technical University of Berlin&lt;/a>). So
+for this year, the goal was to go back to the basics, and take part in
+the ongoing work to modernize KDE&amp;rsquo;s frameworks by refactoring and
+updating
+&lt;a href="https://api.kde.org/frameworks/threadweaver/html/index.html" target="_blank" rel="noopener">Threadweaver&lt;/a>. Real,
+actual lower-level coding work, also known as pure bliss. Threadweaver
+is KDE&amp;rsquo;s concurrency scheduler. It&amp;rsquo;s goal is provide an abstraction of
+multithreading and concurrency suitable for developers of end-user
+applications, and make it as simple as possible in the
+process. Threadweaver has been in KDE since 4.0, but C++ idioms and
+Qt, which it builds upon, have evolved dramatically since KDE 4 was
+first released. So an update was in order. The development work on the
+new version of the Threadweaver core is mostly complete, and ready to
+be introduced at Akademy (all changes are in the kdelibs repository,
+for the
+curious). The
+&lt;a href="https://conf.kde.org/en/Akademy2013/public/events/51" target="_blank" rel="noopener">presentation&lt;/a>
+is suitable for newcomers as well, and will contain a programming
+introduction, a chapter on Threadweaver&amp;rsquo;s philosophy and concept, and
+a discussion of performance considerations.&lt;/p>
+&lt;p>I am writing this post on the direct flight from Berlin to Bilbao that
+I reached after a bit of an eventfull journey to
+the airport. Expecting that an nice extra 15 minutes buffer time to
+account for the unexpected should be plenty, the taxi driver got
+pulled over by the police for driving
+at &lt;a href="http://en.wikipedia.org/wiki/Spaceballs" target="_blank" rel="noopener">ludicrous speed&lt;/a> (31 km/h
+in a 20 km/h zone), then navigated around a traffic jam at
+a construction site, and got delayed again when a scenic tour bus
+got stuck after thinking it would be a great idea to pass through a
+single lane road that was about three centimeters wider than the
+bus itself (a road which, of course, we had to pass from the
+other direction). I got to the airport just in time for boarding
+and leisurely strolled onto the plane, since I was already
+boarded. Should have accounted for 20 minutes of unexpected
+events, bad planning on my part, I guess. However, the headphones are
+playing Telegraph Road by the Dire Straits, and I am going to
+Akademy. Looking forward to see you there, my friends. If you want to
+meet me at Akademy, send me a tweet @mirkoboehm, or email to
+&lt;a href="mailto:mirko@kde.org">mirko@kde.org&lt;/a>.&lt;/p></description></item><item><title>Here is to a book that did not exist a week ago - 'How to understand an oil contract'</title><link>https://www.creative-destruction.org/post/2012-openoil-book/</link><pubDate>Tue, 06 Nov 2012 18:08:50 +0200</pubDate><guid>https://www.creative-destruction.org/post/2012-openoil-book/</guid><description>&lt;p>This week, &lt;a href="http://openoil.net/" target="_blank" rel="noopener">Open Oil&lt;/a> project performed
+a marvelous stunt -
+the
+&lt;a href="https://openoil.net/portfolio/oil-contracts/" target="_blank" rel="noopener">&amp;ldquo;Oil Contracts Booksprint&amp;rdquo;&lt;/a>. &lt;a href="https://www.linkedin.com/in/johnny-west-2509098" target="_blank" rel="noopener">Johnny West&lt;/a>,
+&lt;a href="https://zararah.net/" target="_blank" rel="noopener">Zara Rahman&lt;/a> and their supporters gathered oil
+contract experts from across the globe
+at &lt;a href="http://www.schloss-neuhausen.de/" target="_blank" rel="noopener">Schloss Neuhausen&lt;/a> to achieve
+something that has never done before - create a book that explains how
+to understand an oil contract. Not only did such a book not exist,
+they also published it under a Creative Commons license. And because
+that is not enough of a challenge, they did it all in one week.&lt;/p>
+&lt;figure id="figure-oil-contracts---how-to-read-and-understand-them">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Oil Contracts - How to read and understand them" srcset="
+/media/img/post/2012-oilcontracts_hu2f17a8e331923dd5a5fef33ecc28956c_359540_94301c58e96dd634dd2a6ccf3373553c.webp 400w,
+/media/img/post/2012-oilcontracts_hu2f17a8e331923dd5a5fef33ecc28956c_359540_9aa5b60823a98da5e8a235a72519661a.webp 760w,
+/media/img/post/2012-oilcontracts_hu2f17a8e331923dd5a5fef33ecc28956c_359540_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2012-oilcontracts_hu2f17a8e331923dd5a5fef33ecc28956c_359540_94301c58e96dd634dd2a6ccf3373553c.webp"
+width="60%"
+height="556"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Oil Contracts - How to read and understand them
+&lt;/figcaption>&lt;/figure>
+&lt;p>Oil contracts determine the share of the oil revenue that the country
+who owns the oil, the international oil companies and others
+receive. From the book: &amp;ldquo;It is petroleum contracts that express how
+[the] money is split and who makes what profits, just as it is the
+contracts that determine who manages operations and how issues such as
+the environment, local economic development, and community rights are
+dealt with. The share price of ExxonMobil, the question of who carries
+responsibility for Deepwater Horizon, whether Uganda will be able to
+stop importing petrol, and how much it costs to heat and light homes
+in millions of homes ­­ these are issues which depend directly on
+clauses in the contracts signed between the governments of the world
+and the oil companies. For most of the 150 years of oil production,
+these contracts have remained hidden, nested in a broader secrecy that
+surrounded all aspects of the industry. Governments claimed national
+security prerogatives, companies said commercial sensitivity precluded
+making them available.&amp;rdquo;&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Photo of the desk at the OpenOil booksprint" srcset="
+/media/img/post/2012-img_0188_hu9ab35faa1bdd7d9de3fa0a97b3716028_209059_efe5735d97571271d9bec0282ff3016f.webp 400w,
+/media/img/post/2012-img_0188_hu9ab35faa1bdd7d9de3fa0a97b3716028_209059_97ee3b8eabc94540076e1201d38383fd.webp 760w,
+/media/img/post/2012-img_0188_hu9ab35faa1bdd7d9de3fa0a97b3716028_209059_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2012-img_0188_hu9ab35faa1bdd7d9de3fa0a97b3716028_209059_efe5735d97571271d9bec0282ff3016f.webp"
+width="60%"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>People who have attended an Open Source develoment sprint may notice
+that the desk in the picture pretty much looks like at one of them. A
+book sprint applies techniques and tools developed in the Open Source
+world to authoring. Gather the relevant people, get them to a remote
+location with little distraction, and then allow them to focus on
+producing something they are passionate about. As in software, the
+results are impressive. Collaborative editing tools are used to
+coordinate between authors, editors and illustrators, similar to
+version control. It is also noteworthy that of the different expert
+that attended the sprint, all attended on a pro-bono basis or as part
+of their day job.&lt;/p>
+&lt;p>The
+&lt;a href="https://openoil.net/portfolio/oil-contracts/" target="_blank" rel="noopener">&amp;ldquo;How to understand an oil contract&amp;rdquo;&lt;/a> book
+is a good read even for people who are only casually interested in the
+politics of oil. How the book was produced serves as a great example
+of the Open Source way adopted by other, less technology related
+sectors. And if the book contributes to making oil contracts better
+understood and more comparable, the world has just become a better
+place.&lt;/p></description></item><item><title>It's the Free Software, stupid!</title><link>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</link><pubDate>Sat, 30 Jun 2012 18:08:50 +0200</pubDate><guid>https://www.creative-destruction.org/post/2012-its-the-free-software-stupid/</guid><description>&lt;p>Heated discussions are going on in the KDE community in the aftermath
+of the announcement of Nokia&amp;rsquo;s platform strategy change. Rationality
+often goes out of the window when people feel such a change goes
+against their personal values or beliefs. In the past days, I worked
+on an analysis of the impact of the changes on KDAB, Qt and the Free
+Software communities we work with, especially KDE. KDAB is rooted
+deeply in the KDE community, and many of our developers work with Qt
+and KDE for years now. We are sharing the same worries and hopes, so
+the results may be interesting for others as well. This post is about
+Qt, KDE, Free Software, politics, devices, markets, strategies - it
+does not get much better than that. Read on.&lt;/p>
+&lt;h2 id="be-thankful-for-what-you-got">Be thankful for what you got&lt;/h2>
+&lt;p>We are told to judge by actions, not by words, so let us have a look
+at the development of Qt since Nokia bought Trolltech, and how the KDE
+community benefitted from it. It is important to stress this up front
+because it is easy to forget that since then, Nokia has been a very
+important benefactor. KDE is based on Qt and always relied heavily
+it&amp;rsquo;s technical advances. Trolltech convinced many developers to use Qt
+because of it&amp;rsquo;s superior quality and ease of use and the friendly and
+inspiring developer community. But it was a small company, and could
+not have afforded to forgo the license revenue made from selling
+commercial Qt licenses. This revenue was the central pillar of
+Trolltech&amp;rsquo;s business model. Trolltech was also in the uneasy situation
+that it influenced the software industry way more than it&amp;rsquo;s small size
+warranted, and attracted the attention of much larger
+competitors. With the takeover, the revenue Trolltech generated was to
+a large extend irrelevant to Nokia. The development framework is a
+strategic asset, and selling Qt licenses is not in line with Nokia&amp;rsquo;s
+core competencies. It also made perfect business sense to invest even
+more resources that could never have been afforded from the license
+revenue, to be able to rely on Qt as the future UI platform. This
+investment resulted in huge performance improvements, new technologies
+like QML, a continuous stable development process with many releases,
+Qt Creator, and many other goodies.&lt;/p>
+&lt;p>But the biggest gift Nokia ever presented us with was to relicense Qt
+under the LGPL. It finally overcame the acceptance issue with Qt in
+the wider Free Software space, and helped grow the Qt user base
+massively. While other important safeguards like the Free Qt
+Foundation were already in place, using Qt under the LGPL license is
+so much less of a hurdle to take then to enforce the rights granted
+through the Free Qt Foundation. Those rights can also only be executed
+once, and only as an action of last resort. Without Qt under LGPL,
+MeeGo would not have been accepted by the software industry. This, the
+public hosting of the Qt git repo and the massive development manpower
+Nokia invested in Qt benefit KDE immensely.&lt;/p>
+&lt;p>The best part is that none of these presents can be un-given or taken
+away. Qt is there to stay under the current Free Software licenses,
+and the quality it gained in the recent years will also remain at
+KDE&amp;rsquo;s service. There are new developments in KDE like QML and QtQuick
+that KDE still has to fully make use of. Today&amp;rsquo;s Qt is a superb
+platform to base the development of KDE on in the coming
+years. Thanks, Nokia.&lt;/p>
+&lt;h2 id="qt">Qt&lt;/h2>
+&lt;p>It is an open question how these past achievements translate into the
+future when it comes to Qt&amp;rsquo;s own development. From talking to business
+partners and contacts at Nokia, it is pretty clear that no new
+direction has been set for the Qt unit at Nokia. The announcement that
+there will be no layoffs or budget cuts is comforting, but it needs to
+be taken with a grain of salt. It may have all kinds of reasons, for
+example personnel retention, local labor laws, maintaining an
+undamaged business unit that can be sold - or the simple lack of an
+updated strategy. So all these statements have to be mentally extended
+with an &amp;ldquo;&amp;hellip;until further notice&amp;rdquo;. By definition, strategy changes do
+not occur on a regular basis. Even if the Microsoft partnership is
+unsuccessful (in sales figures, for example), it will take 3 to 5
+years for that to be realized and the strategy to be re-evaluated. In
+that time frame, there will most certainly be changes to the Qt unit
+if it remains within Nokia.&lt;/p>
+&lt;h3 id="checking-the-facts-about-nokia-platforms-shipping-qt">Checking the facts about Nokia platforms shipping Qt&lt;/h3>
+&lt;p>Nokia plans to ship another 150 million Symbian devices with Qt
+installed. The ability to do so depends heavily on the appeal of these
+phones to users willing to pay more than the magical 100 Euro barrier
+price. A vivid app market is necessary to reach this goal, since apps
+are a major sales driver in today&amp;rsquo;s smartphones. Will companies keep
+investing in the fledgling Symbian plus Qt app space? Investors shy
+away from shrinking markets. Every corporate strategist tasked with
+developing a product-market-matrix will put anything Symbian related
+into the &amp;ldquo;de-invest&amp;rdquo; bracket. Why does the Symbian market shrink? Have
+a look at the diagram that visualizes the spectrum of Nokia phones
+(while creating the image I discovered how close the Qt and the
+Windows Phone 7 shades of green are - a coincidence? I guess we will
+never know).&lt;/p>
+&lt;figure id="figure-the-nokia-qt-dilemma">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Nokia Qt Dilemma" srcset="
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp 400w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_146dd0e61a7e03ea14367ea30581d1a7.webp 760w,
+/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/post/2012-nokia-qt-dilemma_hu0d5d37beef49274c4e61e30a7df5301e_22889_a3a12e7c6d10a6aff2715f8178d27842.webp"
+width="60%"
+height="156"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Nokia Qt Dilemma
+&lt;/figcaption>&lt;/figure>
+&lt;p>The lower end S30/S40 devices are becoming more attractive because
+features are added to them that so far required a smart
+phone. Internet access becomes more and more pervasive, and apps are
+being developed for these devices now. Having a Facebook app, for
+example, will be a convincing argument for those buyers who never
+really wanted a clunky smartphone. Also, these not-so-dumb phones will
+continue to be developed and shipped under the new strategy, resulting
+in better customer acceptance.&lt;/p>
+&lt;p>Through constantly improving hardware, the smartphones are being sold
+at steadily decreasing prices. The cheapest Android phones are now at
+below 100 Euro. This puts additional pressure on the sales revenue
+generated by the current high-end Symbian phones. Customer acceptance
+plays an important role in this segment as well. Read the latest
+tweets, and half of them are in the line of &amp;ldquo;I finally got rid of my
+Nokia and got an Android phone now&amp;rdquo;. Customers will shy away from a
+line of phones that is already announced to be replaced. It is like
+beating the proverbial dead horse.&lt;/p>
+&lt;p>So the Symbian market segment will shrink, and with that the
+importance (and clout) of Qt within Nokia. Customers do not care about
+mobile OSes to a large extend. As soon as an average S40 phone will
+ship apps and have internet access, the middle bracket in the above
+diagram will fade away. Nokia is trying to define a &amp;ldquo;mid range phone&amp;rdquo;
+segment between the feature phones (S30/S40) and the smartphone (WP7)
+ranges. This segment is not established in the phone market, and it is
+questionable whether there will be a niche for it.&lt;/p>
+&lt;p>Because of that, app developers will hesitate to invest in the
+platform, and the Qt mobile ecosystem will be under a lot of
+pressure. In all the Nokia devices, Qt will not gain the widest
+coverage of all development platforms. Very likely it will be S30/S40,
+by device count, and WP7, by sales volume. Remember this is about Qt
+within Nokia. It only influences KDE indirectly, by defining Qt&amp;rsquo;s role
+in the platform strategy.&lt;/p>
+&lt;h3 id="qt-on-other-mobile-platforms">Qt on other Mobile Platforms&lt;/h3>
+&lt;p>With apps currently being developed in Java for the S30/S40 based
+phones, Nokia uses 3 different development platforms for it&amp;rsquo;s phone
+lineup, Java, Symbian with Qt, and WP7.&lt;/p>
+&lt;p>There is a hopelessly romantic rumor that Qt support might come for
+the S30/S40 platform. A reality check is needed here. The low-end
+devices are shipping with S30/S40 because it is available today, not
+because it is a great modern future-proof platform. The apps for these
+phones are being developed now, or within the next twelve months. Even
+if a full-scale Qt port is started today, it won&amp;rsquo;t be available
+short-term. No doubt the Qt community will be able to pull off that
+stunt. But finishing the port is one thing, getting it through quality
+acceptance and to the point where it is shipped in devices is
+another. App developers would only target those devices when they
+gained a sufficient market share, and by that time, an Android phone
+sells for 50 Euro. Because of that, I do not think there will be an
+official strategy to make Qt available on S30/S40. And since Qt is
+also not coming to to WP7, Qt&amp;rsquo;s cross platform claim is moot within
+Nokia.&lt;/p>
+&lt;p>If the Qt ports to Androids, Blackberries, Badas and Kindles become a
+viable reality, other vendors will sell more devices supporting Qt
+than Nokia. And that is a development going on now, while Nokia will
+need between one and two years to release the first WP7 phone. These
+forces will heavily impede Nokia&amp;rsquo;s ability to differentiate based on
+the features of Qt, and result in less motivation to base a future
+strategy on Qt as a disruptive technology. The disruption will happen
+while Nokia is developing it&amp;rsquo;s first WP7 phone.&lt;/p>
+&lt;h3 id="open-governance-of-qt">Open Governance of Qt&lt;/h3>
+&lt;p>Regarding Open Governance, it is another open question if this strategy is
+viable for Qt in the absence of a major investor (of time and money)
+that drives the development. There is a good chance that it ends up
+like XFree.org and produces little more than bike shedding for a long
+time. Free Software projects under Open Governance, like the Linux
+kernel, or X.org, or - not quite the same, but very similar - the C++
+standard, tend to innovate slowly. Because of that, I am not convinced
+that an impressive Qt 5 can be developed by the community under Open
+Governance in a reasonable time frame. Do not get this wrong: The idea
+is great, the problem is that it might not work out as we all hope
+for. Three major scenarios come to mind when thinking about the future
+of Qt&amp;rsquo;s governance:&lt;/p>
+&lt;ol>
+&lt;li>Nokia considers Qt a strategic asset, and continues to heavily
+invest in it. In this case, Open Governance has a chance to
+succeed, but might not be in Nokia&amp;rsquo;s own interest, since it will be
+losing control over it&amp;rsquo;s own important technology.&lt;/li>
+&lt;li>Qt is switched into maintenance mode, because it is not seen as
+important for the future. In this case, Open Governance will have a
+hard time to be implemented in the first place, and partners will
+hesitate to take responsibility for individual modules.&lt;/li>
+&lt;li>Nokia plans to sell the Qt unit as an asset. In this case, the
+potential buyer will want enforceable control over it&amp;rsquo;s
+investment. For that plan, Open Governance devalues Qt as a
+sellable product. The biggest challenge for the transition to Open
+Governance is to make sure the companies invested in Qt support it
+fully, and want to see it happen.&lt;/li>
+&lt;/ol>
+&lt;p>Maybe I missed a scenario that will make it work? Please post your
+feedback.&lt;/p>
+&lt;p>The biggest challenge for Qt itself will be the potential talent
+drain. Qt attracted excellent developers from all over the world
+because it was innovative and elite. Those are people that won&amp;rsquo;t be
+comfortable with being parked on the back burner, and might not feel
+at home with Nokia anymore. At the same time, they do not exactly have
+problems finding another job. It will be hard for Nokia to convince
+employees not to leave, and also to hire new talent of the same
+quality. This is a long-term threat to the quality of Qt, and it&amp;rsquo;s
+ability to innovate.&lt;/p>
+&lt;h2 id="countering-the-threat-of-free-software-in-the-mobile-market">Countering the &amp;ldquo;threat&amp;rdquo; of Free Software in the mobile market&lt;/h2>
+&lt;p>Android based devices and Nokia smartphones together make up 64% of
+the global smartphone market at the time of this writing, according to
+Wikipedia (&lt;a href="http://en.wikipedia.org/wiki/Smartphone%29" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Smartphone)&lt;/a>. If Nokia would
+have successfully transitioned to a MeeGo based smartphone line with
+Qt GUIs, the majority of the mobile devices market would use Free
+Software based development tools, on open and inviting ecosystems for
+developers, a competitive app market with low entry barriers, all in
+all promising innovation and affordable devices. Nokia was looking for
+a solution for it&amp;rsquo;s future platform problem, and it was determined to
+base it on Free Software. The stock market loved the idea. Google
+agreed, too, and made Android.&lt;/p>
+&lt;p>At the same time, market demand for Windows based phones is at an
+overall low. There is simply no need for another closed proprietary
+phone OS, considering the alternatives. The tendency of it becoming an
+accepted standard that phone software platforms should be based on
+Free Software threatens Microsofts investment in WP7, and it&amp;rsquo;s general
+position as a closed operating system vendor. WP7 was a solution
+looking for a problem.&lt;/p>
+&lt;p>There is probably a large overlap of institutional investors in Nokia
+and Microsoft, given that they are both market leaders and publicly
+traded companies. Both companies see their markets under siege, and
+are not doing very well, so it might have sounded like a good idea at
+the time to combine the hardware vendor looking for a phone OS with
+the phone OS vendor looking for hardware. The partnership is
+unbalanced though, because if it fails, Microsoft will still be the
+market leader in PC OS installations, and Nokia will have lost
+relevance in the global smart phone market. The stock market did not
+love that idea so much.&lt;/p>
+&lt;p>But it is seriously hard to believe that simply pushing WP7 to the
+market was Microsoft&amp;rsquo;s only motivation. Also, there are other vendors
+that started offering WP7 phones. So why Nokia? There must be another
+compelling reason for Microsoft to first send a top-ranking emissary
+to Nokia, and then form a partnership that by all the usual criteria
+looks like a takeover. This reason that was important enough for
+Microsoft to invest billions into Nokia was to battle Free Software in
+it&amp;rsquo;s emerging mobile market.&lt;/p>
+&lt;p>The strategic goal of ensuring that future phone OSes are based on
+proprietary and in particular not on Free Software was very likely the
+major motivator for Microsoft to pursue this unequal partnership. The
+recent ban of Free Software from the Microsoft app store indicates a
+similar motivation. Nokia&amp;rsquo;s Free Software based platform strategy is
+dead, and it will not come back. This means Microsoft achieved one
+strategic goal immediately by establishing the partnership and
+aborting Nokia&amp;rsquo;s Free Software based efforts. If this move was about
+WP7 introduction into the market, why rely on the stumbling giant
+Nokia, and not on one of the hungry Asian tigers, like HTC, who are
+already offering WP7 phones? Because those did not have a Free
+Software based strategy. Maemo or MeeGo together with Android are a
+thought unbearable to Microsoft.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>About Qt - Qt was a compelling toolkit that developers loved to work
+with before Nokia bought it. That is the real reason for it&amp;rsquo;s
+success. Developers tell their managers that they want to use Qt
+rather than something else. That quality of Qt has gotten even
+better. This is why I think Qt will continue to be strong and - after
+the shakeout happening now - to grow in both the Free Software and the
+commercial development spaces. Qt reputation with decision makers has
+been damaged, though. They regarded it not only as stable from a
+software point of view, but also as being trustworthy from a
+development process and maintenance point of view. This image has been
+severely tarnished. So for now, the Qt market will shrink because
+mobile users will leave, and it will recover and grow at a slower rate
+afterwards due to the reduced willingness of developers and decision
+makers to invest in it. The change of pace might be a good thing for
+Qt itself after the recent coding marathons it went through. The
+trolls will work hard on keeping Qt the best and one and only true
+cross-platform UI toolkit on the planet. I wish them all the best for
+the turbulent time to come. Hug a troll, everybody!&lt;/p>
+&lt;p>About KDE - KDE as a technology will not be affected much right
+now. Qt is Free Software and does not change over night. There are
+enough great new features that KDE still has to digest. Even the
+longer term outlook of the strategy for Qt only has an indirect effect
+on KDE. Not many developers joined KDE because of the prospect of Qt
+on mobile phones, so even the community will remain stable. The
+development focus of Qt becomes broader again, away from concentrating
+on features for the mobile space. Whether Nokia will continue to
+support KDE at the same scale as in the last years is mostly a PR
+decision, so it is also not related to the more technical aspects
+described above. It will depend on the friendly relationship that has
+been developed so far, and how it continues. Nonetheless, the next KDE
+version will be shipped on time. KDE is in good shape.&lt;/p>
+&lt;p>About Free Software - Nokia&amp;rsquo;s strategy change is a very sad
+development in this regard, because it is not just about Qt. Microsoft
+is trying to prevent Free Software from becoming mainstream in the
+mobile space. Beside the feeling that it is already too late for that,
+the process raises the question if such activity against the GNU
+competition should be concerning the regulators. Antitrust and other
+market law protects businesses from unfair competition, but
+unfortunately it does not protect Free Software communities or
+projects from being bullied. Indirectly preventing a competitor from
+entering the market, for example, can be a reason for the antitrust
+agencies to not approve such a partnership, but only if large
+businesses are involved that are able to prevent the usual market
+forces from working. This is a political issue, and needs to be
+brought forward to policy makers. Our interests, those of Free
+Software as a force to create better working and more competitive
+markets, are not sufficiently represented there. That is why I will
+join the FSFE.&lt;/p>
+&lt;p>Thanks for reading.&lt;/p></description></item><item><title>When the bazaar sets out to build cathedrals</title><link>https://www.creative-destruction.org/publication/beautifularchitecture/</link><pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/beautifularchitecture/</guid><description>&lt;p>The book is a collection of articles about software design with a
+focus on FOSS. It tries to answer the question: &amp;ldquo;What are the
+ingredients of robust, elegant, flexible, and maintainable software
+architecture? Beautiful Architecture answers this question through a
+collection of intriguing essays from more than a dozen of today&amp;rsquo;s
+leading software designers and architects. In each essay, contributors
+present a notable software architecture, and analyze what makes it
+innovative and ideal for its purpose.&amp;rdquo;&lt;/p>
+&lt;p>All royalties from the book have been donated to Doctors Without Borders.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_224cb7f4233d93a03bc599e70438195f.webp 400w,
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_460c7cc220ec699389a816a9e828edba.webp 760w,
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_224cb7f4233d93a03bc599e70438195f.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item></channel></rss>

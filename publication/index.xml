@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/publication/</link><atom:link href="https://www.creative-destruction.org/publication/index.xml" rel="self" type="application/rss+xml"/><description>Publications</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>Publications</title><link>https://www.creative-destruction.org/publication/</link></image><item><title>Pathways to Cybersecurity: Best Practices in Open Source</title><link>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</link><pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/pathways-to-cybersecurity/</guid><description>&lt;p>The European Union’s Cyber Resilience Act (CRA) presents a
+watershed moment for the open source ecosystem, imposing
+rigorous cybersecurity requirements on products with digital
+elements (PDEs) commercialized in the EU. While the regulation
+will not fully apply until December 2027, with certain provisions
+taking effect earlier, the stakes are enormous—penalties
+reaching €15 million or 2.5% of global annual turnover for non-compliance.&lt;/p>
+&lt;p>The regulation’s impact extends beyond documentation and
+vulnerability reporting. It fundamentally alters the relationship
+between upstream open source projects and downstream commercial
+adopters, demanding greater collaboration for sustainable
+security maintenance. Neither manufacturers nor stewards
+can meet CRA requirements in isolation—manufacturers must
+conduct due diligence when integrating open source components,
+while stewards must implement and document cybersecurity
+policies that facilitate secure development.
+The Linux Foundation’s analysis of three flagship projects—Civil
+Infrastructure Platform (CIP), Yocto Project, and Zephyr Project—reveals
+both the readiness and challenges facing open
+source software stewards under the new regulatory framework.
+The CRA introduces a novel distinction between commercial
+manufacturers who bear primary responsibility for product
+compliance, and open source software stewards who develop
+and maintain open source software without monetization. This
+acknowledges the reality that open source components often
+constitute up to 96% of modern software while respecting the
+fundamental openness of the development model.&lt;/p></description></item><item><title>World of Open Source: Open Source Maturity in Europe</title><link>https://www.creative-destruction.org/publication/oss-europe-2024/</link><pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/oss-europe-2024/</guid><description>&lt;p>For the past three years, LF Research has conducted a study on the
+adoption, opportunities, and perceptions of open source across
+Europe. The trend is clear in 2024: the perceived value of open source
+continues to increase in the region, and stakeholders across sectors
+and industries can see the importance of investing in it. This year&amp;rsquo;s
+report identifies key sectors to channel this investment, the
+opportunity for the public sector to embrace open source for digital
+public goods, and how regulations are interacting with and responding
+to more widespread open source adoption and knowledge. With insights
+taken from the 2024 World of Open Source survey and augmented by
+interviews with over a dozen experts working in open source, this
+report unpacks the current state of open source in Europe and
+highlights next steps to improve adoption, understanding, and
+regulation for open source as this technological space continues to
+mature. Read the report for the full investigation into why open
+source has hit a watershed moment in Europe.&lt;/p></description></item><item><title>The place of the open source ecosystem in the innovation landscape</title><link>https://www.creative-destruction.org/publication/the-place-of-open-source/</link><pubDate>Mon, 01 Jul 2024 12:00:00 +0200</pubDate><guid>https://www.creative-destruction.org/publication/the-place-of-open-source/</guid><description/></item><item><title>Futures of innovation and intellectual property regulation in 2040</title><link>https://www.creative-destruction.org/publication/eu-2024-futures-of-innovation/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/eu-2024-futures-of-innovation/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_34d41abebc57ec25e10d0c7d72699c29.webp 400w,
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_6a8ef3b20cb3381ec6d8b6b3d7f5d137.webp 760w,
+/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/futures-of-innovation_hueb36638cea12e205090a0d769dc64272_1145325_34d41abebc57ec25e10d0c7d72699c29.webp"
+width="60%"
+height="442"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Economics of Open Source</title><link>https://www.creative-destruction.org/publication/oup-economics-of-open-source/</link><pubDate>Thu, 17 Nov 2022 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/oup-economics-of-open-source/</guid><description/></item><item><title>Open Source Software in Standard Setting: The Role of Intellectual Property Right Regimes</title><link>https://www.creative-destruction.org/publication/oup-open-source-standards/</link><pubDate>Sat, 15 Oct 2022 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/oup-open-source-standards/</guid><description/></item><item><title>The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy</title><link>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</link><pubDate>Tue, 12 Oct 2021 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/eu-impact-of-open-source/</guid><description/></item><item><title>Standard setting organizations and open source communities: Partners or competitors?</title><link>https://www.creative-destruction.org/publication/ssofoss-en/</link><pubDate>Mon, 28 Jun 2021 12:00:00 +0100</pubDate><guid>https://www.creative-destruction.org/publication/ssofoss-en/</guid><description/></item><item><title>The Relationship Between Open Source Software and Standard Setting</title><link>https://www.creative-destruction.org/publication/ec-jrc-oss-sdo/</link><pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ec-jrc-oss-sdo/</guid><description>&lt;p>This publication is a Science for Policy report by the Joint Research
+Centre (JRC), the European Commission’s science and knowledge
+service. It aims to provide evidence-based scientific support to the
+European policymaking process. The scientific output expressed does
+not imply a policy position of the European Commission. Neither the
+European Commission nor any person acting on behalf of the Commission
+is responsible for the use that might be made of this publication.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_167be684a2b19eda746d16451364924d.webp 400w,
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_a2fbee6494e3d063ba67dccea0dd6383.webp 760w,
+/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_6a0d6270f86beaaeb8111c54c57922a0.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/_hu37dd48c4b1e0b702c342195a692228d3_709897_167be684a2b19eda746d16451364924d.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>The report has been developed in the framework of the 2017
+Communication of the European Commission ‘Setting out the EU approach
+to Standard Essential Patents’ (COM(2017) 712 final). In this
+Communication there is a direct commitment that &amp;lsquo;The Commission will
+work with stakeholders, open source communities and SDOs for
+successful interaction between open source and standardisation, by
+means of studies and analyses&amp;rsquo;. Standards and open source development
+are both processes widely adopted in the ICT industry to develop
+innovative technologies and drive their adoption in the
+market. Innovators and policy makers assume that a closer
+collaboration between standards and open source software development
+would be mutually beneficial. The interaction between the two is
+however not yet fully understood, especially with regard to how the
+intellectual property regimes applied by these organisations influence
+their ability and motivation to cooperate. This study provides a
+comprehensive analysis of the interaction between standard development
+organisations (SDOs) and open source software (OSS) communities. The
+analysis is based on 20 case studies, a survey of stakeholders
+involved in SDOs and OSS communities, an expert workshop, and a
+comprehensive review of the literature.&lt;/p></description></item><item><title>The emergence of governance norms in volunteer-driven open source communities</title><link>https://www.creative-destruction.org/publication/fossgovernance/</link><pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/fossgovernance/</guid><description>&lt;p>As a reminiscence to the early times of free software collaboration,
+this paper published in October 2019 captures many moments and
+thoughts from involvement in the KDE community and FSFE. It is
+published as the inaugural article in the &lt;em>Journal of Open Law,
+Technology &amp;amp; Society&lt;/em> that continues the 10 year history of the
+&lt;em>International Free and Open Source Law Review&lt;/em>.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_019a059b62c5f0432205c38cdf9d1251.webp 400w,
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_9f67176dc8e6c398c4be44b13819899f.webp 760w,
+/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/jolts-cover_hu0b03649ea3daf0d3c8b0a38b3fc1851e_142084_019a059b62c5f0432205c38cdf9d1251.webp"
+width="60%"
+height="213"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Normungs- und Standardisierungsorganisationen und Open Source Communities – Partner oder Wettbewerber</title><link>https://www.creative-destruction.org/publication/ssofoss-de/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ssofoss-de/</guid><description>&lt;h2 id="normen-und-standards-für-die-digitale-transformation">Normen und Standards für die digitale Transformation&lt;/h2>
+&lt;p>Normen und Standards sind integraler Bestandteil der digitalen
+Transformation. Unternehmen und Anwender finden jedoch eine immer
+komplexere Standardisierungs- und Normungslandschaft vor. Das Buch
+leistet einen wichtigen Beitrag, um diese Komplexität besser zu
+durchdringen.&lt;/p>
+&lt;p>Im ersten Teil &amp;ldquo;Normen und Standards anwenden&amp;rdquo; werden Recherche- und
+Analysetools vorgestellt, die Bedeutung von Normen für die Verbreitung
+neuer Technologien diskutiert und Referenzarchitekturmodelle
+detailliert erklärt. Im zweiten Teil &amp;ldquo;Normen und Standards erstellen&amp;rdquo;
+werden innovative Methoden zur Konsensfindung, die unternehmerische
+Entscheidung in Bezug auf Normung, Patentierung, Offenlegung und
+Lizenzierung, die Rolle der Open-Source-Communities in der Normung
+sowie das Thema Cybersicherheit in den Blick genommen.&lt;/p>
+&lt;p>Die Autoren aus Wissenschaft und Praxis liefern Unternehmern,
+Normungsorganisationen sowie politischen Entscheidungsträgern konkrete
+Entscheidungshilfen und Anregungen für die Anwendung und Erstellung
+von Normen und Standards.&lt;/p></description></item><item><title>KDE e.V. - the Backbone of the KDE Community</title><link>https://www.creative-destruction.org/publication/20-years-of-kd/</link><pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/20-years-of-kd/</guid><description>&lt;h2 id="thoughts-and-stories-about-one-of-the-biggest-floss-communities-in-the-world">Thoughts and stories about one of the biggest FLOSS communities in the world&lt;/h2>
+&lt;p>This book presents 37 stories about the technical, social and cultural
+aspects that shaped the way the KDE community operates today. It has
+been written as part of the 20th anniversary of KDE. From community
+founders and veterans to newcomers, with insights from different
+perspectives and points of view, the book provides you with a
+thrilling trip through the history of such an amazing geek family.&lt;/p></description></item><item><title>An analytical review of text and data mining practices and approaches in Europe</title><link>https://www.creative-destruction.org/publication/ofe-tdm/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/ofe-tdm/</guid><description>&lt;h2 id="policy-recommendations-in-view-of-the-upcoming-copyright-legislative-proposal">Policy recommendations in view of the upcoming copyright legislative proposal&lt;/h2>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp 400w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_cbd450258820ef1d06d91cd6dec0d26b.webp 760w,
+/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/ofe-logo_hu9ec7a4a6947824361103d1580c75dc6b_7165_ebac9d3e3e0f7edc7efbd76cf34bee7f.webp"
+width="60%"
+height="93"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>This paper is based on extensive desk research, including most of the
+benchmark reports, such as the European Commission funded Expert Group
+Report (2014), the study by De Wolf and Partners (2014), the UK IPO’s
+&amp;ldquo;Exceptions to Copyright&amp;rdquo; brief (October 2014), as well as numerous
+other reports, position papers, articles and blog posts. The initial
+findings have been discussed at the Round Table that OFE organised in
+October 2015, the conclusions of which are available in the follow-up
+White Paper. The desk research and Round Table discussion have been
+complemented by a series of interviews with academics, researchers,
+start-ups, and more established companies (including publishers and
+infrastructure providers).&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp 400w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_9dc1635b6d1214d66f73672a73730018.webp 760w,
+/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/tdm/TDM-Paper-Diana-Cocoru-and-Mirko-Boehm_hu9ea9c6a72978a7a2011b0c4404992c59_162477_a04c8b130e2712538d7a7dd14b5d2059.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Ist Open Source demokratisch?</title><link>https://www.creative-destruction.org/publication/jahrbuch-netzpolitik-2012/</link><pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/jahrbuch-netzpolitik-2012/</guid><description>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_e98c72b5dbd09c9798dd9ff862748fce.webp 400w,
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_782b12d81404ef6332a2d3db45056a44.webp 760w,
+/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/npjahresbuch_cover_hua2e4f8e33ebb3f859d810ac5d8c3facd_49089_e98c72b5dbd09c9798dd9ff862748fce.webp"
+width="60%"
+height="759"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Open-Source-Communities gelten als selbstgesteuert, meritokratisch et
+cetera, aber ein besonderer demokratischer Charakter ihres
+Funktionierens steht selten im Vordergrund. Einzelne investieren oft
+großen Aufwand in ihr Lieblingsprojekt, um zu einem größeren Ganzen
+beizutragen, und Demokratie gilt ebenfalls oft als höheres Gut. Es ist
+daher verlockend, vom einen aufs andere zu schließen und
+Open-Source-Communities ebenfalls als grundsätzlich demokratisch
+anzunehmen. Aber ist das wirklich der Fall? Was bedeutet Demokratie im
+Kontext von Open Source eigentlich? Wie würde eine demokratische
+Open-Source-Community aussehen?&lt;/p></description></item><item><title>When the bazaar sets out to build cathedrals</title><link>https://www.creative-destruction.org/publication/beautifularchitecture/</link><pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/publication/beautifularchitecture/</guid><description>&lt;p>The book is a collection of articles about software design with a
+focus on FOSS. It tries to answer the question: &amp;ldquo;What are the
+ingredients of robust, elegant, flexible, and maintainable software
+architecture? Beautiful Architecture answers this question through a
+collection of intriguing essays from more than a dozen of today&amp;rsquo;s
+leading software designers and architects. In each essay, contributors
+present a notable software architecture, and analyze what makes it
+innovative and ideal for its purpose.&amp;rdquo;&lt;/p>
+&lt;p>All royalties from the book have been donated to Doctors Without Borders.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_224cb7f4233d93a03bc599e70438195f.webp 400w,
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_460c7cc220ec699389a816a9e828edba.webp 760w,
+/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/publication/beautifularchitecture_hu8963485753fe74f2b192c4330507bad6_1033357_224cb7f4233d93a03bc599e70438195f.webp"
+width="60%"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item></channel></rss>

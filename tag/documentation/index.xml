@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>documentation | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/documentation/</link><atom:link href="https://www.creative-destruction.org/tag/documentation/index.xml" rel="self" type="application/rss+xml"/><description>documentation</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 09:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>documentation</title><link>https://www.creative-destruction.org/tag/documentation/</link></image><item><title>shelldoc 0.91: go test ./...</title><link>https://www.creative-destruction.org/post/2026-02-19-shelldoc-091/</link><pubDate>Thu, 19 Feb 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-02-19-shelldoc-091/</guid><description>&lt;p>Today marks the release of
+&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> version 0.91, the
+second release candidate on the road to 1.0. This release focuses on
+code quality and test coverage. &lt;code>shelldoc version&lt;/code> now reports the
+correct version even when installed via &lt;code>go install&lt;/code>.&lt;/p>
+&lt;h2 id="whats-new-in-091">What&amp;rsquo;s new in 0.91?&lt;/h2>
+&lt;p>This release emphasizes stability and maintainability:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Expanded test coverage&lt;/strong> across all major components including CLI
+commands, tokenizer, and JUnit XML output generation&lt;/li>
+&lt;li>&lt;strong>Improved API documentation&lt;/strong> with godoc comments added to all
+exported functions&lt;/li>
+&lt;li>&lt;strong>Code quality improvements&lt;/strong> fixing non-idiomatic boolean
+comparisons and other style issues&lt;/li>
+&lt;li>&lt;strong>Removed experimental regex matching&lt;/strong> which was incomplete and not
+ready for production use&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-focus-on-tests-and-code-quality">Why focus on tests and code quality?&lt;/h2>
+&lt;p>Comprehensive test coverage boosts confidence that future changes
+won&amp;rsquo;t introduce regressions. Once shelldoc reaches 1.0, development
+will change to an on-demand release model: Every bug fix will trigger
+a patch release. Every new feature will trigger a minor
+release. Mirko&amp;rsquo;s whims will decide when a major release is made
+(possibly never). Clean, idiomatic code simply makes the project more
+maintainable and welcoming to contributors.&lt;/p>
+&lt;p>The incomplete regex matching was removed because it&amp;rsquo;s unclear whether
+it&amp;rsquo;s needed. If you are sad to see it go, feel free to submit a feature
+request by creating a GitHub issue. Or a pull request, of course.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Install shelldoc with Go:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@v0.91.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="road-to-10">Road to 1.0&lt;/h2>
+&lt;p>Version 0.91 is the second of three planned release candidates. The
+final release candidate is expected in early March, with the stable 1.0
+release to follow shortly after.&lt;/p>
+&lt;p>If you maintain documentation with shell command examples, I encourage
+you to try shelldoc in your CI pipeline. Feedback and contributions are
+welcome at the &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p>
+&lt;p>shelldoc is free and open source software, licensed under GPL v3 for
+the command-line tools and LGPL v3 for the reusable library components.&lt;/p></description></item><item><title>shelldoc 0.90: Testing Shell Commands in Markdown Documentation</title><link>https://www.creative-destruction.org/post/2026-02-05-shelldoc-090/</link><pubDate>Thu, 05 Feb 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-02-05-shelldoc-090/</guid><description>&lt;p>I am happy to announce the relaunch of
+&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> with version 0.90.
+After a maintenance hiatus, I have taken over active maintenance of
+shelldoc again in 2026. This release marks the first of three planned
+release candidates on the road to a stable 1.0 version.&lt;/p>
+&lt;h2 id="what-is-shelldoc">What is shelldoc?&lt;/h2>
+&lt;p>shelldoc tests Unix shell commands embedded in Markdown
+documentation. It parses Markdown files, identifies code blocks
+containing shell commands, executes them, and verifies that the output
+matches the documented expectations. This ensures that your
+documentation examples remain accurate and up-to-date as your software
+evolves.&lt;/p>
+&lt;p>Consider a simple example in your README:&lt;/p>
+&lt;pre>&lt;code>$ echo Hello
+Hello
+&lt;/code>&lt;/pre>
+&lt;p>shelldoc will execute &lt;code>echo Hello&lt;/code> and verify that the output matches
+&amp;ldquo;Hello&amp;rdquo;. If documentation and reality drift apart, shelldoc will catch
+it.&lt;/p>
+&lt;h2 id="why-does-this-matter">Why does this matter?&lt;/h2>
+&lt;p>Documentation rot is a common problem in software projects. Examples
+that worked when written become outdated as APIs change, dependencies
+evolve, or behavior is modified. Users following outdated instructions
+encounter errors, leading to frustration and support burden.&lt;/p>
+&lt;p>By integrating shelldoc into your CI pipeline, every pull request
+automatically validates that documented shell commands still work as
+described. The tool produces JUnit XML output that integrates with
+common CI systems, providing visual test reports for documentation
+accuracy.&lt;/p>
+&lt;h2 id="whats-new-in-090">What&amp;rsquo;s new in 0.90?&lt;/h2>
+&lt;p>This release focuses on modernization and stability:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bug fixes and security improvements&lt;/strong> addressing issues
+accumulated during the maintenance hiatus&lt;/li>
+&lt;li>&lt;strong>Modernized to Go 1.21&lt;/strong> with updated dependencies&lt;/li>
+&lt;li>&lt;strong>GitHub Actions CI&lt;/strong> with visual test result reports&lt;/li>
+&lt;li>&lt;strong>Improved documentation&lt;/strong> including security considerations and
+limitations&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Installing shelldoc is straightforward with Go:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@v0.90
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="road-to-10">Road to 1.0&lt;/h2>
+&lt;p>Version 0.90 is the first of three release candidates planned before
+the stable 1.0 release. I plan bi-weekly releases until stable,
+incorporating feedback and addressing issues discovered during testing.&lt;/p>
+&lt;p>Testing and experimentation are encouraged. If you maintain
+documentation with shell examples, I would appreciate feedback on how
+shelldoc works for your use case. Contributions and pull requests are
+welcome at the &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p>
+&lt;p>shelldoc is free and open source software, licensed under GPL v3 for
+the command-line tools and LGPL v3 for the reusable library components.&lt;/p></description></item><item><title>shelldoc</title><link>https://www.creative-destruction.org/project/shelldoc/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/project/shelldoc/</guid><description>&lt;p>Markdown is widely used for documentation and README files that explain
+how to use or build software. Such documentation often contains shell
+commands demonstrating how to build or run it. To ensure documentation
+remains accurate and up-to-date, it should be automatically
+tested. shelldoc tests Unix shell commands in Markdown files and
+reports the results.&lt;/p>
+&lt;p>shelldoc parses Markdown files, identifies code blocks containing shell
+commands, executes them, and verifies that the output matches the
+documented expectations. It produces JUnit XML output for CI
+integration.&lt;/p>
+&lt;p>I relaunched shelldoc in 2026 after a maintenance hiatus. Version 0.90
+is the first of three release candidates on the road to 1.0, featuring
+bug fixes, security improvements, modernization to Go 1.21, and GitHub
+Actions CI with visual test reports.&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/project/shelldoc-screenshot_hu9840ecc1a907ff15c9ea7f4855265212_119524_176b641445b10ee63cc0dbdeaec19656.webp 400w,
+/media/img/project/shelldoc-screenshot_hu9840ecc1a907ff15c9ea7f4855265212_119524_56de7d16f3de46d78e097090c16b05ef.webp 760w,
+/media/img/project/shelldoc-screenshot_hu9840ecc1a907ff15c9ea7f4855265212_119524_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/project/shelldoc-screenshot_hu9840ecc1a907ff15c9ea7f4855265212_119524_176b641445b10ee63cc0dbdeaec19656.webp"
+width="760"
+height="417"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>The &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">&lt;code>shelldoc&lt;/code> project&lt;/a> is
+hosted on GitHub. Contributions are welcome.&lt;/p></description></item></channel></rss>
