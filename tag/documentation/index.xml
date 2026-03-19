@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>documentation | Creative Destruction &amp; Me</title><link>https://www.creative-destruction.org/tag/documentation/</link><atom:link href="https://www.creative-destruction.org/tag/documentation/index.xml" rel="self" type="application/rss+xml"/><description>documentation</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 09:00:00 +0000</lastBuildDate><image><url>https://www.creative-destruction.org/media/icon_hu6d5c0a1cf86d6921b8114cd615c4b739_24855_512x512_fill_lanczos_center_3.png</url><title>documentation</title><link>https://www.creative-destruction.org/tag/documentation/</link></image><item><title>shelldoc 1.0: A Relaunch Wrapped Up</title><link>https://www.creative-destruction.org/post/2026-03-19-shelldoc-100/</link><pubDate>Thu, 19 Mar 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-03-19-shelldoc-100/</guid><description>&lt;p>&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> 1.0.0 is out. After
+three release candidates over six weeks, the relaunch that began in
+February with version 0.90 reaches its conclusion. This post looks back
+at what was done and forward at what comes next.&lt;/p>
+&lt;h2 id="what-was-the-relaunch-about">What was the relaunch about?&lt;/h2>
+&lt;p>&lt;code>shelldoc&lt;/code> was originally written several years ago.
+Once it reached a stable state, development slowed down.
+The core idea is sound: run the shell commands in your Markdown
+documentation and verify they still produce the right output. The
+tool had accumulated some bit-rot, primarily it was not updated with
+the shift from &lt;code>go get&lt;/code> to &lt;code>go install&lt;/code> and used some outdated dependencies.&lt;/p>
+&lt;p>Taking it over again in 2026 meant first bringing it back to a
+trustworthy baseline. Version 0.90 did the unglamorous work: updated to
+Go 1.21, fixed accumulated known issues, added CI with GitHub
+Actions and visual test result reporting. It was ready to use, but not
+yet ready to call stable.&lt;/p>
+&lt;p>0.91 shifted to code quality: expanded test coverage across the CLI,
+tokenizer, and JUnit XML output, added godoc comments to all exported
+functions, and removed an incomplete regex-matching feature that had
+never been production-ready. The goal was a codebase that future
+contributors (and future me) would find comprehensible and safe to change.&lt;/p>
+&lt;p>0.92 added the features that real use-cases demand: a &lt;code>--timeout&lt;/code> flag
+to prevent runaway commands from hanging CI, per-block timeout control
+via the &lt;code>shelldoctimeout&lt;/code> attribute, a &lt;code>--dry-run&lt;/code> mode to review what
+would execute before committing to it, and graceful CTRL-C handling that
+saves partial results instead of abandoning them.&lt;/p>
+&lt;p>1.0 concludes the relaunch with a stable final version and a new logo.&lt;/p>
+&lt;h2 id="what-does-shelldoc-actually-do">What does shelldoc actually do?&lt;/h2>
+&lt;p>It tests this kind of thing:&lt;/p>
+&lt;pre>&lt;code>$ echo Hello
+Hello
+&lt;/code>&lt;/pre>
+&lt;p>Lines in a code block that begin with &lt;code>$&lt;/code> or &lt;code>&amp;gt;&lt;/code> are treated as
+commands. The lines that follow are the expected output. &lt;code>shelldoc&lt;/code>
+executes the commands and checks whether reality matches documentation.
+If they diverge, the test fails.&lt;/p>
+&lt;p>That is the entire model. No new file formats, no special markup beyond
+what you would write anyway to show users a command. Adopting
+&lt;code>shelldoc&lt;/code> in CI means adding one line to your workflow:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">shelldoc run README.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It produces JUnit XML, so test results appear as a structured report
+in GitHub Actions or any compatible CI system. It uses the same
+visualisation developers already use for unit tests, applied to
+documentation.&lt;/p>
+&lt;h2 id="who-should-use-it">Who should use it?&lt;/h2>
+&lt;p>&lt;code>shelldoc&lt;/code> fits any project where the answer to a support question
+is frequently &amp;ldquo;did you try following the README?&amp;rdquo; CLI tools are the
+obvious case, but the scope is wider: libraries with installation
+examples, platforms with onboarding tutorials, infrastructure projects
+with build or deployment instructions. If you have Markdown with shell
+commands, you have something &lt;code>shelldoc&lt;/code> can test.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> is GPL/LGPL for its own
+components, but it only &lt;em>tests&lt;/em> your documentation, it never becomes part
+of your project. Its license does not proliferate. That removes a common
+objection to adopting GPL-licensed tooling.&lt;/p>
+&lt;p>The installation is a single binary with no runtime dependencies:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@latest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>No Go toolchain needed at test time. Build the binary once, install it
+in your CI container, and run it on every pull request.&lt;/p>
+&lt;h2 id="what-adoption-would-mean">What adoption would mean&lt;/h2>
+&lt;p>The practical hope is simple: that projects with shell examples in their
+documentation start running &lt;code>shelldoc&lt;/code> in CI, catch regressions they
+would otherwise have missed, and spend less time fielding support
+requests from users who followed instructions that quietly stopped
+working.&lt;/p>
+&lt;p>Beyond individual projects, &lt;code>shelldoc&lt;/code> fits naturally into shared CI
+templates and reusable workflows, meaning the kind of infrastructure that larger
+open source foundations or developer platforms maintain for their hosted
+projects. A documentation test step is as routine as a unit test step;
+it just hasn&amp;rsquo;t been standard practice yet.&lt;/p>
+&lt;p>Contributions are also welcome. The codebase is clean, the test
+coverage is solid, and the architecture is simple enough to be legible.
+If you have a use case that &lt;code>shelldoc&lt;/code> doesn&amp;rsquo;t cover, an issue or pull
+request is the right place to start.&lt;/p>
+&lt;h2 id="what-comes-next">What comes next&lt;/h2>
+&lt;p>&lt;code>shelldoc&lt;/code> is stable. There are no known issues as of the release of 1.0.0.
+The RC cadence is done. &lt;code>shelldoc&lt;/code> now follows semantic versioning
+with on-demand releases: a bug fix produces a patch release; a new
+feature produces a minor release. There will be no scheduled releases,
+changes go out immediately when they are ready.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> is free and open source software, licensed under GPL v3 for
+the command-line tools and LGPL v3 for the reusable library components.
+The project lives at &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">github.com/mirkoboehm/shelldoc&lt;/a>.&lt;/p></description></item><item><title>shelldoc 0.92: Final Call for Testing</title><link>https://www.creative-destruction.org/post/2026-03-06-shelldoc-092/</link><pubDate>Thu, 05 Mar 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-03-06-shelldoc-092/</guid><description>&lt;p>&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> version 0.92 is out. It is the
+final release candidate before 1.0. This is your last chance to report
+issues before the stable release.&lt;/p>
+&lt;h2 id="whats-new-in-092">What&amp;rsquo;s new in 0.92?&lt;/h2>
+&lt;p>This release adds practical features requested by early adopters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Command timeouts&lt;/strong>: Use &lt;code>--timeout&lt;/code> globally or &lt;code>shelldoctimeout=N&lt;/code>
+per code block to prevent runaway commands from hanging your CI&lt;/li>
+&lt;li>&lt;strong>Dry-run mode&lt;/strong>: &lt;code>shelldoc run --dry-run&lt;/code> parses and displays
+commands without executing them—useful for reviewing what a test run
+would do&lt;/li>
+&lt;li>&lt;strong>Graceful cancellation&lt;/strong>: CTRL-C now cleanly terminates test runs
+instead of leaving orphan processes&lt;/li>
+&lt;/ul>
+&lt;h2 id="help-shape-10">Help shape 1.0&lt;/h2>
+&lt;p>If you maintain Markdown documentation with shell examples, now is the
+time to try &lt;code>shelldoc&lt;/code>. Run it against your README, tutorial, or
+installation guide. If something breaks or behaves unexpectedly, open
+an issue before the 1.0 freeze.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@v0.92.0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">shelldoc run README.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="what-happens-next">What happens next?&lt;/h2>
+&lt;p>Bug reports received before the 1.0 release will be addressed. After
+1.0, &lt;code>shelldoc&lt;/code> moves to semantic versioning with on-demand releases:
+every bug fix triggers a patch release, every new feature a minor
+release.&lt;/p>
+&lt;p>Feedback and contributions welcome at the
+&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p></description></item><item><title>shelldoc 0.91: go test ./...</title><link>https://www.creative-destruction.org/post/2026-02-19-shelldoc-091/</link><pubDate>Thu, 19 Feb 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-02-19-shelldoc-091/</guid><description>&lt;p>Today marks the release of
+&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> version 0.91, the
+second release candidate on the road to 1.0. This release focuses on
+code quality and test coverage. &lt;code>shelldoc version&lt;/code> now reports the
+correct version even when installed via &lt;code>go install&lt;/code>.&lt;/p>
+&lt;h2 id="whats-new-in-091">What&amp;rsquo;s new in 0.91?&lt;/h2>
+&lt;p>This release emphasizes stability and maintainability:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Expanded test coverage&lt;/strong> across all major components including CLI
+commands, tokenizer, and JUnit XML output generation&lt;/li>
+&lt;li>&lt;strong>Improved API documentation&lt;/strong> with godoc comments added to all
+exported functions&lt;/li>
+&lt;li>&lt;strong>Code quality improvements&lt;/strong> fixing non-idiomatic boolean
+comparisons and other style issues&lt;/li>
+&lt;li>&lt;strong>Removed experimental regex matching&lt;/strong> which was incomplete and not
+ready for production use&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-focus-on-tests-and-code-quality">Why focus on tests and code quality?&lt;/h2>
+&lt;p>Comprehensive test coverage boosts confidence that future changes
+won&amp;rsquo;t introduce regressions. Once &lt;code>shelldoc&lt;/code> reaches 1.0, development
+will change to an on-demand release model: Every bug fix will trigger
+a patch release. Every new feature will trigger a minor
+release. Mirko&amp;rsquo;s whims will decide when a major release is made
+(possibly never). Clean, idiomatic code simply makes the project more
+maintainable and welcoming to contributors.&lt;/p>
+&lt;p>The incomplete regex matching was removed because it&amp;rsquo;s unclear whether
+it&amp;rsquo;s needed. If you are sad to see it go, feel free to submit a feature
+request by creating a GitHub issue. Or a pull request, of course.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Install &lt;code>shelldoc&lt;/code> with Go:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@v0.91.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="road-to-10">Road to 1.0&lt;/h2>
+&lt;p>Version 0.91 is the second of three planned release candidates. The
+final release candidate is expected in early March, with the stable 1.0
+release to follow shortly after.&lt;/p>
+&lt;p>If you maintain documentation with shell command examples, I encourage
+you to try &lt;code>shelldoc&lt;/code> in your CI pipeline. Feedback and contributions are
+welcome at the &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> is free and open source software, licensed under GPL v3 for
+the command-line tools and LGPL v3 for the reusable library components.&lt;/p></description></item><item><title>shelldoc 0.90: Testing Shell Commands in Markdown Documentation</title><link>https://www.creative-destruction.org/post/2026-02-05-shelldoc-090/</link><pubDate>Thu, 05 Feb 2026 09:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/post/2026-02-05-shelldoc-090/</guid><description>&lt;p>I am happy to announce the relaunch of
+&lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">shelldoc&lt;/a> with version 0.90.
+After a maintenance hiatus, I have taken over active maintenance of
+&lt;code>shelldoc&lt;/code> again in 2026. This release marks the first of three planned
+release candidates on the road to a stable 1.0 version.&lt;/p>
+&lt;h2 id="what-is-shelldoc">What is &lt;code>shelldoc&lt;/code>?&lt;/h2>
+&lt;p>&lt;code>shelldoc&lt;/code> tests Unix shell commands embedded in Markdown
+documentation. It parses Markdown files, identifies code blocks
+containing shell commands, executes them, and verifies that the output
+matches the documented expectations. This ensures that your
+documentation examples remain accurate and up-to-date as your software
+evolves.&lt;/p>
+&lt;p>Consider a simple example in your README:&lt;/p>
+&lt;pre>&lt;code>$ echo Hello
+Hello
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>shelldoc&lt;/code> will execute &lt;code>echo Hello&lt;/code> and verify that the output matches
+&amp;ldquo;Hello&amp;rdquo;. If documentation and reality drift apart, &lt;code>shelldoc&lt;/code> will catch
+it.&lt;/p>
+&lt;h2 id="why-does-this-matter">Why does this matter?&lt;/h2>
+&lt;p>Documentation rot is a common problem in software projects. Examples
+that worked when written become outdated as APIs change, dependencies
+evolve, or behavior is modified. Users following outdated instructions
+encounter errors, leading to frustration and support burden.&lt;/p>
+&lt;p>By integrating &lt;code>shelldoc&lt;/code> into your CI pipeline, every pull request
+automatically validates that documented shell commands still work as
+described. The tool produces JUnit XML output that integrates with
+common CI systems, providing visual test reports for documentation
+accuracy.&lt;/p>
+&lt;h2 id="whats-new-in-090">What&amp;rsquo;s new in 0.90?&lt;/h2>
+&lt;p>This release focuses on modernization and stability:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bug fixes and security improvements&lt;/strong> addressing issues
+accumulated during the maintenance hiatus&lt;/li>
+&lt;li>&lt;strong>Modernized to Go 1.21&lt;/strong> with updated dependencies&lt;/li>
+&lt;li>&lt;strong>GitHub Actions CI&lt;/strong> with visual test result reports&lt;/li>
+&lt;li>&lt;strong>Improved documentation&lt;/strong> including security considerations and
+limitations&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Installing &lt;code>shelldoc&lt;/code> is straightforward with Go:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@v0.90
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="road-to-10">Road to 1.0&lt;/h2>
+&lt;p>Version 0.90 is the first of three release candidates planned before
+the stable 1.0 release. I plan bi-weekly releases until stable,
+incorporating feedback and addressing issues discovered during testing.&lt;/p>
+&lt;p>Testing and experimentation are encouraged. If you maintain
+documentation with shell examples, I would appreciate feedback on how
+&lt;code>shelldoc&lt;/code> works for your use case. Contributions and pull requests are
+welcome at the &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">GitHub repository&lt;/a>.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> is free and open source software, licensed under GPL v3 for
+the command-line tools and LGPL v3 for the reusable library components.&lt;/p></description></item><item><title>shelldoc</title><link>https://www.creative-destruction.org/project/shelldoc/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://www.creative-destruction.org/project/shelldoc/</guid><description>&lt;p>Documentation drift is ubiquitous: READMEs with &lt;code>curl&lt;/code> commands that
+404, install instructions for deprecated flags, build steps that assume
+a directory structure that changed six months ago. Most projects don&amp;rsquo;t
+catch this until a frustrated user opens an issue.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> addresses this by testing Unix shell commands embedded in
+Markdown files. It parses code blocks, executes the commands, and
+verifies that the output matches documented expectations. The clever
+part: instead of requiring a new documentation format or restructuring
+anything, it just runs what&amp;rsquo;s already there. Adopting it only requires
+adding a line like &lt;code>shelldoc run documentation.md&lt;/code> to your CI configuration.&lt;/p>
+&lt;h2 id="quick-example">Quick example&lt;/h2>
+&lt;p>A code block in your README like this:&lt;/p>
+&lt;pre>&lt;code>$ echo Hello
+Hello
+&lt;/code>&lt;/pre>
+&lt;p>tells &lt;code>shelldoc&lt;/code> to run &lt;code>echo Hello&lt;/code> and verify the output is
+&lt;code>Hello&lt;/code>. If they don&amp;rsquo;t match, the test fails. At most minor
+modifications to the Markdown file, no special markup, just the
+commands you&amp;rsquo;d show users anyway.&lt;/p>
+&lt;p>&lt;code>shelldoc&lt;/code> can check for expected command exit codes, expected
+output, or command timeouts.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">go install github.com/mirkoboehm/shelldoc/cmd/shelldoc@latest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="why-shelldoc">Why shelldoc?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Language-agnostic&lt;/strong>: While &lt;code>shelldoc&lt;/code> is written in Go, it works
+with any Markdown documentation. It tests shell commands, not
+language-specific code, making it useful for projects in any
+language.&lt;/li>
+&lt;li>&lt;strong>Zero dependencies&lt;/strong>: Install with &lt;code>go install&lt;/code> and get a single,
+self-contained binary. No runtime dependencies required.&lt;/li>
+&lt;li>&lt;strong>CI-friendly&lt;/strong>: Install the &lt;code>shelldoc&lt;/code> binary at container build
+time. No Go toolchain needed when running your tests. The
+binary is statically linked and comes with no additional dependencies.&lt;/li>
+&lt;li>&lt;strong>License-safe&lt;/strong>: &lt;code>shelldoc&lt;/code> only tests your documentation; it
+doesn&amp;rsquo;t become part of your project. Its license never proliferates
+to your code.&lt;/li>
+&lt;li>&lt;strong>Practical defaults&lt;/strong>: Command timeouts prevent runaway processes
+from hanging your CI. Dry-run mode lets you preview what would
+execute. CTRL-C cleanly terminates test runs.&lt;/li>
+&lt;/ul>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/media/img/project/shelldoc-screenshot_hude385073c27a461c4614696344a09d91_613979_f94bbf309eec24908cba8eb745c9ddd9.webp 400w,
+/media/img/project/shelldoc-screenshot_hude385073c27a461c4614696344a09d91_613979_5333c52d1ec5d31e231f45c62161dafb.webp 760w,
+/media/img/project/shelldoc-screenshot_hude385073c27a461c4614696344a09d91_613979_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://www.creative-destruction.org/media/img/project/shelldoc-screenshot_hude385073c27a461c4614696344a09d91_613979_f94bbf309eec24908cba8eb745c9ddd9.webp"
+width="760"
+height="455"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;h2 id="where-it-shines">Where it shines&lt;/h2>
+&lt;p>&lt;code>shelldoc&lt;/code> works well for CLI tools and libraries with install or
+usage examples, projects with build instructions, and tutorials that
+walk through shell interactions. Use it on any repo where &amp;ldquo;did you try
+the README?&amp;rdquo; is a common support response.&lt;/p>
+&lt;p>A lot of technical writing boils down to &amp;ldquo;run this, see
+that&amp;rdquo;. That&amp;rsquo;s exactly what &lt;code>shelldoc&lt;/code> verifies. It produces JUnit XML
+output for CI integration.&lt;/p>
+&lt;h2 id="release-history">Release history&lt;/h2>
+&lt;p>Version 1.0.0 was released on 19 March 2026. Going forward,
+&lt;code>shelldoc&lt;/code> follows semantic versioning: every bug fix triggers a
+patch release, every new feature a minor release.&lt;/p>
+&lt;p>I relaunched &lt;code>shelldoc&lt;/code> in 2026 after a maintenance hiatus. Version
+0.90 was the first of three release candidates, featuring bug fixes,
+security improvements, modernization to Go 1.21, and GitHub Actions CI
+with visual test reports.&lt;/p>
+&lt;p>The &lt;a href="https://github.com/mirkoboehm/shelldoc" target="_blank" rel="noopener">&lt;code>shelldoc&lt;/code> project&lt;/a> is
+hosted on GitHub. Contributions are welcome.&lt;/p></description></item></channel></rss>
